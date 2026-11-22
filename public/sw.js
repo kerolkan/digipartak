@@ -1,5 +1,5 @@
 /* DIGI parťák – service worker: aplikace funguje i bez internetu. */
-const VERSION = 'dp-v3';
+const VERSION = 'dp-v4';
 const CORE = [
   './', './index.html', './manifest.webmanifest', './css/app.css',
   './js/icons.js', './js/kb.js', './js/guides.js', './js/bot.js', './js/scam.js', './js/app.js',

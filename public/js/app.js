@@ -275,7 +275,8 @@
   function viewHome() {
     const faqs = [
       ['Volá mi někdo z banky', 'banka-vola'], ['Přišla mi divná SMS o balíku', 'sms-balik'],
-      ['Jak zvětšit písmo?', 'pismo'], ['Jak poslat fotku vnoučatům?', 'whatsapp-fotka']
+      ['Co je Facebook?', 'facebook'], ['Jak poslat fotku vnoučatům?', 'whatsapp-fotka'],
+      ['Zapomněl/a jsem heslo', 'zapomenute-heslo'], ['Telefon se rychle vybíjí', 'baterie']
     ];
     append(main, [
       h('section', { class: 'home-hero' },

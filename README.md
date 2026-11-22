@@ -35,7 +35,7 @@ Bez API klíče aplikace funguje dál, jen AI funkce slušně oznámí, že nejs
 
 | Soubor | Co obsahuje |
 |---|---|
-| `public/js/kb.js` | **Knihovna ověřených odpovědí** chatbota a důležitá telefonní čísla |
+| `public/js/kb.js` | **Knihovna ověřených odpovědí** (55 témat: bezpečí, telefon, internet a sítě, banka, úřady, pomoc) a důležitá telefonní čísla |
 | `public/js/bot.js` | Vyhledávání v knihovně a ochrana citlivých údajů |
 | `public/js/scam.js` | Pravidla pro „Je to podvod?“ (kontrola textu přímo v zařízení) |
 | `public/js/guides.js` | Návody krok za krokem (včetně snímku obrazovky na Androidu a iPhonu) |
@@ -50,7 +50,7 @@ Bez API klíče aplikace funguje dál, jen AI funkce slušně oznámí, že nejs
 
 1. **Ověřená knihovna (`public/js/kb.js`)** – má přednost. Odpověď má zelený štítek „Ověřená rada“ a zdroje.
    Krizové situace (zdraví, sebepoškození, probíhající podvod) a odmítnutí rad k dávkování léků a investicím jsou vždy z knihovny.
-2. **Informace mimo aplikaci (Claude, `claude-opus-5-5`)** – na cokoli, co v knihovně není (např. „Co je Facebook?“,
+2. **Informace mimo aplikaci (Claude Haiku 5.5, `claude-haiku-5-5`)** – na cokoli, co v knihovně není (např. „Co je Facebook?“,
    „Jak se tam přihlásím?“). Odpověď má žlutý rámeček **„Informace mimo aplikaci – ověřte si ji“** a návod, jak si ji ověřit.
    Pod každou odpovědí z knihovny je tlačítko „Zeptat se mimo aplikaci“, kdyby knihovna nepochopila otázku.
    Navazující otázky fungují, protože se posílá i krátká historie rozhovoru (posledních 6 zpráv).
@@ -69,7 +69,8 @@ Bez API klíče aplikace funguje dál, jen AI funkce slušně oznámí, že nejs
 - Pokyny pro model (`lib/ai.mjs`): česky, vykání, krátce, žádné dávkování léků ani investiční rady, žádná vymyšlená čísla,
   nikdy netvrdí „bezpečné“, v nouzi odkáže na 112/155/158, ignoruje pokyny ukryté v otázce či na fotce.
 - Limity na IP adresu: 20 otázek a 8 fotek za 10 minut. Otázka max. 500 znaků, fotka max. ~3,7 MB (aplikace posílá ~0,3 MB).
-- Zapnutý server-side fallback (`fallbacks: "default"`): když model z bezpečnostních důvodů odmítne, API zkusí jiný model.
+- Model: Claude Haiku 5.5 (nejlevnější: asi 0,01 Kč za odpověď a 0,02 Kč za rozbor fotky). Kvalitnější a dražší je `claude-sonnet-5-5` – změna jednoho řádku `MODEL` v `lib/ai.mjs`.
+- Když model odmítne odpovědět (`refusal`), aplikace slušně řekne, že teď odpověď nemá.
 
 ## Diktování
 
