@@ -18,7 +18,7 @@
     { id: 'urgent', w: 2, test: (t) => /( ihned| okamzit| neprodlen| do 24| do 48| posledni (vyzva|upozorneni|sance)| dnes do| vyprs| propadn| zablokov| pozastav| zrusen| deaktiv| omezen)/.test(t),
       title: 'Tlačí vás do spěchu', why: 'Spěch a strach jsou hlavní zbraně podvodníků. Skutečné instituce vám dají čas.' },
     { id: 'fee', w: 2, test: (t, raw) => /( poplat| doplat| clo | cla | dobirk| uhrad| zaplat)/.test(t) && /\d/.test(raw),
-      title: 'Chce malou platbu', why: 'Drobný „poplatek“ je jen záminka, jak získat údaje z vaší karty.' },
+      title: 'Chce, abyste něco zaplatili', why: 'Podvodníci často chtějí „poplatek“, doplatek nebo úhradu. Je to záminka, jak získat vaše peníze nebo údaje z karty.' },
     { id: 'parcel', w: 1, test: (t) => /( zasilk| balik| doruc| kuryr| posta | ceska posta| ppl | dpd | gls | zasilkovn| balikovn| dhl )/.test(t),
       title: 'Tváří se jako doručení balíku', why: 'Falešné zprávy o balících jsou jedním z nejčastějších podvodů.' },
     { id: 'bank', w: 1, test: (t) => /( bank| ucet | uctu | ucte | bezpecny ucet| financni urad| exekuc| polici| cez | eon | pre | operator)/.test(t),
