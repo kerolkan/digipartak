@@ -1,0 +1,22 @@
+# DIGI parťák – Netlify
+# Web je ve složce public/, AI funkce v netlify/functions/ (API klíč: Site settings → Environment variables → ANTHROPIC_API_KEY).
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+  command = "echo 'Bez build kroku'"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "no-referrer"
+    X-Frame-Options = "DENY"
+    Permissions-Policy = "camera=(self), geolocation=(), microphone=(self)"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"

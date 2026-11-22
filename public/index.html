@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>DIGI parťák – technologie bez stresu</title>
+  <meta name="description" content="Trpělivý digitální průvodce pro seniory. Ověřené rady k telefonu, internetu a bezpečí online.">
+  <meta name="theme-color" content="#FBF8F1">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="DIGI parťák">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Přeskočit na obsah</a>
+
+  <header class="topbar" role="banner">
+    <div class="topbar__inner">
+      <a class="brand" href="#/" aria-label="DIGI parťák – domů">
+        <span class="brand__mascot" data-mascot="small" aria-hidden="true"></span>
+        <span class="brand__text"><span class="brand__digi">DIGI</span> <span class="brand__partak">parťák</span></span>
+      </a>
+      <nav class="topnav" aria-label="Hlavní navigace">
+        <a href="#/" data-nav="home">Domů</a>
+        <a href="#/chat" data-nav="chat">Zeptat se</a>
+        <a href="#/podvod" data-nav="podvod">Je to podvod?</a>
+        <a href="#/navody" data-nav="navody">Návody</a>
+      </nav>
+      <div class="topbar__actions">
+        <button type="button" class="pill-btn pill-btn--ghost" id="btn-textsize" aria-label="Změnit velikost písma">
+          <span aria-hidden="true" class="ts-glyph">A<span>A</span></span><span class="pill-btn__label">Písmo</span>
+        </button>
+        <a class="pill-btn pill-btn--ghost" href="#/nastaveni" data-nav="nastaveni" aria-label="Nastavení">
+          <span data-icon="settings" aria-hidden="true"></span><span class="pill-btn__label">Nastavení</span>
+        </a>
+        <a class="pill-btn pill-btn--sos" href="#/pomoc" data-nav="pomoc">
+          <span data-icon="phone" aria-hidden="true"></span><span>Pomoc</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <noscript>
+      <div class="card card--cream noscript">
+        <h1>DIGI parťák potřebuje zapnutý JavaScript</h1>
+        <p>Prosím, otevřete aplikaci v běžném prohlížeči (Chrome, Safari, Firefox nebo Edge).</p>
+      </div>
+    </noscript>
+  </main>
+
+  <nav class="bottomnav" aria-label="Spodní navigace">
+    <a href="#/" data-nav="home"><span data-icon="home" aria-hidden="true"></span><span>Domů</span></a>
+    <a href="#/chat" data-nav="chat"><span data-icon="chat" aria-hidden="true"></span><span>Zeptat se</span></a>
+    <a href="#/podvod" data-nav="podvod"><span data-icon="shield" aria-hidden="true"></span><span>Podvod?</span></a>
+    <a href="#/navody" data-nav="navody"><span data-icon="book" aria-hidden="true"></span><span>Návody</span></a>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/icons.js"></script>
+  <script src="js/kb.js"></script>
+  <script src="js/guides.js"></script>
+  <script src="js/bot.js"></script>
+  <script src="js/scam.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

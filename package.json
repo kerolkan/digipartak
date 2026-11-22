@@ -1,0 +1,16 @@
+{
+  "name": "digi-partak",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DIGI parťák – PWA pro seniory s bezpečným chatbotem",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.12.0"
+  }
+}

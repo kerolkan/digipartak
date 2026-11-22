@@ -1,0 +1,25 @@
+{
+  "name": "DIGI parťák – technologie bez stresu",
+  "short_name": "DIGI parťák",
+  "description": "Trpělivý digitální průvodce pro seniory. Ověřené rady k telefonu, internetu a bezpečí online.",
+  "lang": "cs",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FBF8F1",
+  "theme_color": "#FBF8F1",
+  "categories": ["education", "utilities", "lifestyle"],
+  "icons": [
+    { "src": "img/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "img/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "img/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Zeptat se", "url": "./#/chat", "icons": [{ "src": "img/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Je to podvod?", "url": "./#/podvod", "icons": [{ "src": "img/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Pomoc", "url": "./#/pomoc", "icons": [{ "src": "img/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
