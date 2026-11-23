@@ -15,7 +15,7 @@
   function normalize(s) {
     return (' ' + String(s || '').toLowerCase()
       .normalize('NFD').replace(/[̀-ͯ]/g, '')
-      .replace(/[^a-z0-9 ]+/g, ' ')
+      .replace(/[^\p{L}\p{N} ]+/gu, ' ')
       .replace(/\s+/g, ' ').trim() + ' ');
   }
 
@@ -36,15 +36,15 @@
     // Platební karta: 13–19 číslic, případně s mezerami/pomlčkami, kontrola Luhn.
     out = out.replace(/\b(?:\d[ -]?){12,18}\d\b/g, (m) => {
       const digits = m.replace(/\D/g, '');
-      if (digits.length >= 13 && digits.length <= 19 && luhn(digits)) { found.add('karta'); return '•••• skryto ••••'; }
+      if (digits.length >= 13 && digits.length <= 19 && luhn(digits)) { found.add('karta'); return '••••••••'; }
       return m;
     });
     // Rodné číslo: 6 číslic / 3–4 číslice.
-    out = out.replace(/\b\d{6}\s?\/\s?\d{3,4}\b/g, () => { found.add('rodne'); return '•••• skryto ••••'; });
+    out = out.replace(/\b\d{6}\s?\/\s?\d{3,4}\b/g, () => { found.add('rodne'); return '••••••••'; });
     // CVV / PIN / heslo / kód: skrýt jen skutečnou hodnotu – obsahuje číslici,
     // nebo je uvozená „je“, „=“ či „:“ (např. „heslo je kocka“). „Jak změnit PIN?“ nevadí.
-    out = out.replace(/(^|[^\p{L}])(pin|cvv|cvc|heslo|hesla|kód|kod|password)(\s*(?:je|=|:)\s*|\s+)([^\s,.;!?]{3,})/giu, (m, pre, w, sep, val) => {
-      const explicit = /(je|=|:)/i.test(sep);
+    out = out.replace(/(^|[^\p{L}])(pin|cvv|cvc|heslo|hesla|kód|kod|password|passwort|kennwort|hasło|haslo|пароль|код|pinkod)(\s*(?:je|is|ist|jest|це|=|:)\s*|\s+)([^\s,.;!?]{3,})/giu, (m, pre, w, sep, val) => {
+      const explicit = /(je|=|:|is|ist|to|це|jest)/i.test(sep);
       if (!explicit && !/\d/.test(val)) return m;
       if (explicit && /^(do|na|od|pro|moc|tak|potreba|potřeba|spatne|špatně|dlouhe|dlouhé|kratke|krátké|bezpecne|bezpečné)$/i.test(val)) return m;
       found.add('heslo'); return pre + w + sep + '••••';
@@ -92,13 +92,31 @@
    * Hlavní funkce: vrací strukturu odpovědi, nikdy volný text z internetu.
    * type: 'answer' | 'clarify' | 'unknown'
    */
-  function reply(userText) {
+  /* Nouzová témata v jiných jazycích (funguje i bez internetu). */
+  function urgentMatch(norm, lang) {
+    const u = window.DP.i18n && window.DP.i18n.extra('urgent');
+    if (!u) return null;
+    for (const id of Object.keys(u)) {
+      if (u[id].some((p) => norm.indexOf(' ' + normalize(p).trim()) !== -1)) return byId(id);
+    }
+    return null;
+  }
+
+  function reply(userText, lang) {
+    lang = lang || 'cs';
     const scrub = scrubSensitive(userText);
     const res = { scrubbed: scrub.text, sensitive: scrub.found };
     const clean = scrub.text.trim();
 
     if (clean.length < 2) {
       return Object.assign(res, { type: 'unknown', reason: 'empty' });
+    }
+    // Jiné jazyky než čeština/slovenština: místní klíčová slova jsou česká, takže
+    // otázku přiřadí k ověřenému tématu AI. Nouzová témata ale poznáme hned i offline.
+    if (lang !== 'cs') {
+      const u = urgentMatch(normalize(clean), lang);
+      if (u) return Object.assign(res, { type: 'answer', entry: u });
+      if (lang !== 'sk') return Object.assign(res, { type: 'unknown', reason: 'route', suggestions: [] });
     }
     const ranked = search(clean);
     const top = ranked[0];

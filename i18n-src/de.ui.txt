@@ -1,0 +1,296 @@
+0	Schriftgröße: {v}
+1	Ihr Browser kann nicht vorlesen.
+2	Vorlesen beenden
+3	Vorlesen
+4	Sprechen
+5	Ich höre zu… zum Beenden tippen
+6	Dieser Browser kann kein Diktat. Tippen Sie in das Feld und nutzen Sie das Mikrofon auf der Tastatur Ihres Telefons.
+7	Bitte erlauben Sie das Mikrofon für diese Seite in den Browser-Einstellungen.
+8	Das Diktat ist ausgeschaltet. Schalten Sie auf dem iPhone in den Einstellungen Siri und Diktat ein, oder nutzen Sie das Mikrofon auf der Tastatur.
+9	Ich habe nichts gehört. Tippen Sie auf Sprechen und sprechen Sie bitte näher am Telefon.
+10	Ich habe kein Mikrofon gefunden. Prüfen Sie, ob es nicht von einer anderen App benutzt wird.
+11	Das Diktat braucht Internet. Versuchen Sie es noch einmal oder schreiben Sie Ihre Frage.
+12	Das Diktat ist in dieser Sprache hier nicht verfügbar. Nutzen Sie das Mikrofon auf der Tastatur.
+13	Bitte prüfen Sie den Text. Wenn er stimmt, drücken Sie auf Senden.
+14	Das Diktat konnte nicht starten. Bitte versuchen Sie es noch einmal.
+15	Anrufen
+16	Guten Morgen!
+17	Guten Abend!
+18	Guten Tag!
+19	Bitte schreiben Sie Ihre Frage.
+20	Schreiben Sie, wobei Sie Hilfe brauchen
+21	Fragen
+22	Jemand von der Bank ruft mich an
+23	Ich habe eine seltsame SMS über ein Paket bekommen
+24	Was ist Facebook?
+25	Wie schicke ich meinen Enkeln ein Foto?
+26	Ich habe mein Passwort vergessen
+27	Mein Handy-Akku ist schnell leer
+28	Ihr freundlicher Begleiter
+29	Wobei kann ich Ihnen heute helfen?
+30	Technik ohne Stress, Eile und Sorgen. Wir erklären alles langsam und Schritt für Schritt.
+31	Zum Beispiel: Wie schicke ich ein Foto?
+32	Eine lächelnde Dame mit Brille hält ein Smartphone.
+33	Keine Sorge
+34	Technik ohne Stress
+35	Einfach fragen
+36	Keine Frage ist dumm. Schreiben Sie sie, oder sagen Sie sie laut mit der Taste
+37	Die wichtigsten Helfer
+38	Fragen Sie
+39	Gespräch mit Ihrem Begleiter. Er antwortet zuerst mit geprüften Ratschlägen und kennzeichnet andere Antworten deutlich.
+40	Gespräch öffnen
+41	Keine Frage ist dumm
+42	Ist das Betrug?
+43	Eine seltsame SMS oder E-Mail bekommen? Wir prüfen gemeinsam die Warnzeichen.
+44	Nachricht prüfen
+45	Wir senden Ihren Text nirgendwohin
+46	Schritt für Schritt
+47	Einfache Anleitungen. Immer nur ein Schritt pro Bildschirm.
+48	Anleitungen ansehen
+49	In Ihrem eigenen Tempo
+50	Häufige Fragen
+51	Tippen Sie und Sie bekommen sofort eine Antwort.
+52	Ihre Sicherheit steht an erster Stelle
+53	Wir fragen Sie nie nach Passwörtern, PIN oder Kartennummer.
+54	Ihr Begleiter antwortet aus einer Bibliothek geprüfter Ratschläge. Jede andere Antwort wird deutlich gekennzeichnet, damit Sie sie prüfen können.
+55	Ihre Fragen bleiben nur auf Ihrem Gerät.
+56	Ein lächelnder Herr mit Brille arbeitet an einem Tablet.
+57	Möchten Sie mit einem Menschen sprechen?
+58	Senior telefon (tschechisches Seniorentelefon) ist kostenlos und rund um die Uhr erreichbar.
+59	Weitere Hilfenummern
+60	App anpassen
+61	Schriftgröße, hoher Kontrast, Vorlesen
+62	Gespräch mit DIGI parťák
+63	Schreiben Sie Ihre Frage…
+64	Fragen Sie Ihren Begleiter
+65	Geprüfte Ratschläge haben ein grünes Etikett
+66	Ich habe das Gespräch gelöscht.
+67	Neues Gespräch
+68	Schreiben Sie nie Passwörter, PIN oder Kartennummer in den Chat. Das Gespräch wird nicht gespeichert und verschwindet, wenn Sie die App schließen.
+69	Ihre Frage
+70	Senden
+71	Meinen Sie eines dieser Themen?
+72	Entschuldigung, ich habe das nicht verstanden.
+73	Entschuldigung, darauf habe ich gerade keine Antwort.
+74	Das steht nicht in der App, ich suche eine Antwort außerhalb der App…
+75	Nicht gefunden, was Sie gesucht haben?
+76	Außerhalb der App fragen
+77	Achtung: {t}
+78	DIGI parťák sagt:
+79	Sie:
+80	Guten Tag! Ich bin DIGI parťák.
+81	Fragen Sie mit Ihren eigenen Worten oder wählen Sie ein Thema. Zuerst suche ich in der Bibliothek geprüfter Ratschläge. Wenn die Antwort dort nicht steht, versuche ich anders zu helfen – aber ich erinnere Sie immer daran, es zu überprüfen.
+82	Guten Tag! Ich bin DIGI parťák. Fragen Sie mit Ihren eigenen Worten oder wählen Sie ein Thema.
+83	eine Kartennummer
+84	eine Geburtsnummer (Personenkennzahl)
+85	ein Passwort oder ein Code
+86	 Vorsicht bei sensiblen Daten
+87	Ihre Nachricht enthielt {what}. Ich habe es verborgen, es wurde nirgendwohin gesendet.
+88	Bitte schreiben Sie diese Daten niemals jemandem – weder in einen Chat noch in eine SMS oder E-Mail.
+89	Sie sind offline.
+90	Ohne Internet kann ich nur aus der Bibliothek geprüfter Ratschläge antworten. Wählen Sie ein Thema oder versuchen Sie es wieder, wenn Sie verbunden sind.
+91	In der geprüften Bibliothek steht das nicht, und eine Antwort von außerhalb der App konnte gerade nicht geholt werden. Versuchen Sie es gleich noch einmal, formulieren Sie es anders oder fragen Sie einen Menschen.
+92	Versuchen Sie es mit anderen Worten, wählen Sie ein Thema oder fragen Sie einen Menschen.
+93	Vielleicht suchen Sie:
+94	Senior telefon 800 157 157
+95	Entschuldigung, dazu habe ich keinen geprüften Rat. Ich möchte Ihnen nichts Ungenaues raten.
+96	Information von außerhalb der App – bitte prüfen
+97	Das steht nicht in der geprüften Bibliothek von DIGI parťák. Die Antwort hat eine künstliche Intelligenz aus allgemeinem Wissen erstellt. Sie kann Fehler enthalten oder veraltet sein.
+98	So können Sie es prüfen:
+99	Fragen Sie einen Menschen in Ihrer Nähe, dem Sie vertrauen.
+100	Schauen Sie auf die offizielle Website der Institution – tippen Sie die Adresse selbst ein.
+101	Rufen Sie kostenlos Senior telefon unter 800 157 157 an (tschechische Hilfelinie).
+102	Bevor Sie etwas bezahlen oder installieren, prüfen Sie zuerst die Information.
+103	 Wichtig – handeln Sie sofort
+104	Geprüfter Rat
+105	Woher wir das wissen
+106	Das könnte Sie interessieren:
+107	Fügen Sie hier den Text der verdächtigen Nachricht ein oder schreiben Sie ihn ab…
+108	Bitte fügen Sie zuerst den Text der Nachricht ein.
+109	Ich habe den Text eingefügt.
+110	Die Zwischenablage ist leer.
+111	Fügen Sie den Text ein, indem Sie den Finger im Feld gedrückt halten und „Einfügen“ wählen.
+112	Kopierten Text einfügen
+113	Fügen Sie den Text einer verdächtigen Nachricht ein oder laden Sie ein Foto oder einen Screenshot davon hoch. Ich zeige Ihnen die Warnzeichen und rate, was Sie sicher tun können.
+114	Foto einer Nachricht prüfen
+115	Machen Sie einen Screenshot der verdächtigen SMS, E-Mail oder Nachricht und laden Sie ihn hier hoch. Sie können die Nachricht auch mit einem anderen Telefon fotografieren.
+116	Screenshot hochladen
+117	Nachricht fotografieren
+118	Das Foto wird zur Analyse an eine künstliche Intelligenz (Claude von Anthropic) gesendet. Wir speichern es nirgends. Kartennummern oder Codes auf dem Foto decken Sie besser ab.
+119	Sie wissen nicht, wie man einen Screenshot macht?
+120	Anleitung für Android
+121	Anleitung für iPhone
+122	Oder fügen Sie den Text der Nachricht ein
+123	Text der Nachricht
+124	Die Prüfung des Textes erfolgt nur auf Ihrem Gerät. Wir senden den Text nirgendwohin.
+125	Text prüfen
+126	Löschen
+127	An einer Beispiel-Betrugs-SMS ausprobieren
+128	Die goldene Regel
+129	Wenn eine Nachricht drängt und Geld oder Daten will –
+130	halten Sie inne und prüfen Sie es selbst.
+131	Rufen Sie Ihre Bank, die Post oder das Amt unter der Nummer von deren offizieller Website oder von Ihrer Zahlungskarte an – nie unter einer Nummer oder einem Link aus der Nachricht.
+132	Bitte wählen Sie ein Bild.
+133	Das Bild ist zu groß. Versuchen Sie, einen Screenshot zu machen.
+134	Dieses Bild kann ich nicht öffnen. Versuchen Sie einen Screenshot im Format JPG oder PNG.
+135	Ich schaue mir das Foto an… das kann bis zu einer halben Minute dauern.
+136	Vorschau des hochgeladenen Fotos der Nachricht
+137	Sie sind offline. Die Fotoanalyse braucht Internet – bitte schreiben Sie den Text der Nachricht in das Feld unten.
+138	Die Fotoanalyse hat gerade nicht geklappt. Versuchen Sie es bitte gleich noch einmal oder schreiben Sie den Text in das Feld unten.
+139	Sehr verdächtig!
+140	Die Nachricht hat mehrere typische Merkmale eines Betrugs. Klicken Sie auf nichts und bezahlen Sie nichts.
+141	Seien Sie vorsichtig
+142	Ich habe Warnzeichen gefunden. Bevor Sie etwas tun, prüfen Sie die Nachricht auf anderem Weg.
+143	Ich habe keine typischen Betrugsmerkmale gefunden
+144	Das heißt aber nicht, dass die Nachricht sicher in Ordnung ist. Betrüger erfinden ständig neue Tricks.
+145	Das Foto konnte nicht beurteilt werden
+146	Auf dem Foto sehe ich keine lesbare Nachricht. Versuchen Sie einen schärferen Screenshot mit dem ganzen Text, oder schreiben Sie den Text in das Feld.
+147	Wenn die Nachricht etwas von Ihnen will, fragen Sie beim Absender unter einer bekannten Nummer nach.
+148	Geben Sie PIN, Passwörter oder SMS-Codes nie über einen Link ein.
+149	Klicken Sie nicht auf den Link in der Nachricht und antworten Sie nicht.
+150	Prüfen Sie es selbst – rufen Sie die offizielle Nummer der Institution oder einen nahestehenden Menschen an.
+151	Löschen Sie die Nachricht und blockieren Sie den Absender.
+152	Wenn Sie schon etwas ausgefüllt oder bezahlt haben, rufen Sie sofort Ihre Bank an.
+153	Fotoanalyse durch künstliche Intelligenz. Das Ergebnis ist nur ein Hinweis, bitte prüfen Sie es.
+154	Was zu tun ist: {t}
+155	Fotoanalyse durch künstliche Intelligenz
+156	Das Ergebnis ist nur ein Hinweis und kann Fehler enthalten. Wenn Sie unsicher sind, fragen Sie einen nahestehenden Menschen oder Senior telefon unter 800 157 157.
+157	Prüfergebnis
+158	Das ist mir aufgefallen:
+159	Was Sie jetzt sicher tun sollten:
+160	Text, den ich auf dem Foto gelesen habe
+161	Ich habe schon geklickt – was nun?
+162	Anleitungen Schritt für Schritt
+163	Wählen Sie, was Sie lernen möchten. Auf jedem Bildschirm gibt es nur einen Schritt. Sie können jederzeit zurück.
+164	{n} Schritte · etwa {m} Min.
+165	Alle Anleitungen
+166	Beginnen
+167	Quelle: {t}
+168	Fortschritt der Anleitung
+169	Schritt {i} von {n}
+170	Tipp:
+171	Schritt {i}
+172	Geschafft!
+173	Sehr gut. Sie können die Anleitung jederzeit wiederholen.
+174	Zurück
+175	Nächster Schritt
+176	Fertig
+177	Hilfe und wichtige Nummern
+178	Tippen Sie auf eine Nummer, um direkt anzurufen. In einer ernsten Lage zögern Sie nicht – rufen Sie lieber an.
+179	Notrufe
+180	Wenn Sie Rat brauchen oder reden möchten
+181	 Karte verloren oder bestohlen worden?
+182	Rufen Sie sofort Ihre Bank an und sperren Sie die Karte. Die Nummer finden Sie auf der Website der Bank oder im Vertrag.
+183	Melden Sie Diebstahl oder Betrug der tschechischen Polizei unter 158.
+184	Nummern nach offiziellen Quellen (IZS, Život 90, Elpida). Vor der Veröffentlichung der App bitte prüfen.
+185	ein
+186	aus
+187	Ein
+188	Aus
+189	Einstellungen
+190	Passen Sie Ihren Begleiter so an, dass er gut lesbar und einfach zu bedienen ist.
+191	Sprache
+192	Schriftgröße
+193	Beispiel: So groß wird die Schrift in der ganzen App sein.
+194	Hoher Kontrast
+195	Kräftigere Farben und dickere Ränder für schwächere Augen.
+196	Antworten vorlesen
+197	Ihr Begleiter liest Ihnen jede Antwort im Chat selbst vor.
+198	Langsameres Vorlesen
+199	Die Stimme spricht langsamer und deutlicher.
+200	DIGI parťák auf dem Startbildschirm
+201	 Die App ist installiert. Sehr gut!
+202	Legen Sie DIGI parťák auf Ihren Startbildschirm. Dann öffnen Sie ihn mit einem Tippen, wie jede andere App.
+203	Fertig! DIGI parťák ist auf dem Startbildschirm.
+204	Zum Startbildschirm hinzufügen
+205	Anleitung Schritt für Schritt
+206	Datenschutz und Sicherheit
+207	Die App hat kein Konto und keine Registrierung.
+208	Die Prüfung von eingefügtem Text unter „Ist das Betrug?“ erfolgt nur auf Ihrem Gerät. Gespräche werden nicht gespeichert und verschwinden beim Schließen.
+209	Auf dem Gerät merken wir uns nur Ihre Einstellungen (Schriftgröße, Kontrast, Sprache).
+210	Wenn eine Frage nicht in der Bibliothek geprüfter Ratschläge steht, wird sie (ohne Kartennummern, PINs und Passwörter) zur Beantwortung an die künstliche Intelligenz Claude von Anthropic gesendet. Eine solche Antwort ist immer mit „Information von außerhalb der App“ gekennzeichnet. Ebenso wird ein Foto einer Nachricht, das Sie unter „Ist das Betrug?“ hochladen, zur Analyse gesendet. Wir speichern davon nichts.
+211	Die Funktion „Sprechen“ stellt Ihr Browser bereit (z. B. Google oder Apple), der die Stimme auf seinem Server verarbeiten kann.
+212	Einstellungen und Gespräch wirklich löschen? Die App kehrt in den Ausgangszustand zurück.
+213	Ich habe alles gelöscht.
+214	Alles von diesem Gerät löschen
+215	Über die App
+216	DIGI parťák ist ein geduldiger digitaler Begleiter für Senioren. Der Chatbot sucht zuerst in einer Bibliothek vorbereiteter und geprüfter Ratschläge mit Quellenangaben. Nur wenn die Antwort dort nicht steht, antwortet er mit künstlicher Intelligenz – und kennzeichnet eine solche Antwort immer deutlich als ungeprüft.
+217	DIGI parťák ersetzt keinen Arzt, keine Bank, keine Polizei und keinen Anwalt. In einer ernsten Lage rufen Sie 112 an.
+218	Stand der Ratgeber-Bibliothek: {s}. Anzahl geprüfter Themen: {n}.
+219	Sprache ändern
+220	Die Sprache konnte nicht geladen werden. Bitte prüfen Sie die Internetverbindung.
+221	Sprache geändert: {name}
+222	Wählen Sie die Sprache der App. Die geprüften Ratschläge sind in allen Sprachen gleich.
+223	Die Ratschläge beziehen sich auf das Leben in Tschechien – Telefonnummern und Institutionen sind tschechisch.
+224	Sie sind wieder online.
+225	Sie sind offline. DIGI parťák funktioniert trotzdem weiter.
+226	Normal
+227	Groß
+228	Am größten
+229	Start
+230	Ihre Sendung konnte nicht zugestellt werden. Fur eine erneute Zustellung zahlen Sie sofort 32 CZK Gebuhr unter www.post-zustellung-cz.top
+231	Achtung, das ist eine Information von außerhalb der App. Sie stammt nicht aus der geprüften Bibliothek von DIGI parťák, sie wurde von künstlicher Intelligenz erstellt und kann Fehler enthalten. Bitte prüfen Sie die Information.
+232	Zum Inhalt springen
+233	DIGI parťák – Startseite
+234	Hauptnavigation
+235	Anleitungen
+236	Schriftgröße ändern
+237	Schrift
+238	Hilfe
+239	Untere Navigation
+240	Betrug?
+241	Enthält einen Link
+242	Betrüger schicken Links zu gefälschten Seiten, auf denen sie Ihre Kartendaten oder Passwörter wollen.
+243	Gekürzter Link
+244	Ein gekürzter Link verbirgt, wohin er Sie wirklich führt.
+245	Will Kartendaten, ein Passwort oder einen Code
+246	Bank, Post oder Behörden verlangen diese Daten nie per Nachricht.
+247	Setzt Sie unter Zeitdruck
+248	Eile und Angst sind die Hauptwaffen der Betrüger. Echte Institutionen geben Ihnen Zeit.
+249	Will, dass Sie etwas bezahlen
+250	Betrüger wollen oft eine „Gebühr“, eine Nachzahlung oder eine Zahlung. Das ist ein Vorwand, um an Ihr Geld oder Ihre Kartendaten zu kommen.
+251	Gibt sich als Paketzustellung aus
+252	Gefälschte Paketnachrichten gehören zu den häufigsten Betrugsmaschen.
+253	Gibt sich als Bank, Behörde oder Firma aus
+254	Betrüger geben sich gern als vertrauenswürdige Institutionen aus. Prüfen Sie es selbst unter der offiziellen Nummer.
+255	Verlangt eine Überweisung
+256	Kein echter Bankmitarbeiter und kein Polizist bittet Sie um eine Überweisung auf ein „sicheres Konto“.
+257	Verspricht einen Gewinn oder ein Geschenk
+258	Wenn Sie an keinem Gewinnspiel teilgenommen haben, können Sie nichts gewonnen haben.
+259	Gibt sich als Familienmitglied aus
+260	Der häufige Trick „Hallo Mama, ich habe eine neue Nummer“. Rufen Sie Ihren Angehörigen unter der alten Nummer an.
+261	Bittet um Geld
+262	Wenn eine Nachricht Sie um Geld bittet, prüfen Sie den Absender auf anderem Weg – am besten mit einem Anruf unter einer bekannten Nummer.
+263	Will, dass Sie etwas installieren
+264	Fernzugriffs-Apps geben dem Betrüger die Kontrolle über Ihr Gerät.
+265	Verspricht schnellen Gewinn
+266	Garantierte hohe Renditen gibt es nicht. Das ist ein typischer Anlagebetrug.
+267	Ausländische Telefonnummer
+268	Die Nachricht kam von einer Nummer außerhalb Tschechiens oder verweist darauf (Vorwahl nicht +420).
+269	Tschechische Post (Česká pošta)
+270	Tschechische Polizei (Policie ČR)
+271	Tschechischer Bankenverband
+272	NÚKIB – Nationale Behörde für Cyber- und Informationssicherheit
+273	Tschechische Nationalbank
+274	Tschechische Handelsinspektion
+275	Android-Hilfe (Google)
+276	Apple Support
+277	WhatsApp-Hilfe
+278	Facebook-Hilfe
+279	Hilfe von Seznam.cz
+280	YouTube-Hilfe
+281	Manipulátoři.cz (tschechischer Faktencheck)
+282	Demagog.cz (tschechischer Faktencheck)
+283	Datenschutzbehörde (ÚOOÚ)
+284	IDOS – tschechische Fahrpläne
+285	Mapy.com
+286	SÚKL – eRecept (E-Rezept)
+287	Bürgerportal (Portál občana)
+288	Integriertes Rettungssystem – Notrufnummern
+289	Život 90 – Senior telefon
+290	Elpida – Seniorentelefon
+291	Android-Hilfe (Google), Apple Support
+292	Tschechische Polizei, NÚKIB
+293	Tschechischer Bankenverband, Tschechische Polizei
+294	SÚKL
+295	Entwurf 11/2026 – vor dem Start von einer Fachperson prüfen lassen

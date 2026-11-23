@@ -1,0 +1,486 @@
+## sms-balik
+T Ich habe eine SMS über ein Paket bekommen und soll eine Gebühr bezahlen
+A Solche Nachrichten sind sehr oft Betrug. Die Betrüger wollen, dass Sie über einen Link die Daten Ihrer Zahlungskarte eingeben.
+1 Klicken Sie nicht auf den Link in der Nachricht und bezahlen Sie nichts.
+2 Wenn Sie wirklich ein Paket erwarten, prüfen Sie es selbst – auf der offiziellen Website des Zustelldienstes oder telefonisch unter der Nummer von dessen Website.
+3 Löschen Sie die Nachricht. Sie können sie auch als Spam melden.
+4 Wenn Sie schon auf den Link geklickt und Ihre Karte eingegeben haben, rufen Sie sofort Ihre Bank an.
+W Zustelldienste verlangen Ihre Kartendaten nie über einen Link in einer SMS.
+## banka-vola
+T Jemand von der Bank ruft an und will, dass ich Geld überweise
+A Legen Sie auf. Eine Bank wird Sie nie bitten, Geld auf ein „sicheres Konto“ zu überweisen, und nie nach Ihrer PIN, Ihrem Passwort oder einem SMS-Code fragen.
+1 Beenden Sie das Gespräch sofort. Sie müssen nicht höflich sein.
+2 Installieren Sie nichts und nennen Sie niemandem irgendwelche Codes.
+3 Rufen Sie selbst Ihre Bank an – unter der Nummer auf der Rückseite Ihrer Zahlungskarte oder von der offiziellen Website der Bank.
+4 Wenn Sie schon Geld geschickt oder Daten genannt haben, sagen Sie es sofort der Bank und rufen Sie die tschechische Polizei unter 158 an.
+W Betrüger können sogar die echte Nummer der Bank oder Polizei vortäuschen. Auf dem Display kann die „richtige“ Nummer stehen – trotzdem kann es Betrug sein.
+## uz-jsem-zadal
+T Ich habe schon auf einen Link geklickt oder meine Kartendaten eingegeben
+A Keine Angst, Sie können noch handeln. Je früher Sie Ihre Bank anrufen, desto größer ist die Chance, das Geld zu retten.
+1 Rufen Sie sofort Ihre Bank an – unter der Nummer auf der Kartenrückseite oder von der offiziellen Website der Bank. Bitten Sie darum, die Karte zu sperren.
+2 Wenn Sie jemandem Zugriff auf Ihr Telefon oder Ihren Computer gegeben haben, schalten Sie das Internet aus (WLAN und mobile Daten).
+3 Ändern Sie das Passwort für Online-Banking und E-Mail – am besten mit Hilfe eines nahestehenden Menschen.
+4 Melden Sie den Betrug der tschechischen Polizei unter 158.
+5 Schämen Sie sich nicht. Betrüger sind Profis und täuschen auch junge und erfahrene Menschen.
+## falesny-policista
+T Ein „Polizist“ ruft an und will, dass ich ihm Geld gebe
+A Die echte Polizei verlangt von Ihnen nie Geld, Bargeld oder eine Überweisung. Das ist Betrug.
+1 Legen Sie auf und übergeben Sie niemandem etwas.
+2 Rufen Sie selbst die 158 an und sagen Sie, was passiert ist.
+3 Wenn jemand vor Ihrer Tür steht, öffnen Sie nicht und rufen Sie die 158 an.
+## vnoucatko
+T Ein „Enkel“ oder eine „Tochter“ schreibt von einer neuen Nummer und will Geld
+A Das ist ein häufiger Betrug. Bevor Sie etwas schicken, prüfen Sie, ob Ihnen wirklich Ihr Angehöriger schreibt.
+1 Schicken Sie kein Geld und keine Codes.
+2 Rufen Sie Ihren Angehörigen unter seiner ALTEN, bekannten Nummer an oder fragen Sie ein anderes Familienmitglied.
+3 Sie können eine Frage stellen, deren Antwort nur er kennt (z. B. den Namen Ihres Hundes).
+4 Wenn sich herausstellt, dass es ein Betrüger war, blockieren Sie die Nummer.
+## vzdalena-plocha
+T Jemand will, dass ich eine App installiere (AnyDesk, TeamViewer)
+A Installieren Sie nie eine App auf Anweisung eines Menschen, der Sie selbst angerufen oder angeschrieben hat. Er bekäme damit Zugriff auf Ihr Telefon und Ihr Banking.
+1 Beenden Sie das Gespräch oder den Chat.
+2 Installieren Sie nichts. Wenn Sie schon etwas installiert haben, schalten Sie das Internet aus und deinstallieren Sie die App.
+3 Rufen Sie Ihre Bank unter der offiziellen Nummer an und sagen Sie, was passiert ist.
+W Banken, Microsoft und Mobilfunkanbieter rufen Sie nie von selbst wegen „Viren auf dem Computer“ an.
+## investice
+T Jemand bietet mir eine Geldanlage, Kryptowährung oder schnellen Gewinn an
+A Das Versprechen hoher, „garantierter“ Gewinne ist ein typisches Zeichen für Betrug. Oft werden dafür Fotos bekannter Persönlichkeiten missbraucht.
+1 Schicken Sie niemandem Geld oder Dokumente.
+2 Installieren Sie keine Apps, die Ihnen ein „Berater“ empfiehlt.
+3 Auf der Website der Tschechischen Nationalbank können Sie prüfen, ob eine Firma eine Zulassung hat.
+4 Lassen Sie sich zu Geldanlagen persönlich bei Ihrer Bank oder von einem nahestehenden Menschen beraten.
+W DIGI parťák gibt keine Anlageberatung – er hilft Ihnen nur, Betrug zu erkennen.
+## vyhra
+T Angeblich habe ich etwas gewonnen und soll eine Gebühr zahlen
+A Wenn Sie an keinem Gewinnspiel teilgenommen haben, haben Sie nichts gewonnen. Ein echter Gewinn verlangt nie eine Gebühr oder Kartendaten.
+1 Klicken Sie nicht auf den Link und bezahlen Sie nichts.
+2 Löschen Sie die Nachricht.
+3 Wenn Sie Ihre Karte eingegeben haben, rufen Sie Ihre Bank an.
+## jak-poznat-podvod
+T Wie erkenne ich eine betrügerische Nachricht oder E-Mail?
+A Betrugsnachrichten haben meist mehrere gemeinsame Merkmale. Es genügt, eines davon zu bemerken und wachsam zu werden.
+1 Eile und Angst: „sofort“, „innerhalb von 24 Stunden“, „Ihr Konto wird gesperrt“.
+2 Ein Link, auf dem Sie etwas ausfüllen oder bezahlen sollen.
+3 Eine Bitte um Kartennummer, PIN, Passwort oder SMS-Code.
+4 Unbekannter Absender, ausländische Nummer oder seltsame Adresse.
+5 Wenn Sie unsicher sind, fügen Sie die Nachricht in „Ist das Betrug?“ ein oder fragen Sie einen nahestehenden Menschen.
+## heslo
+T Wie erstelle ich ein sicheres Passwort?
+A Am besten ist ein langes Passwort aus mehreren Wörtern, das Sie sich leicht merken, das aber sonst niemand errät.
+1 Verbinden Sie 3–4 Wörter, die nichts miteinander zu tun haben, z. B. „Amsel-Brötchen-Garten-27“ (dieses aber nicht verwenden, es ist öffentlich).
+2 Nutzen Sie für jedes Konto ein anderes Passwort – vor allem für E-Mail und Bank.
+3 Sie können Passwörter in ein Heft schreiben, das zu Hause bleibt. Fotografieren oder verschicken Sie sie nie.
+4 Wo es geht, schalten Sie die Zwei-Faktor-Bestätigung ein (Code per SMS oder in einer App).
+W Sagen Sie Ihr Passwort nie jemandem – weder der Bank noch einem „Techniker“. Auch nicht DIGI parťák.
+## nakup-online
+T Wie kaufe ich sicher im Internet ein?
+A Kaufen Sie in bekannten Online-Shops ein, und prüfen Sie bei unbekannten zuerst, wer dahintersteht.
+1 Tippen Sie die Adresse des Shops selbst ein, klicken Sie nicht auf Links aus Werbung und Nachrichten.
+2 Schauen Sie nach Kontakt, Firmennummer und Adresse des Verkäufers sowie nach Bewertungen anderer Menschen.
+3 Seien Sie vorsichtig, wenn der Preis verdächtig niedrig ist.
+4 Bei unbekannten Verkäufern wählen Sie Zahlung bei Lieferung.
+5 Auf Kleinanzeigen-Portalen schicken Sie nie einen SMS-Code und geben Sie Ihre Karte nie über einen Link eines „Käufers“ ein.
+## laska-online
+T Ich habe jemanden im Internet kennengelernt, und er will Geld
+A Wenn Sie jemand um Geld bittet, den Sie nie persönlich getroffen haben, ist es mit hoher Wahrscheinlichkeit Betrug.
+1 Schicken Sie kein Geld, keine Geschenke und keine Codes.
+2 Sprechen Sie darüber mit einem nahestehenden Menschen.
+3 Wenn Sie schon Geld geschickt haben, rufen Sie Ihre Bank und die tschechische Polizei (158) an.
+## pismo
+T Wie vergrößere ich die Schrift auf dem Telefon?
+A Die Schrift vergrößern Sie in den Einstellungen des Telefons. Die Namen der Menüpunkte können je nach Hersteller etwas abweichen.
+1 Android: Öffnen Sie Einstellungen → Anzeige (oder Bedienungshilfen) → Schriftgröße.
+2 iPhone: Öffnen Sie Einstellungen → Anzeige & Helligkeit → Textgröße.
+3 Schieben Sie den Regler nach rechts, bis Sie den Text gut lesen können.
+4 In DIGI parťák vergrößern Sie die Schrift mit der Taste „Schrift“ oben.
+## whatsapp-fotka
+T Wie schicke ich ein Foto über WhatsApp?
+A Ein Foto schicken Sie in wenigen Schritten direkt aus dem Chat mit der Person.
+1 Öffnen Sie WhatsApp und tippen Sie auf den Namen der Person.
+2 Tippen Sie unten auf die Büroklammer oder auf „+“.
+3 Wählen Sie „Galerie“ (Android) oder „Fotos“ (iPhone).
+4 Tippen Sie auf das Foto und dann auf den grünen Pfeil zum Senden.
+## whatsapp-video
+T Wie mache ich einen Videoanruf über WhatsApp?
+A Einen Videoanruf starten Sie mit einem Tippen im Chat mit der Person.
+1 Öffnen Sie WhatsApp und tippen Sie auf den Namen der Person.
+2 Tippen Sie oben rechts auf das Kamerasymbol.
+3 Warten Sie, bis die andere Person annimmt.
+4 Beenden Sie den Anruf mit der roten Taste.
+## wifi
+T Wie verbinde ich mich mit dem WLAN?
+A Mit dem WLAN zu Hause verbinden Sie sich in den Einstellungen. Sie brauchen den Netzwerknamen und das Passwort – sie stehen meist auf einem Aufkleber am Router.
+1 Öffnen Sie Einstellungen → WLAN (bei Android manchmal Verbindungen → WLAN).
+2 Schalten Sie WLAN ein, falls es aus ist.
+3 Tippen Sie auf den Namen Ihres Netzwerks.
+4 Geben Sie das Passwort vom Router-Aufkleber ein und bestätigen Sie.
+W In öffentlichen WLANs (Café, Bahnhof) nutzen Sie besser kein Online-Banking.
+## aktualizace
+T Soll ich mein Telefon aktualisieren?
+A Ja, Updates aus den Einstellungen des Telefons sind wichtig – sie beheben Sicherheitslücken.
+1 Starten Sie Updates nur aus den Einstellungen des Telefons oder aus Google Play / App Store.
+2 Laden Sie das Telefon vor dem Update auf und verbinden Sie es mit dem WLAN.
+3 Wenn Sie ein Link in einer SMS oder E-Mail zu einem „Update“ auffordert, ist es Betrug.
+## screenshot
+T Wie mache ich einen Screenshot (Bildschirmfoto)?
+A Ein Screenshot ist ein „Foto“ dessen, was gerade auf dem Bildschirm ist. Er hilft zum Beispiel, eine verdächtige SMS in DIGI parťák zu prüfen.
+1 Android: Drücken Sie gleichzeitig die Ein-/Aus-Taste und die Leiser-Taste und lassen Sie sofort los.
+2 iPhone ohne Home-Taste: Drücken Sie gleichzeitig die Seitentaste und die Lauter-Taste.
+3 iPhone mit Home-Taste (rund, unten): Drücken Sie gleichzeitig die Home-Taste und die Seitentaste (oder obere Taste).
+4 Der Bildschirm blinkt kurz. Den Screenshot finden Sie in der Galerie (Android) oder in Fotos (iPhone).
+W Bei manchen Android-Telefonen unterscheidet sich die Tastenkombination je nach Hersteller.
+## plocha
+T Wie lege ich DIGI parťák auf den Startbildschirm?
+A Sie können DIGI parťák wie eine normale App auf den Startbildschirm legen. Dann öffnen Sie ihn mit einem Tippen.
+1 Android (Chrome): Tippen Sie oben rechts auf die drei Punkte → „Zum Startbildschirm hinzufügen“ oder „App installieren“.
+2 iPhone (Safari): Tippen Sie unten auf das Teilen-Symbol (Quadrat mit Pfeil) → „Zum Home-Bildschirm“.
+3 Bestätigen Sie mit „Hinzufügen“.
+## facebook
+T Was ist Facebook und wie fange ich damit an?
+A Facebook ist ein soziales Netzwerk – ein Ort im Internet, an dem Menschen Fotos und Neuigkeiten teilen und sich Nachrichten schicken (über die App Messenger). Die Nutzung ist kostenlos.
+1 Laden Sie die App Facebook aus Google Play (Android) oder dem App Store (iPhone) herunter, oder tippen Sie selbst facebook.com in den Browser.
+2 Neues Konto: Tippen Sie auf „Neues Konto erstellen“ und geben Sie Namen, Geburtsdatum und Ihre E-Mail oder Telefonnummer ein. Wählen Sie ein Passwort.
+3 Anmelden: Geben Sie E-Mail oder Telefonnummer und Passwort ein und tippen Sie auf „Anmelden“.
+4 Wählen Sie in den Privatsphäre-Einstellungen, dass Ihre Beiträge nur „Freunde“ sehen.
+5 Nehmen Sie Freundschaftsanfragen nur von Menschen an, die Sie wirklich kennen.
+W Auf Facebook gibt es gefälschte Profile und Werbung für „garantierte Gewinne“ mit bekannten Persönlichkeiten. Wenn Sie jemand um Geld bittet, prüfen Sie es per Telefon.
+## whatsapp-zacit
+T Was ist WhatsApp und wie installiere ich es?
+A WhatsApp ist eine App für Nachrichten, Fotos und Anrufe (auch mit Video) über das Internet. Im WLAN ist es kostenlos, auch ins Ausland. Es nutzt Ihre Telefonnummer.
+1 Öffnen Sie Google Play (Android) oder den App Store (iPhone) und suchen Sie „WhatsApp Messenger“.
+2 Prüfen Sie, dass der Entwickler „WhatsApp LLC“ ist, und tippen Sie auf Installieren (Laden).
+3 Öffnen Sie WhatsApp, stimmen Sie den Bedingungen zu und geben Sie Ihre Telefonnummer ein.
+4 Sie bekommen eine SMS mit einem Code – geben Sie ihn nur direkt in WhatsApp ein.
+5 Schreiben Sie Ihren Namen. Ihre Kontakte, die WhatsApp nutzen, erscheinen von selbst.
+W Schicken Sie den Bestätigungscode von WhatsApp nie jemandem – auch keinem „Freund“, der danach fragt. So stehlen Betrüger Konten.
+## email
+T Wie richte ich eine E-Mail-Adresse ein und schicke eine Nachricht mit Anhang?
+A E-Mail ist elektronische Post. In Tschechien am beliebtesten sind die E-Mail von Seznam und Gmail von Google. Beides ist kostenlos.
+1 Einrichten: Tippen Sie auf seznam.cz auf „E-mail“ und „Registrieren“, oder erstellen Sie ein Google-Konto (Gmail) – auf Android haben Sie meist schon eines.
+2 Denken Sie sich eine Adresse aus (z. B. jana.novakova@seznam.cz) und ein sicheres Passwort. Schreiben Sie sich beides auf.
+3 Senden: Tippen Sie auf „Schreiben“, geben Sie im Feld „An“ die Adresse ein, schreiben Sie Betreff und Text.
+4 Anhang (Foto): Tippen Sie auf die Büroklammer und wählen Sie ein Foto.
+5 Tippen Sie auf „Senden“ (Pfeil).
+W E-Mails, die ein Passwort, eine Zahlung oder einen Klick auf einen Link wollen, sind oft Betrug. Wenn Sie unsicher sind, fügen Sie sie in „Ist das Betrug?“ ein.
+## youtube
+T Was ist YouTube und wie suche ich dort Videos?
+A YouTube ist eine Website und App mit Videos – Lieder, Sendungen, Rezepte, Anleitungen. Es ist kostenlos, nur ab und zu läuft Werbung.
+1 Öffnen Sie die App YouTube (meist schon auf dem Telefon) oder tippen Sie youtube.com in den Browser.
+2 Tippen Sie oben auf die Lupe und schreiben Sie, was Sie suchen (z. B. „Udo Jürgens“ oder „Apfelstrudel Rezept“).
+3 Tippen Sie auf das Video. Werbung können Sie nach ein paar Sekunden mit „Überspringen“ überspringen.
+4 Drehen Sie das Telefon quer, damit das Video den ganzen Bildschirm füllt.
+W Werbung für schnellen Reichtum oder Wundermittel ist oft Betrug, auch wenn bekannte Persönlichkeiten darin auftreten.
+## aplikace-instalace
+T Wie installiere ich eine App sicher?
+A Laden Sie Apps nur aus dem offiziellen Store: Google Play auf Android, App Store auf dem iPhone. Die meisten Apps sind kostenlos.
+1 Öffnen Sie Google Play (buntes Dreieck) oder den App Store (blaues „A“).
+2 Tippen Sie oben auf die Suche und schreiben Sie den Namen der App.
+3 Prüfen Sie den Namen des Entwicklers (z. B. bei einer Banking-App Ihre Bank) und die Bewertungen.
+4 Tippen Sie auf „Installieren“ (Android) oder „Laden“ (iPhone) und warten Sie.
+5 Deinstallieren: Halten Sie den Finger auf dem App-Symbol und wählen Sie „Deinstallieren“ / „App entfernen“.
+W Installieren Sie nie eine App auf Anweisung eines unbekannten Anrufers oder über einen Link in einer SMS.
+## zapomenute-heslo
+T Ich habe mein Passwort vergessen – was nun?
+A Ein vergessenes Passwort lässt sich fast immer zurücksetzen. Der Dienst schickt Ihnen einen Code aufs Telefon oder per E-Mail, und Sie legen ein neues Passwort fest.
+1 Tippen Sie auf der Anmeldeseite auf „Passwort vergessen?“.
+2 Geben Sie Ihre E-Mail oder Telefonnummer ein. Sie bekommen eine SMS oder E-Mail mit einem Code oder Link.
+3 Geben Sie den Code nur auf der Seite ein, auf der Sie das Zurücksetzen selbst gestartet haben.
+4 Denken Sie sich ein neues Passwort aus und schreiben Sie es in ein Heft, das zu Hause bleibt.
+5 Beim Online-Banking rufen Sie Ihre Bank unter der Nummer auf der Kartenrückseite an.
+W Wenn Sie einen Code zum Zurücksetzen bekommen, den Sie nicht angefordert haben, schicken Sie ihn niemandem – vielleicht will jemand in Ihr Konto.
+## baterie
+T Mein Telefon ist schnell leer – was tun?
+A Am meisten Energie verbrauchen ein heller Bildschirm, Navigation, Videos und Apps im Hintergrund. Ein paar Änderungen verlängern die Akkulaufzeit deutlich.
+1 Verringern Sie die Helligkeit (Leiste von oben herunterziehen und den Regler mit der Sonne verschieben).
+2 Schalten Sie den Energiesparmodus ein: Android – Einstellungen → Akku → Energiesparmodus; iPhone – Einstellungen → Batterie → Stromsparmodus.
+3 Schließen Sie Apps, die Sie nicht nutzen, und schalten Sie den Standort (GPS) aus, wenn Sie ihn nicht brauchen.
+4 Laden Sie mit einem Original- oder guten Ladegerät. Sie müssen nicht warten, bis das Telefon ganz leer ist.
+5 Wenn das Telefon einige Jahre alt ist und trotzdem schnell leer wird, kann ein Akkutausch in der Werkstatt helfen.
+## pamet
+T Das Telefon meldet vollen Speicher – wie mache ich Platz?
+A Platz belegen meist Videos, Fotos und Dateien aus WhatsApp. Sichern Sie sie, bevor Sie sie löschen.
+1 Sehen Sie nach, was Platz belegt: Android – Einstellungen → Speicher (oder Gerätewartung); iPhone – Einstellungen → Allgemein → iPhone-Speicher.
+2 Sichern Sie Ihre Fotos (Google Fotos oder iCloud) und löschen Sie dann große Videos.
+3 In WhatsApp: Einstellungen → Speicher und Daten → Speicher verwalten – löschen Sie große Dateien und weitergeleitete Videos.
+4 Deinstallieren Sie Apps, die Sie nicht nutzen.
+5 Leeren Sie zum Schluss den Papierkorb in Fotos („Zuletzt gelöscht“).
+## pomaly-telefon
+T Das Telefon ist langsam oder hängt sich auf
+A Meist hilft ein einfacher Neustart. Das Telefon „räumt“ damit seinen Speicher auf.
+1 Starten Sie das Telefon neu: Halten Sie die Ein-/Aus-Taste und wählen Sie „Neu starten“ (beim iPhone aus- und wieder einschalten).
+2 Wenn das Telefon gar nicht reagiert, halten Sie die Ein-/Aus-Taste länger (etwa 10–15 Sekunden).
+3 Installieren Sie Updates für System und Apps.
+4 Machen Sie Speicher frei – ein voller Speicher macht das Telefon langsam.
+5 Wenn nichts hilft, fragen Sie im Geschäft oder Service Ihres Mobilfunkanbieters.
+## hlasitost
+T Ich höre das Klingeln nicht – wie mache ich das Telefon lauter?
+A Die Klingellautstärke stellen Sie mit den Tasten an der Seite oder in den Einstellungen ein. Prüfen Sie auch, dass das Telefon nicht stummgeschaltet ist.
+1 Drücken Sie die Lauter-Taste an der Seite, wenn gerade kein Video läuft.
+2 Android: Einstellungen → Töne und Vibration → Lautstärke → „Klingelton“ nach rechts schieben.
+3 iPhone: Einstellungen → Töne & Haptik → Regler „Klingel- und Hinweistöne“ verschieben. Prüfen Sie den Stummschalter an der Seite (orange = stumm).
+4 Schalten Sie „Nicht stören“ aus (Mondsymbol in der oberen Leiste).
+5 Schalten Sie auch die Vibration ein, damit Sie das Klingeln in der Tasche spüren.
+## blokovani
+T Wie blockiere ich eine lästige Nummer?
+A Eine Nummer, die Sie belästigt, können Sie im Telefon blockieren. Dann kann Sie von dort niemand mehr anrufen oder anschreiben.
+1 Android: Öffnen Sie die App Telefon → Anrufliste, halten Sie den Finger auf der Nummer und wählen Sie „Blockieren“ (oder „Spam melden“).
+2 iPhone: Öffnen Sie Telefon → Anrufliste, tippen Sie auf das „i“ neben der Nummer und dann auf „Anrufer blockieren“.
+3 Bei SMS: Öffnen Sie die Nachricht, tippen Sie oben auf die Nummer und wählen Sie Blockieren.
+4 Unbekannte Nummern müssen Sie nicht annehmen. Wer Sie braucht, hinterlässt eine Nachricht oder schreibt.
+W Wenn der Anrufer behauptet, von der Bank oder Polizei zu sein, legen Sie auf und rufen Sie selbst die offizielle Nummer an.
+## kontakt
+T Wie speichere ich eine Telefonnummer in den Kontakten?
+A Eine Nummer speichern Sie einfach aus der App Telefon oder Kontakte. Dann sehen Sie bei Anrufen den Namen statt der Nummer.
+1 Öffnen Sie die App Telefon → Anrufliste und tippen Sie auf die Nummer, die Sie speichern möchten.
+2 Wählen Sie „Neuen Kontakt erstellen“ oder „Zu Kontakten hinzufügen“ (beim iPhone „i“ → Neuen Kontakt erstellen).
+3 Schreiben Sie Vor- und Nachnamen, fügen Sie bei Bedarf ein Foto hinzu.
+4 Tippen Sie auf „Speichern“ (Fertig).
+5 Eine neue Nummer können Sie auch in der App Kontakte mit der Taste „+“ hinzufügen.
+## nouzove-info
+T Wie hinterlege ich Gesundheitsdaten und einen Notfallkontakt im Telefon?
+A Sie können Gesundheitsdaten und einen Notfallkontakt im Telefon speichern. Rettungskräfte sehen sie auch bei gesperrtem Telefon.
+1 iPhone: Öffnen Sie die App Health → Ihr Foto oben rechts → Notfallpass → Bearbeiten. Füllen Sie die Daten aus und schalten Sie „Im Sperrzustand zeigen“ ein.
+2 Android: Einstellungen → Sicherheit und Notfall (oder Notfallinformationen). Der genaue Name unterscheidet sich je nach Hersteller.
+3 Fügen Sie einen Notfallkontakt hinzu – einen nahestehenden Menschen.
+4 Geben Sie wichtige Krankheiten, Allergien und Medikamente an, die Sie nehmen.
+## ztraceny-telefon
+T Ich habe mein Telefon verloren – wie finde ich es?
+A Sie können Ihr Telefon von einem Computer oder dem Telefon eines nahestehenden Menschen finden, sperren oder klingeln lassen.
+1 Android: Öffnen Sie auf einem anderen Gerät android.com/find und melden Sie sich mit Ihrem Google-Konto an.
+2 iPhone: Öffnen Sie icloud.com/find und melden Sie sich mit Ihrer Apple-ID an (oder nutzen Sie die App „Wo ist?“ auf einem anderen Apple-Gerät).
+3 Sie können das Telefon klingeln lassen, auf der Karte anzeigen oder sperren.
+4 Bei Diebstahl rufen Sie Ihren Mobilfunkanbieter (SIM sperren), Ihre Bank (falls Sie Banking auf dem Telefon haben) und die tschechische Polizei unter 158 an.
+## zaloha-fotek
+T Wie sichere ich meine Fotos, damit ich sie nicht verliere?
+A Gesicherte Fotos werden automatisch auch außerhalb des Telefons gespeichert. Wenn Sie das Telefon verlieren oder es kaputtgeht, bleiben Ihnen die Fotos.
+1 Android: Öffnen Sie die App Google Fotos → Ihr Symbol oben rechts → „Sicherung“ einschalten.
+2 iPhone: Einstellungen → Ihr Name oben → iCloud → Fotos → „Dieses iPhone synchronisieren“ einschalten.
+3 Die Sicherung läuft am besten im WLAN und beim Laden.
+4 Kostenlos ist nur begrenzter Platz. Wenn er voll ist, bietet der Dienst mehr Speicher gegen Geld an – Sie müssen ihn nicht kaufen, Sie können Unnötiges löschen.
+## mobilni-data
+T Was sind mobile Daten und wann schalte ich sie ein?
+A Mobile Daten sind das Internet von Ihrem Mobilfunkanbieter. Sie funktionieren auch draußen, wo es kein WLAN gibt. Wie viele Daten Sie haben, hängt vom Tarif ab.
+1 Einschalten: Ziehen Sie die Leiste vom oberen Rand herunter und tippen Sie auf „Mobile Daten“ (zwei Pfeile).
+2 Zu Hause und bei Angehörigen nutzen Sie besser WLAN – das verbraucht Ihre Daten nicht.
+3 Im Ausland außerhalb der EU schalten Sie Daten oder Roaming aus, damit keine hohe Rechnung kommt. In der EU zahlen Sie wie zu Hause.
+4 Wie viele Daten Ihnen bleiben, sehen Sie in der App Ihres Mobilfunkanbieters.
+## qr-kod
+T Wie scanne ich einen QR-Code?
+A Ein QR-Code ist ein Quadrat aus Punkten, das einen Link oder Zahlungsdaten enthält. Sie lesen ihn mit der Kamera des Telefons.
+1 Öffnen Sie die Kamera und richten Sie sie auf den QR-Code (kein Foto machen).
+2 Es erscheint ein Link – tippen Sie darauf.
+3 QR-Zahlung (z. B. auf einem Zahlschein): Öffnen Sie die App Ihrer Bank und wählen Sie „Zahlung per QR-Code“. Die Daten füllen sich selbst aus – prüfen Sie Betrag und Empfänger.
+W QR-Codes in E-Mails, SMS oder auf Parkautomaten aufgeklebt können zu Betrugsseiten führen. Zahlen Sie nur in der App Ihrer Bank.
+## pin-karty
+T Wie ändere ich die PIN meiner Karte?
+A Die PIN ändern Sie in der App Ihrer Bank, im Online-Banking, in der Filiale oder an manchen Geldautomaten Ihrer Bank.
+1 Öffnen Sie die App Ihrer Bank und suchen Sie bei der Karte „PIN ändern“ oder „PIN anzeigen“.
+2 Ohne App gehen Sie mit Ihrem Ausweis in eine Filiale Ihrer Bank.
+3 Wählen Sie eine neue PIN, die nicht Ihr Geburtsdatum und nicht 1234 ist.
+4 Schreiben Sie die PIN nicht zur Karte und nicht ins Telefon.
+W Die Bank fragt Sie nie nach der PIN – weder am Telefon noch per SMS oder E-Mail. Wer danach fragt, ist ein Betrüger.
+## internetove-bankovnictvi
+T Wie fange ich sicher mit Online-Banking an?
+A Online-Banking richtet Ihnen Ihre Bank ein – am sichersten persönlich in der Filiale, wo man Ihnen gleich bei der Einrichtung hilft.
+1 Gehen Sie in die Filiale und bitten Sie um Online- und Mobile-Banking. Sagen Sie, dass Sie damit anfangen.
+2 Laden Sie die App der Bank nur aus Google Play oder dem App Store (Anbieter muss Ihre Bank sein).
+3 Melden Sie sich nur über diese App oder eine Adresse an, die Sie selbst eintippen. Nie über einen Link aus einer Nachricht.
+4 Rechnungen bezahlen Sie per „Zahlung per QR-Code“ oder „Neue Zahlung“. Prüfen Sie vor dem Bestätigen Kontonummer und Betrag.
+W Nennen Sie niemandem Ihre Zugangsdaten und Bestätigungscodes. Eine Bank fordert Sie nie zur Überweisung auf ein „sicheres Konto“ auf.
+## platba-telefonem
+T Wie bezahle ich mit dem Telefon statt mit der Karte?
+A Sie können Ihre Zahlungskarte im Telefon hinterlegen und bezahlen, indem Sie das Telefon an das Terminal halten – genau wie die Karte.
+1 Öffnen Sie die App Ihrer Bank und suchen Sie bei der Karte „Zu Google Wallet hinzufügen“ oder „Zu Apple Wallet hinzufügen“.
+2 Bestätigen Sie nach den Anweisungen der Bank.
+3 Beim Bezahlen entsperren Sie das Telefon und halten es an das Terminal.
+4 Sperren Sie Ihr Telefon mit Code oder Fingerabdruck.
+## hoax
+T Wie erkenne ich einen Hoax und Falschmeldungen?
+A Ein Hoax ist eine Schreckens- oder erfundene Nachricht, die durch Weiterleiten verbreitet wird. Oft macht sie Angst, regt auf oder verspricht Wunder.
+1 Werden Sie wachsam, wenn eine Nachricht „an alle weiterleiten“ fordert oder stark Angst macht und empört.
+2 Suchen Sie die Quelle: Wer hat es geschrieben und wo erschien es? Seriöse Meldungen haben einen Autor und ein Datum.
+3 Prüfen Sie es bei einem vertrauenswürdigen Medium oder auf Faktencheck-Seiten (in Tschechien Manipulátoři.cz und Demagog.cz).
+4 Wenn Sie unsicher sind, leiten Sie die Nachricht nicht weiter.
+## cookies
+T Was mache ich mit der „Cookies“-Leiste auf einer Website?
+A Cookies sind kleine Dateien, mit denen sich eine Website merkt, was Sie tun. Die Leiste fragt, ob sie Ihr Verhalten für Werbung verfolgen darf.
+1 Wählen Sie ruhig „Alle ablehnen“ oder „Nur notwendige“. Die Website funktioniert weiter.
+2 Wenn Sie so eine Taste nicht sehen, tippen Sie auf „Einstellungen“ und lassen Sie nur „Notwendige“ eingeschaltet.
+3 Sie müssen die Leiste nicht jedes Mal beachten – die Website merkt sich Ihre Wahl.
+## vir-hlaska
+T Auf einer Website erschien, dass mein Telefon einen Virus hat
+A Meldungen auf Websites wie „Ihr Telefon ist infiziert!“ sind fast immer Betrug. Sie sollen Ihnen Angst machen, damit Sie etwas installieren oder bezahlen.
+1 Klicken Sie nichts im Fenster an und rufen Sie nicht die angezeigte Nummer an.
+2 Schließen Sie den Tab oder den ganzen Browser. Starten Sie das Telefon bei Bedarf neu.
+3 Installieren Sie nichts und bezahlen Sie nichts.
+4 Wenn Sie schon etwas installiert oder Ihre Karte eingegeben haben, rufen Sie Ihre Bank an und bitten Sie einen nahestehenden Menschen um Hilfe.
+## mapy
+T Wie finde ich Weg und Verbindungen im Telefon?
+A Wege und Verbindungen finden Sie in den Apps Mapy.com (früher Mapy.cz) oder Google Maps. Tschechische Fahrpläne gibt es auf der Website IDOS.
+1 Öffnen Sie Mapy.com oder Google Maps und schreiben Sie in die Suche, wohin Sie möchten.
+2 Tippen Sie auf „Route“ und wählen Sie, ob Sie zu Fuß gehen, mit dem Auto fahren oder öffentliche Verkehrsmittel nutzen.
+3 Bus- und Zugverbindungen finden Sie auf idos.cz – geben Sie ein, von wo, wohin und wann.
+4 Eine Zugfahrkarte kaufen Sie in der App Můj vlak (Tschechische Bahn) oder am Schalter. Fragen Sie am Schalter nach Seniorenrabatten.
+## objednat-lekar
+T Wie vereinbare ich einen Arzttermin über das Internet?
+A Viele Praxen bieten Termine über das Internet oder per E-Mail an. Jede nutzt aber ein anderes System, fragen Sie daher zuerst in der Praxis.
+1 Fragen Sie die Arzthelferin, ob Sie online buchen können und unter welcher Adresse.
+2 Lassen Sie sich Adresse oder App auf Papier schreiben und tippen Sie sie selbst in den Browser.
+3 Wählen Sie einen Termin und bestätigen Sie ihn. Meist kommt eine Bestätigung per E-Mail oder SMS.
+4 Wenn Ihnen die Online-Buchung nicht passt, ist ein Anruf in der Praxis weiterhin in Ordnung.
+W Fragen zu Gesundheit und Medikamenten beantwortet Ihnen ein Arzt oder Apotheker.
+## erecept
+T Wie funktioniert das E-Rezept (eRecept)?
+A Das eRecept ist ein elektronisches Rezept. Der Arzt schickt es Ihnen per SMS oder E-Mail oder druckt es aus.
+1 Warten Sie auf die SMS oder E-Mail vom Arzt mit dem Rezeptcode.
+2 Zeigen Sie in der Apotheke die Nachricht mit dem Code (oder das ausgedruckte Papier).
+3 Der Apotheker liest den Code ein und gibt Ihnen das Medikament.
+4 Sie können den Code auch einem nahestehenden Menschen schicken, der das Medikament für Sie abholt.
+W Fragen zu Medikamenten, Dosierung und Gesundheit beantwortet ein Arzt oder Apotheker, nicht DIGI parťák.
+## identita
+T Wie erledige ich Behördengänge in Tschechien über das Internet?
+A Vieles mit tschechischen Behörden erledigen Sie im Bürgerportal (Portál občana). Sie melden sich zum Beispiel mit der Bank-Identität an – wie beim Online-Banking.
+1 Tippen Sie die Adresse des Bürgerportals selbst in den Browser: obcan.portal.gov.cz.
+2 Wählen Sie die Anmeldung über Ihre Bank (Bank-Identität) oder eine andere angebotene Möglichkeit.
+3 Wenn Sie unsicher sind, bitten Sie einen nahestehenden Menschen oder Mitarbeiter von Czech POINT auf der Post oder im Amt um Hilfe.
+W Nutzen Sie keine Links zu einem „Amt“ aus SMS oder E-Mails – tippen Sie die Adresse immer selbst ein.
+## cisla
+T Welche Telefonnummern sind wichtig?
+A Hier sind die wichtigsten Nummern. Tippen Sie auf eine, um direkt anzurufen.
+## samota
+T Ich bin traurig und fühle mich allein
+A Das tut mir leid. Solche Gefühle sind völlig normal, und Sie müssen damit nicht allein sein. Auf diesen kostenlosen Linien hört man Ihnen gern zu (auf Tschechisch).
+## krize
+T Mir geht es wirklich schlecht und ich weiß nicht weiter
+A Es tut mir sehr leid, dass Sie sich so fühlen. Bitte sprechen Sie jetzt sofort mit jemandem. Sie sind wichtig.
+1 Rufen Sie die Linie für psychische Erste Hilfe unter 116 123 an – kostenlos und rund um die Uhr (auf Tschechisch).
+2 Wenn Sie in Gefahr sind, rufen Sie 112 (auch auf Englisch) oder 155 an.
+3 Sie können auch einen nahestehenden Menschen anrufen und bitten, zu kommen.
+## zdravi-nouze
+T Gesundheitliche Beschwerden – rufen Sie Hilfe
+A Das kann ernst sein. Bitte rufen Sie sofort den Rettungsdienst unter 155 oder den Notruf 112 an.
+1 Rufen Sie 155 oder 112 an.
+2 Sagen Sie, wo Sie sind und was passiert.
+3 Wenn möglich, schließen Sie die Tür auf und rufen Sie einen Nachbarn oder Angehörigen.
+## mimo-zdravi
+T Fragen zu Gesundheit und Medikamenten
+A Fragen zu Gesundheit und Medikamenten kann Ihnen sicher nur ein Arzt oder Apotheker beantworten. Ich möchte Ihnen keinen ungenauen Rat geben.
+1 Rufen Sie Ihren Hausarzt an.
+2 Fragen Sie in der Apotheke – Apotheker beraten gern kostenlos.
+3 Bei plötzlichen Beschwerden rufen Sie 155 an.
+## mimo-finance
+T Finanz- und Rechtsberatung
+A Finanz- und Rechtsberatung gebe ich nicht – ich könnte Ihnen ungewollt schaden. Bitte wenden Sie sich an eine Fachperson.
+1 Lassen Sie sich zu Geld persönlich bei Ihrer Bank beraten.
+2 Bei Rechtsfragen helfen kostenlose Beratungsstellen, z. B. über Senior telefon (auf Tschechisch).
+3 Wenn Sie jemand zu einem Vertrag drängt und es eilig macht, unterschreiben Sie nichts.
+## pozdrav
+T Begrüßung
+A Guten Tag, schön, Sie zu sehen! Ich bin DIGI parťák. Ich helfe Ihnen mit dem Telefon, dem Internet und der Sicherheit online. Was möchten Sie fragen?
+## dekuji
+T Dank
+A Gern geschehen! Ich bin da, wann immer Sie mich brauchen. Keine Frage ist dumm.
+## kdo-jsi
+T Wer ist DIGI parťák?
+A Ich bin DIGI parťák – ein digitaler Helfer, kein Mensch. Ich antworte zuerst aus einer Bibliothek geprüfter Ratschläge. Wenn die Antwort dort nicht steht, versuche ich mit künstlicher Intelligenz zu helfen und erinnere Sie immer daran, es zu überprüfen.
+1 Ich helfe mit dem Telefon und Apps.
+2 Ich helfe, betrügerische Nachrichten und Anrufe zu erkennen.
+3 Ich zeige Ihnen, wo Sie Hilfe bekommen.
+## G pismo
+T Schrift auf dem Telefon vergrößern
+I Größere Schrift ist besser lesbar und schont die Augen. Dabei kann nichts kaputtgehen – Sie können es jederzeit zurückstellen.
+S Öffnen Sie die Einstellungen || Suchen Sie auf dem Startbildschirm das Zahnrad-Symbol mit der Aufschrift „Einstellungen“ und tippen Sie darauf. ||
+S Finden Sie den Punkt Anzeige || Android: Tippen Sie auf „Anzeige“ (bei manchen Telefonen „Bedienungshilfen“). iPhone: Tippen Sie auf „Anzeige & Helligkeit“. || Sie können auch oben mit der Lupe suchen – schreiben Sie „Schrift“.
+S Tippen Sie auf Schriftgröße || Android: „Schriftgröße“ oder „Schriftgröße und -stil“. iPhone: „Textgröße“. ||
+S Schieben Sie den Regler nach rechts || Je weiter rechts, desto größer die Schrift. Der Beispieltext ändert sich sofort, so sehen Sie das Ergebnis. ||
+S Fertig || Gehen Sie mit Zurück zurück oder schließen Sie die Einstellungen. Die Schrift bleibt überall im Telefon größer. ||
+## G whatsapp-fotka
+T Ein Foto über WhatsApp schicken
+I Machen Sie Ihrer Familie eine Freude. Das Foto schicken Sie direkt aus dem Chat mit der Person.
+S Öffnen Sie WhatsApp || Tippen Sie auf das grüne Symbol mit dem weißen Telefon in einer Sprechblase. ||
+S Wählen Sie die Person || Tippen Sie in der Chatliste auf den Namen der Person, der Sie das Foto schicken möchten. ||
+S Tippen Sie auf die Büroklammer oder + || Das Symbol ist unten neben dem Schreibfeld. Bei Android ist es eine Büroklammer, beim iPhone ein Pluszeichen. ||
+S Wählen Sie das Foto || Tippen Sie auf „Galerie“ (Android) oder „Fotomediathek“ (iPhone) und dann auf das Foto, das Sie schicken möchten. ||
+S Senden Sie es || Tippen Sie auf die runde grüne Taste mit dem Pfeil. Das Foto ist unterwegs! || Zwei blaue Häkchen bedeuten, dass die andere Person es schon angesehen hat.
+## G whatsapp-video
+T Videoanruf über WhatsApp
+I Sehen Sie Ihre Lieben, auch wenn sie weit weg sind. Ein Anruf über WLAN kostet nichts.
+S Öffnen Sie WhatsApp || Tippen Sie auf das grüne WhatsApp-Symbol. ||
+S Wählen Sie die Person || Tippen Sie auf den Namen der Person, die Sie anrufen möchten. ||
+S Tippen Sie auf die Kamera || Oben rechts ist ein kleines Kamerasymbol. Tippen Sie darauf. || Das Hörersymbol daneben ist ein normaler Anruf ohne Bild.
+S Warten Sie auf die Annahme || Wenn die andere Person annimmt, sehen Sie sich. Halten Sie das Telefon vor Ihr Gesicht. ||
+S Beenden Sie den Anruf || Tippen Sie auf die rote Taste mit dem Hörer. ||
+## G podvodna-sms
+T Was tun bei einer verdächtigen SMS
+I Betrugsnachrichten bekommt jeder. Wichtig ist zu wissen, wie man reagiert.
+S Keine Eile || Betrüger wollen, dass Sie sofort handeln. Sie haben Zeit. Atmen Sie tief durch. ||
+S Nicht auf den Link klicken || Tippen Sie nicht auf den Link in der Nachricht und antworten Sie nicht. ||
+S Anders prüfen || Wenn die Nachricht angeblich von Bank, Post oder Behörde ist, rufen Sie dort selbst unter der Nummer von der offiziellen Website oder Ihrer Karte an. ||
+S Nachricht löschen || Halten Sie den Finger auf der Nachricht und wählen Sie „Löschen“. Die Nummer können Sie blockieren. ||
+S Schon geklickt? || Es passiert nichts, wenn Sie nichts ausgefüllt haben. Wenn Sie Ihre Karte oder ein Passwort eingegeben haben, rufen Sie sofort Ihre Bank an. || Die Nachricht können Sie in DIGI parťák unter „Ist das Betrug?“ prüfen.
+## G screenshot-android
+T Screenshot auf Android
+I Ein Screenshot ist ein Foto dessen, was gerade auf dem Bildschirm ist. Er hilft zum Beispiel beim Prüfen einer verdächtigen Nachricht.
+S Öffnen Sie, was Sie festhalten möchten || Zum Beispiel eine verdächtige SMS. Öffnen Sie die Nachricht so, dass der ganze Text und der Absender zu sehen sind. ||
+S Finden Sie zwei Tasten || An der Seite des Telefons sind die Ein-/Aus-Taste und die Lautstärketasten. Sie brauchen die Ein-/Aus-Taste und die untere Lautstärketaste (leiser). ||
+S Drücken Sie beide gleichzeitig || Drücken Sie gleichzeitig Ein-/Aus und Leiser. Halten Sie nur kurz (etwa 1 Sekunde) und lassen Sie los. || Wenn stattdessen das Ausschaltmenü erscheint, haben Sie zu spät losgelassen. Versuchen Sie es noch einmal schneller.
+S Der Bildschirm blinkt || Sie hören ein Geräusch oder sehen ein kurzes Blinken und unten eine kleine Vorschau. Der Screenshot ist gespeichert. ||
+S Wo Sie ihn finden || Öffnen Sie die App Galerie oder Google Fotos. Der Screenshot ist bei den neuesten Fotos, oft im Ordner „Screenshots“. ||
+S Klappt es nicht? || Bei manchen Telefonen (z. B. Samsung) geht es auch so: Ziehen Sie die Leiste vom oberen Rand herunter und tippen Sie auf „Screenshot“. Das unterscheidet sich je nach Hersteller. || Den Screenshot können Sie in DIGI parťák unter „Ist das Betrug?“ hochladen.
+## G screenshot-iphone
+T Screenshot auf dem iPhone
+I Ein Screenshot ist ein Foto dessen, was gerade auf dem Bildschirm ist. Wie es geht, hängt davon ab, ob Ihr iPhone eine runde Home-Taste unter dem Bildschirm hat.
+S Öffnen Sie, was Sie festhalten möchten || Zum Beispiel eine verdächtige SMS. Öffnen Sie die Nachricht so, dass der ganze Text und der Absender zu sehen sind. ||
+S iPhone OHNE Home-Taste || Neuere iPhones (Bildschirm bis zum Rand): Drücken Sie gleichzeitig die Seitentaste rechts und die Lauter-Taste links (obere). Sofort loslassen. ||
+S iPhone MIT Home-Taste || Ältere iPhones und iPhone SE (runde Taste unten): Drücken Sie gleichzeitig die Home-Taste und die Seitentaste rechts (bei den ältesten Modellen die obere Taste). ||
+S Der Bildschirm blinkt || Der Bildschirm wird kurz weiß und unten links erscheint eine kleine Vorschau. Sie müssen nicht darauf tippen – der Screenshot speichert sich selbst. || Wenn stattdessen der Schieberegler „Ausschalten“ erscheint, haben Sie zu lange gedrückt. Tippen Sie auf Abbrechen und versuchen Sie es schneller.
+S Wo Sie ihn finden || Öffnen Sie die App Fotos. Der Screenshot ist bei den neuesten Fotos und im Album „Bildschirmfotos“. || Den Screenshot können Sie in DIGI parťák unter „Ist das Betrug?“ hochladen.
+## G banka-hovor
+T Die „Bank“ ruft an – was nun?
+I Der häufigste Betrug an Senioren. Merken Sie sich eine einzige Regel: auflegen und selbst zurückrufen.
+S Legen Sie auf || Wenn Sie jemand von der „Bank“ oder „Polizei“ wegen Geld anruft, beenden Sie das Gespräch. Sie müssen sich nicht entschuldigen. ||
+S Sagen Sie nichts || Nennen Sie niemandem PIN, Passwörter oder SMS-Codes. Die Bank fragt Sie nie danach. ||
+S Rufen Sie selbst an || Nehmen Sie Ihre Zahlungskarte und rufen Sie die Nummer auf der Rückseite an. ||
+S Sagen Sie, was passiert ist || Der Bankmitarbeiter sagt Ihnen, ob Ihr Konto in Ordnung ist. ||
+## G erecept
+T E-Rezept (eRecept) abholen
+I Ein Rezept muss nicht mehr auf Papier sein. Es genügt der Code, den Ihnen der Arzt schickt.
+S Warten Sie auf die Nachricht || Der Arzt schickt Ihnen eine SMS oder E-Mail mit dem Rezeptcode. Er kann ihn auch ausdrucken. ||
+S Gehen Sie in eine Apotheke || Sie können in jede Apotheke gehen. ||
+S Zeigen Sie den Code || Öffnen Sie die Nachricht vom Arzt und zeigen Sie sie dem Apotheker, oder lesen Sie den Code vor. ||
+S Fertig || Der Apotheker liest den Code ein und gibt Ihnen das Medikament. || Sie können den Code einem nahestehenden Menschen weiterleiten, der das Medikament für Sie abholt.
+## G plocha
+T DIGI parťák auf dem Startbildschirm
+I Legen Sie Ihren Begleiter wie eine App auf den Startbildschirm. Dann öffnen Sie ihn mit einem Tippen.
+S Öffnen Sie DIGI parťák im Browser || Android: in Chrome. iPhone: in Safari. ||
+S Öffnen Sie das Menü || Android: Tippen Sie oben rechts auf die drei Punkte. iPhone: Tippen Sie unten auf das Teilen-Symbol (Quadrat mit Pfeil nach oben). ||
+S Zum Startbildschirm hinzufügen || Wählen Sie „Zum Startbildschirm hinzufügen“ oder „App installieren“. ||
+S Bestätigen Sie || Tippen Sie auf „Hinzufügen“. Auf dem Startbildschirm erscheint ein Symbol mit einer lächelnden Sprechblase. ||
+P 112 | Notruf | Jede Gefahr für Leben, Gesundheit oder Eigentum. Funktioniert auch ohne Guthaben, auch auf Englisch.
+P 150 | Feuerwehr | Brand, Gasaustritt, technische Hilfe.
+P 155 | Rettungsdienst | Plötzliche Beschwerden, Unfall, Bewusstlosigkeit.
+P 158 | Tschechische Polizei | Betrug, Diebstahl, Drohungen, verdächtige Person an der Tür.
+P senior | Senior telefon (Život 90) | Kostenlose Linie für Senioren und ihre Angehörigen. Rund um die Uhr, auf Tschechisch.
+P elpida | Seniorentelefon (Elpida) | Kostenloses Gespräch, wenn Sie traurig sind oder Rat brauchen. Auf Tschechisch.
+P psych | Linie für psychische Erste Hilfe | Wenn Ihnen alles zu viel wird. Kostenlos, rund um die Uhr, auf Tschechisch.
+C bezpeci | Sicherheit im Internet
+C telefon | Telefon und Apps
+C internet | Internet, Nachrichten und soziale Netzwerke
+C penize | Bank und Bezahlen
+C urady | Behörden und Arzt
+C pomoc | Hilfe und Unterstützung
+U krize | will nicht mehr leben; mich umbringen; selbstmord; suizid; mir etwas antun; kein sinn mehr zu leben
+U zdravi-nouze | schmerzen in der brust; brustschmerzen; kann nicht atmen; bekomme keine luft; herzinfarkt; schlaganfall; bewusstlos; ohnmächtig; gestürzt und kann nicht aufstehen; blute stark
+U uz-jsem-zadal | karte eingegeben; kartendaten eingegeben; auf den link geklickt; geld überwiesen; wurde betrogen; geld gestohlen
+U banka-vola | sicheres konto; bank ruft an; sicherheitsabteilung der bank; geld überweisen
+K card | kartennummer|kartendaten|cvv|pin|passwort|kennwort|zugangsdaten|bestätigungscode|sms-code|tan
+K urgent | sofort|umgehend|dringend|innerhalb von 24|innerhalb 24|letzte mahnung|letzte warnung|heute noch|läuft ab|gesperrt|deaktiviert|eingeschränkt
+K fee | gebühr|zahlen|bezahlen|zoll|nachzahlung|offener betrag|zahlung
+K parcel | paket|sendung|zustellung|lieferung|kurier|dhl|hermes|post
+K bank | bank|konto|polizei|finanzamt|gerichtsvollzieher
+K safeacc | sicheres konto|sicherheitskonto|überweisen sie|geld verschieben
+K prize | gewonnen|gewinner|glückwunsch|gewinn|preis|geschenk|gratis|kostenlos|ausgewählt
+K family | hallo mama|hallo papa|hallo oma|hallo opa|neue nummer|handy verloren|handy kaputt|schick mir geld
+K money | geld|schicken|überweisung|überweisen|leihen
+K remote | anydesk|teamviewer|rustdesk|fernzugriff|installieren sie die app|laden sie die app
+K invest | investition|investieren|krypto|bitcoin|rendite|garantiert|reich werden|passives einkommen

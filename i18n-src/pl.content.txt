@@ -1,0 +1,486 @@
+## sms-balik
+T Dostałem SMS-a o paczce i mam dopłacić opłatę
+A Takie wiadomości bardzo często są oszustwem. Oszuści chcą, żebyś przez link podał dane karty płatniczej.
+1 Nie klikaj w link w wiadomości i niczego nie płać.
+2 Jeśli naprawdę czekasz na paczkę, sprawdź to sam – na oficjalnej stronie przewoźnika lub telefonicznie pod numerem z jego strony.
+3 Usuń wiadomość. Możesz ją też zgłosić jako spam.
+4 Jeśli już kliknąłeś w link i podałeś kartę, od razu zadzwoń do swojego banku.
+W Firmy kurierskie nie poproszą o dane karty przez link w SMS-ie.
+## banka-vola
+T Dzwoni ktoś z banku i chce, żebym przelał pieniądze
+A Rozłącz się. Bank nigdy nie poprosi o przelew na „bezpieczne konto” ani o PIN, hasło czy kod z SMS.
+1 Od razu zakończ rozmowę. Nie musisz być uprzejmy.
+2 Niczego nie instaluj i nikomu nie podawaj żadnych kodów.
+3 Sam zadzwoń do swojego banku – na numer z tyłu karty płatniczej lub z oficjalnej strony banku.
+4 Jeśli już wysłałeś pieniądze lub podałeś dane, od razu powiedz o tym bankowi i zadzwoń na czeską policję pod numer 158.
+W Oszuści potrafią podszyć się nawet pod prawdziwy numer banku lub policji. Na ekranie może być „właściwy” numer – a mimo to może to być oszustwo.
+## uz-jsem-zadal
+T Już kliknąłem w link albo podałem dane karty
+A Spokojnie, wciąż można działać. Im szybciej zadzwonisz do banku, tym większa szansa na uratowanie pieniędzy.
+1 Od razu zadzwoń do swojego banku na numer z tyłu karty lub z oficjalnej strony banku. Poproś o zablokowanie karty.
+2 Jeśli dałeś komuś dostęp do telefonu lub komputera, wyłącz internet (Wi-Fi i dane).
+3 Zmień hasło do bankowości internetowej i e-maila – najlepiej z pomocą bliskiej osoby.
+4 Zgłoś oszustwo czeskiej policji pod numerem 158.
+5 Nie wstydź się. Oszuści to zawodowcy i nabierają też młodych i doświadczonych ludzi.
+## falesny-policista
+T Dzwoni „policjant” i chce, żebym dał mu pieniądze
+A Prawdziwa policja nigdy nie poprosi o pieniądze, gotówkę ani przelew. To oszustwo.
+1 Rozłącz się i nikomu niczego nie przekazuj.
+2 Sam zadzwoń pod 158 i powiedz, co się stało.
+3 Jeśli ktoś stoi pod drzwiami, nie otwieraj i dzwoń pod 158.
+## vnoucatko
+T Pisze do mnie „wnuczek” albo „córka” z nowego numeru i chce pieniędzy
+A To częste oszustwo. Zanim cokolwiek wyślesz, sprawdź, czy naprawdę pisze do Ciebie bliska osoba.
+1 Nie wysyłaj pieniędzy ani kodów.
+2 Zadzwoń do bliskiej osoby na jej STARY, znany numer albo zapytaj innego członka rodziny.
+3 Możesz zadać pytanie, na które odpowiedź zna tylko ona (np. imię Twojego psa).
+4 Jeśli okaże się, że to był oszust, zablokuj numer.
+## vzdalena-plocha
+T Ktoś chce, żebym zainstalował aplikację (AnyDesk, TeamViewer)
+A Nigdy nie instaluj aplikacji na polecenie osoby, która sama do Ciebie zadzwoniła lub napisała. Dałbyś jej dostęp do telefonu i bankowości.
+1 Zakończ rozmowę lub czat.
+2 Niczego nie instaluj. Jeśli już zainstalowałeś, wyłącz internet i odinstaluj aplikację.
+3 Zadzwoń do banku na oficjalny numer i powiedz, co się stało.
+W Banki, Microsoft ani operatorzy nie dzwonią sami w sprawie „wirusów w komputerze”.
+## investice
+T Ktoś proponuje mi inwestycję, kryptowaluty albo szybki zysk
+A Obietnica wysokiego, „gwarantowanego” zysku to typowy znak oszustwa. Często wykorzystuje się przy tym zdjęcia znanych osób.
+1 Nikomu nie wysyłaj pieniędzy ani dokumentów.
+2 Nie instaluj żadnych aplikacji polecanych przez „doradcę”.
+3 Na stronie Czeskiego Banku Narodowego możesz sprawdzić, czy firma ma zezwolenie.
+4 O inwestycjach porozmawiaj osobiście w swoim banku albo z kimś bliskim.
+W DIGI parťák nie udziela porad inwestycyjnych – pomaga tylko rozpoznać oszustwo.
+## vyhra
+T Podobno coś wygrałem i mam zapłacić opłatę
+A Jeśli nie brałeś udziału w konkursie, nic nie wygrałeś. Prawdziwa wygrana nigdy nie wymaga opłaty ani danych karty.
+1 Nie klikaj w link i niczego nie płać.
+2 Usuń wiadomość.
+3 Jeśli podałeś kartę, zadzwoń do banku.
+## jak-poznat-podvod
+T Jak rozpoznać fałszywą wiadomość lub e-mail?
+A Fałszywe wiadomości zwykle mają kilka wspólnych cech. Wystarczy zauważyć jedną z nich i zachować czujność.
+1 Pośpiech i strach: „natychmiast”, „w ciągu 24 godzin”, „konto zostanie zablokowane”.
+2 Link, pod którym masz coś wypełnić lub zapłacić.
+3 Prośba o numer karty, PIN, hasło lub kod z SMS.
+4 Nieznany nadawca, zagraniczny numer lub dziwny adres.
+5 Jeśli nie masz pewności, wklej wiadomość do narzędzia „Czy to oszustwo?” albo zapytaj bliską osobę.
+## heslo
+T Jak utworzyć bezpieczne hasło?
+A Najlepsze jest długie hasło z kilku słów, które łatwo zapamiętasz, a nikt inny go nie zgadnie.
+1 Połącz 3–4 niepowiązane słowa, np. „Kos-Bulka-Ogrod-27” (ale tego nie używaj, jest publiczne).
+2 Do każdego konta używaj innego hasła – zwłaszcza do e-maila i banku.
+3 Hasła możesz zapisać w zeszycie, który zostaje w domu. Nigdy ich nie fotografuj ani nie wysyłaj.
+4 Gdzie się da, włącz weryfikację dwuetapową (kod SMS lub w aplikacji).
+W Nigdy nikomu nie podawaj hasła – ani bankowi, ani „technikowi”. Ani DIGI parťákowi.
+## nakup-online
+T Jak bezpiecznie robić zakupy w internecie?
+A Kupuj w znanych sklepach internetowych, a przy nieznanych najpierw sprawdź, kto za nimi stoi.
+1 Adres sklepu wpisz sam, nie klikaj w linki z reklam i wiadomości.
+2 Sprawdź kontakt, numer firmy i adres sprzedawcy oraz opinie innych ludzi.
+3 Uważaj, gdy cena jest podejrzanie niska.
+4 U nieznanego sprzedawcy wybierz płatność przy odbiorze.
+5 Na serwisach ogłoszeniowych nigdy nie wysyłaj kodu z SMS ani nie podawaj karty przez link od „kupującego”.
+## laska-online
+T Poznałem kogoś w internecie i ta osoba chce pieniędzy
+A Jeśli o pieniądze prosi ktoś, kogo nigdy nie spotkałeś osobiście, to z dużym prawdopodobieństwem oszustwo.
+1 Nie wysyłaj pieniędzy, prezentów ani kodów.
+2 Porozmawiaj o tym z kimś bliskim.
+3 Jeśli już wysłałeś pieniądze, zadzwoń do banku i na czeską policję (158).
+## pismo
+T Jak powiększyć tekst w telefonie?
+A Tekst powiększysz w Ustawieniach telefonu. Nazwy pozycji mogą się trochę różnić w zależności od producenta.
+1 Android: otwórz Ustawienia → Wyświetlacz (lub Ułatwienia dostępu) → Rozmiar czcionki.
+2 iPhone: otwórz Ustawienia → Ekran i jasność → Wielkość tekstu.
+3 Przesuń suwak w prawo, aż tekst będzie dobrze czytelny.
+4 W DIGI parťáku tekst powiększysz przyciskiem „Tekst” u góry.
+## whatsapp-fotka
+T Jak wysłać zdjęcie przez WhatsApp?
+A Zdjęcie wyślesz w kilku krokach prosto z rozmowy z daną osobą.
+1 Otwórz WhatsApp i dotknij imienia osoby.
+2 Na dole dotknij ikony spinacza lub „+”.
+3 Wybierz „Galeria” (Android) lub „Zdjęcia” (iPhone).
+4 Dotknij zdjęcia, a potem zielonej strzałki, aby je wysłać.
+## whatsapp-video
+T Jak zadzwonić z wideo przez WhatsApp?
+A Rozmowę wideo rozpoczniesz jednym dotknięciem w czacie z daną osobą.
+1 Otwórz WhatsApp i dotknij imienia osoby.
+2 W prawym górnym rogu dotknij ikony kamery.
+3 Poczekaj, aż druga osoba odbierze.
+4 Rozmowę zakończysz czerwonym przyciskiem.
+## wifi
+T Jak połączyć się z Wi-Fi?
+A Z domowym Wi-Fi połączysz się w Ustawieniach. Potrzebujesz nazwy sieci i hasła – zwykle są na naklejce na routerze.
+1 Otwórz Ustawienia → Wi-Fi (na Androidzie czasem Połączenia → Wi-Fi).
+2 Włącz Wi-Fi, jeśli jest wyłączone.
+3 Dotknij nazwy swojej sieci.
+4 Wpisz hasło z naklejki na routerze i potwierdź.
+W W publicznym Wi-Fi (kawiarnia, dworzec) lepiej nie korzystaj z bankowości internetowej.
+## aktualizace
+T Czy mam aktualizować telefon?
+A Tak, aktualizacje z Ustawień telefonu są ważne – naprawiają błędy bezpieczeństwa.
+1 Uruchamiaj aktualizacje tylko z Ustawień telefonu lub ze sklepu Google Play / App Store.
+2 Przed aktualizacją naładuj telefon i połącz go z Wi-Fi.
+3 Jeśli do „aktualizacji” wzywa link w SMS-ie lub e-mailu, to oszustwo.
+## screenshot
+T Jak zrobić zrzut ekranu?
+A Zrzut ekranu to „zdjęcie” tego, co masz właśnie na ekranie. Przydaje się np. do sprawdzenia podejrzanego SMS-a w DIGI parťáku.
+1 Android: naciśnij jednocześnie przycisk zasilania i przycisk ściszania (dolny) i od razu puść.
+2 iPhone bez przycisku Początek: naciśnij jednocześnie przycisk boczny i przycisk zwiększania głośności (górny).
+3 iPhone z przyciskiem Początek (okrągły na dole): naciśnij jednocześnie przycisk Początek i przycisk boczny (lub górny).
+4 Ekran krótko mignie. Zrzut znajdziesz w Galerii (Android) lub w Zdjęciach (iPhone).
+W W niektórych telefonach z Androidem kombinacja przycisków różni się w zależności od producenta.
+## plocha
+T Jak dodać DIGI parťáka do ekranu głównego telefonu?
+A Możesz dodać DIGI parťáka do ekranu głównego jak zwykłą aplikację. Potem otworzysz go jednym dotknięciem.
+1 Android (Chrome): dotknij trzech kropek w prawym górnym rogu → „Dodaj do ekranu głównego” lub „Zainstaluj aplikację”.
+2 iPhone (Safari): dotknij ikony Udostępnij na dole (kwadrat ze strzałką) → „Do ekranu początkowego”.
+3 Potwierdź przyciskiem „Dodaj”.
+## facebook
+T Co to jest Facebook i jak zacząć z niego korzystać?
+A Facebook to sieć społecznościowa – miejsce w internecie, gdzie ludzie dzielą się zdjęciami i nowinkami oraz wysyłają sobie wiadomości (przez aplikację Messenger). Korzystanie jest bezpłatne.
+1 Pobierz aplikację Facebook ze sklepu Google Play (Android) lub App Store (iPhone) albo sam wpisz w przeglądarce facebook.com.
+2 Nowe konto: dotknij „Utwórz nowe konto” i podaj imię, datę urodzenia oraz e-mail lub telefon. Wybierz hasło.
+3 Logowanie: wpisz e-mail lub telefon i hasło, a potem dotknij „Zaloguj się”.
+4 W ustawieniach prywatności wybierz, że Twoje posty widzą tylko „Znajomi”.
+5 Przyjmuj zaproszenia do znajomych tylko od osób, które naprawdę znasz.
+W Na Facebooku są fałszywe profile i reklamy „gwarantowanych zarobków” ze znanymi osobami. Gdy ktoś prosi o pieniądze, sprawdź to telefonicznie.
+## whatsapp-zacit
+T Co to jest WhatsApp i jak go zainstalować?
+A WhatsApp to aplikacja do wiadomości, zdjęć i rozmów (także wideo) przez internet. Przez Wi-Fi jest bezpłatna, także za granicę. Korzysta z Twojego numeru telefonu.
+1 Otwórz Sklep Google Play (Android) lub App Store (iPhone) i wyszukaj „WhatsApp Messenger”.
+2 Sprawdź, czy wydawcą jest „WhatsApp LLC”, i dotknij Zainstaluj (Pobierz).
+3 Otwórz WhatsApp, zaakceptuj warunki i wpisz swój numer telefonu.
+4 Dostaniesz SMS z kodem – wpisz go tylko bezpośrednio w WhatsAppie.
+5 Wpisz swoje imię. Twoje kontakty, które mają WhatsApp, pojawią się same.
+W Nigdy nikomu nie wysyłaj kodu weryfikacyjnego z WhatsAppa – nawet „znajomemu”, który o niego prosi. Tak oszuści kradną konta.
+## email
+T Jak założyć e-mail i wysłać wiadomość z załącznikiem?
+A E-mail to poczta elektroniczna. W Czechach najpopularniejsze są e-mail na Seznam.cz i Gmail od Google. Oba są bezpłatne.
+1 Zakładanie: na stronie seznam.cz dotknij „E-mail” i „Zaregistrovat se”, albo załóż konto Google (Gmail) – na Androidzie zwykle już je masz.
+2 Wymyśl adres (np. jana.novakova@seznam.cz) i bezpieczne hasło. Zapisz jedno i drugie.
+3 Wysyłanie: dotknij „Napisz”, w polu „Do” wpisz adres, napisz temat i tekst.
+4 Załącznik (zdjęcie): dotknij ikony spinacza i wybierz zdjęcie.
+5 Dotknij „Wyślij” (strzałka).
+W E-maile, które chcą hasła, płatności lub kliknięcia w link, często są oszustwem. Jeśli nie masz pewności, wklej je do „Czy to oszustwo?”.
+## youtube
+T Co to jest YouTube i jak szukać na nim filmów?
+A YouTube to strona i aplikacja z filmami – piosenki, programy, przepisy, poradniki. Jest bezpłatny, tylko czasem odtwarza się reklama.
+1 Otwórz aplikację YouTube (zwykle jest już w telefonie) albo wpisz w przeglądarce youtube.com.
+2 Dotknij lupy u góry i napisz, czego szukasz (np. „Anna German” albo „pierogi przepis”).
+3 Dotknij filmu. Reklamę możesz po kilku sekundach pominąć przyciskiem „Pomiń”.
+4 Film powiększysz na cały ekran, obracając telefon poziomo.
+W Reklamy szybkiego wzbogacenia się lub cudownych leków to często oszustwo, nawet jeśli występują w nich znane osoby.
+## aplikace-instalace
+T Jak bezpiecznie zainstalować aplikację?
+A Aplikacje pobieraj tylko z oficjalnego sklepu: Google Play na Androidzie, App Store na iPhonie. Większość aplikacji jest bezpłatna.
+1 Otwórz Sklep Google Play (kolorowy trójkąt) lub App Store (niebieskie „A”).
+2 U góry dotknij wyszukiwania i wpisz nazwę aplikacji.
+3 Sprawdź nazwę wydawcy (np. przy aplikacji bankowej Twój bank) i oceny.
+4 Dotknij „Zainstaluj” (Android) lub „Pobierz” (iPhone) i poczekaj.
+5 Odinstalowanie: przytrzymaj palec na ikonie aplikacji i wybierz „Odinstaluj” / „Usuń aplikację”.
+W Nigdy nie instaluj aplikacji na polecenie nieznanego rozmówcy ani z linku w SMS-ie.
+## zapomenute-heslo
+T Zapomniałem hasła – co teraz?
+A Zapomniane hasło prawie zawsze można odzyskać. Serwis wyśle kod na telefon lub e-mail, a Ty ustawisz nowe hasło.
+1 Na stronie logowania dotknij „Nie pamiętasz hasła?”.
+2 Wpisz swój e-mail lub telefon. Dostaniesz SMS lub e-mail z kodem albo linkiem.
+3 Kod wpisz tylko na tej stronie, na której sam zacząłeś odzyskiwanie.
+4 Wymyśl nowe hasło i zapisz je w zeszycie, który zostaje w domu.
+5 W przypadku bankowości internetowej zadzwoń do banku na numer z tyłu karty.
+W Jeśli dostaniesz kod do zmiany hasła, o który nie prosiłeś, nikomu go nie wysyłaj – ktoś może próbować dostać się do Twojego konta.
+## baterie
+T Telefon szybko się rozładowuje – co z tym zrobić?
+A Najwięcej energii zużywają jasny ekran, nawigacja, filmy i aplikacje działające w tle. Kilka zmian wyraźnie wydłuży czas pracy.
+1 Zmniejsz jasność ekranu (pociągnij pasek z góry i przesuń suwak ze słoneczkiem).
+2 Włącz tryb oszczędzania: Android – Ustawienia → Bateria → Oszczędzanie energii; iPhone – Ustawienia → Bateria → Tryb niskiego zużycia energii.
+3 Zamknij aplikacje, których nie używasz, i wyłącz lokalizację (GPS), gdy jej nie potrzebujesz.
+4 Ładuj oryginalną lub dobrą ładowarką. Nie musisz czekać, aż telefon całkiem się rozładuje.
+5 Jeśli telefon ma kilka lat i mimo to szybko się rozładowuje, może pomóc wymiana baterii w serwisie.
+## pamet
+T Telefon zgłasza pełną pamięć – jak zwolnić miejsce?
+A Miejsce w telefonie najczęściej zajmują filmy, zdjęcia i pliki z WhatsAppa. Zanim je usuniesz, zrób kopię zapasową.
+1 Sprawdź, co zajmuje miejsce: Android – Ustawienia → Pamięć (lub Obsługa urządzenia); iPhone – Ustawienia → Ogólne → iPhone: Pamięć.
+2 Zrób kopię zdjęć (Zdjęcia Google lub iCloud), a potem usuń duże filmy.
+3 W WhatsAppie: Ustawienia → Pamięć i dane → Zarządzaj pamięcią – usuń duże pliki i przekazane filmy.
+4 Odinstaluj aplikacje, których nie używasz.
+5 Na koniec opróżnij kosz w Zdjęciach („Ostatnio usunięte”).
+## pomaly-telefon
+T Telefon jest wolny albo się zawiesza
+A Najczęściej pomaga zwykłe ponowne uruchomienie. Telefon „posprząta” wtedy pamięć.
+1 Uruchom telefon ponownie: przytrzymaj przycisk zasilania i wybierz „Uruchom ponownie” (na iPhonie wyłącz i włącz).
+2 Jeśli telefon w ogóle nie reaguje, przytrzymaj przycisk zasilania dłużej (ok. 10–15 sekund).
+3 Zainstaluj aktualizacje systemu i aplikacji.
+4 Zwolnij miejsce w pamięci – pełna pamięć spowalnia telefon.
+5 Jeśli nic nie pomaga, zapytaj w salonie lub serwisie swojego operatora.
+## hlasitost
+T Nie słyszę dzwonka – jak zrobić telefon głośniej?
+A Głośność dzwonka ustawisz przyciskami z boku telefonu lub w Ustawieniach. Sprawdź też, czy telefon nie jest w trybie cichym.
+1 Naciśnij górny przycisk głośności z boku telefonu, gdy nie odtwarza się żaden film.
+2 Android: Ustawienia → Dźwięki i wibracje → Głośność → przesuń „Dzwonek” w prawo.
+3 iPhone: Ustawienia → Dźwięki i haptyka → przesuń suwak „Dzwonek i alerty”. Z boku sprawdź przełącznik trybu cichego (pomarańczowy = cisza).
+4 Wyłącz tryb „Nie przeszkadzać” (ikona księżyca na górnym pasku).
+5 Włącz też wibracje, aby poczuć dzwonek w kieszeni.
+## blokovani
+T Jak zablokować uciążliwy numer?
+A Numer, który Cię nęka, możesz zablokować w telefonie. Wtedy nikt z niego nie zadzwoni ani nie napisze.
+1 Android: otwórz aplikację Telefon → Ostatnie, przytrzymaj palec na numerze i wybierz „Zablokuj” (ew. „Zgłoś spam”).
+2 iPhone: otwórz Telefon → Ostatnie, dotknij „i” obok numeru, a potem „Zablokuj tego rozmówcę”.
+3 Przy SMS-ach: otwórz wiadomość, dotknij numeru u góry i wybierz Zablokuj.
+4 Nie musisz odbierać nieznanych numerów. Kto Cię potrzebuje, zostawi wiadomość lub napisze.
+W Jeśli dzwoniący twierdzi, że jest z banku lub policji, rozłącz się i sam zadzwoń na oficjalny numer.
+## kontakt
+T Jak zapisać numer telefonu w kontaktach?
+A Numer zapiszesz łatwo z aplikacji Telefon lub Kontakty. Wtedy przy połączeniu zobaczysz imię zamiast numeru.
+1 Otwórz aplikację Telefon → Ostatnie i dotknij numeru, który chcesz zapisać.
+2 Wybierz „Utwórz nowy kontakt” lub „Dodaj kontakt” (na iPhonie „i” → Utwórz nowy kontakt).
+3 Wpisz imię i nazwisko, ewentualnie dodaj zdjęcie.
+4 Dotknij „Zapisz” (Gotowe).
+5 Nowy numer możesz dodać też w aplikacji Kontakty przyciskiem „+”.
+## nouzove-info
+T Jak ustawić w telefonie dane medyczne i kontakt alarmowy?
+A Możesz zapisać w telefonie dane medyczne i kontakt alarmowy. Ratownicy zobaczą je nawet na zablokowanym telefonie.
+1 iPhone: otwórz aplikację Zdrowie → Twoje zdjęcie w prawym górnym rogu → Karta medyczna → Edytuj. Uzupełnij dane i włącz „Pokazuj po zablokowaniu”.
+2 Android: Ustawienia → Bezpieczeństwo i sytuacje alarmowe (lub Informacje alarmowe). Dokładna nazwa zależy od producenta.
+3 Dodaj kontakt alarmowy – kogoś bliskiego.
+4 Wpisz ważne choroby, alergie i leki, które przyjmujesz.
+## ztraceny-telefon
+T Zgubiłem telefon – jak go znaleźć?
+A Telefon możesz znaleźć, zablokować lub zdalnie uruchomić dzwonek z komputera albo z telefonu bliskiej osoby.
+1 Android: na innym urządzeniu otwórz stronę android.com/find i zaloguj się kontem Google.
+2 iPhone: otwórz stronę icloud.com/find i zaloguj się swoim Apple ID (albo użyj aplikacji Znajdź na innym urządzeniu Apple).
+3 Możesz włączyć dzwonek, pokazać telefon na mapie lub go zablokować.
+4 W razie kradzieży zadzwoń do operatora (blokada SIM), do banku (jeśli masz w telefonie bankowość) i na czeską policję pod 158.
+## zaloha-fotek
+T Jak zrobić kopię zdjęć, żeby ich nie stracić?
+A Zdjęcia z kopią zapasową zapisują się automatycznie także poza telefonem. Gdy zgubisz lub zepsujesz telefon, zdjęcia zostaną.
+1 Android: otwórz aplikację Zdjęcia Google → Twoja ikona w prawym górnym rogu → włącz „Kopia zapasowa”.
+2 iPhone: Ustawienia → Twoje imię u góry → iCloud → Zdjęcia → włącz „Synchronizuj ten iPhone”.
+3 Kopia działa najlepiej przez Wi-Fi i podczas ładowania.
+4 Za darmo jest tylko ograniczone miejsce. Gdy się skończy, serwis zaproponuje płatne rozszerzenie – nie musisz go kupować, możesz usunąć niepotrzebne.
+## mobilni-data
+T Co to są dane komórkowe i kiedy je włączyć?
+A Dane komórkowe to internet od Twojego operatora. Działają też na zewnątrz, gdzie nie ma Wi-Fi. Ile masz danych, zależy od taryfy.
+1 Włączanie: pociągnij palcem pasek od górnej krawędzi i dotknij ikony „Dane komórkowe” (dwie strzałki).
+2 W domu i u bliskich lepiej używaj Wi-Fi – nie zużywa Twoich danych.
+3 Za granicą poza UE wyłącz dane lub roaming, żeby nie dostać wysokiego rachunku. W UE płacisz jak w kraju.
+4 Ile danych Ci zostało, sprawdzisz w aplikacji swojego operatora.
+## qr-kod
+T Jak zeskanować kod QR?
+A Kod QR to kwadrat z kropek, który zawiera link lub dane płatności. Odczytasz go aparatem telefonu.
+1 Otwórz Aparat i skieruj go na kod QR (nie rób zdjęcia).
+2 Pojawi się link – dotknij go.
+3 Płatność QR (np. na rachunku): otwórz aplikację swojego banku i wybierz „Płatność kodem QR”. Dane wypełnią się same – sprawdź kwotę i odbiorcę.
+W Kody QR w e-mailach, SMS-ach lub naklejone na parkometrach mogą prowadzić na fałszywe strony. Płać tylko w aplikacji swojego banku.
+## pin-karty
+T Jak zmienić PIN do karty?
+A PIN do karty zmienisz w aplikacji swojego banku, w bankowości internetowej, w oddziale lub w niektórych bankomatach Twojego banku.
+1 Otwórz aplikację banku i szukaj przy karcie „Zmień PIN” lub „Pokaż PIN”.
+2 Bez aplikacji idź do oddziału banku z dowodem osobistym.
+3 Nowy PIN wybierz tak, by nie był datą urodzenia ani 1234.
+4 Nie zapisuj PIN-u przy karcie ani w telefonie.
+W Bank nigdy nie prosi o PIN – ani telefonicznie, ani SMS-em, ani e-mailem. Kto o niego prosi, jest oszustem.
+## internetove-bankovnictvi
+T Jak bezpiecznie zacząć z bankowością internetową?
+A Bankowość internetową założy Ci Twój bank – najpewniej osobiście w oddziale, gdzie od razu pomogą w konfiguracji.
+1 Idź do oddziału i poproś o bankowość internetową i mobilną. Powiedz, że dopiero zaczynasz.
+2 Aplikację banku pobierz tylko z Google Play lub App Store (wydawcą musi być Twój bank).
+3 Loguj się do banku tylko przez tę aplikację lub adres wpisany samodzielnie. Nigdy przez link z wiadomości.
+4 Rachunek opłać przez „Płatność kodem QR” lub „Nowy przelew”. Przed potwierdzeniem sprawdź numer konta i kwotę.
+W Nikomu nie podawaj danych logowania ani kodów potwierdzających. Bank nigdy nie poprosi o przelew na „bezpieczne konto”.
+## platba-telefonem
+T Jak płacić telefonem zamiast kartą?
+A Możesz dodać kartę płatniczą do telefonu i płacić, przykładając telefon do terminala, tak samo jak kartą.
+1 Otwórz aplikację banku i szukaj przy karcie „Dodaj do Google Wallet” lub „Dodaj do Apple Wallet”.
+2 Potwierdź dodanie według instrukcji banku.
+3 Przy płaceniu odblokuj telefon i przyłóż go do terminala.
+4 Zabezpiecz telefon kodem lub odciskiem palca.
+## hoax
+T Jak rozpoznać fałszywą informację (hoax)?
+A Hoax to alarmująca lub zmyślona wiadomość, która rozprzestrzenia się przez przesyłanie dalej. Często straszy, złości lub obiecuje cuda.
+1 Zachowaj czujność, gdy wiadomość wzywa „prześlij dalej wszystkim” albo bardzo straszy i oburza.
+2 Szukaj źródła: kto to napisał i gdzie to opublikowano? Rzetelne wiadomości mają autora i datę.
+3 Sprawdź to w wiarygodnym medium albo na stronach weryfikujących fakty (w Czechach Manipulátoři.cz i Demagog.cz).
+4 Jeśli nie masz pewności, nie przesyłaj wiadomości dalej.
+## cookies
+T Co zrobić z paskiem „cookies” na stronie?
+A Cookies to małe pliki, dzięki którym strona pamięta, co robisz. Pasek pyta, czy może śledzić Twoje zachowanie w celach reklamowych.
+1 Spokojnie wybierz „Odrzuć wszystko” lub „Tylko niezbędne”. Strona będzie działać dalej.
+2 Jeśli nie widzisz takiego przycisku, dotknij „Ustawienia” i zostaw włączone tylko „Niezbędne”.
+3 Nie musisz zajmować się paskiem za każdym razem – strona zapamięta Twój wybór.
+## vir-hlaska
+T Na stronie wyskoczyło, że mam wirusa w telefonie
+A Komunikaty na stronach typu „Twój telefon jest zainfekowany!” to prawie zawsze oszustwo. Chcą Cię przestraszyć, żebyś coś zainstalował lub zapłacił.
+1 Niczego w oknie nie klikaj i nie dzwoń na wyświetlony numer.
+2 Zamknij kartę lub całą przeglądarkę. W razie potrzeby uruchom telefon ponownie.
+3 Niczego nie instaluj i niczego nie płać.
+4 Jeśli już coś zainstalowałeś lub podałeś kartę, zadzwoń do banku i poproś bliską osobę o pomoc.
+## mapy
+T Jak znaleźć drogę i połączenie w telefonie?
+A Drogę i połączenia znajdziesz w aplikacjach Mapy.com (dawniej Mapy.cz) lub Mapy Google. Czeskie rozkłady jazdy są na stronie IDOS.
+1 Otwórz Mapy.com lub Mapy Google i w wyszukiwarce wpisz, dokąd chcesz iść.
+2 Dotknij „Trasa” i wybierz, czy idziesz pieszo, jedziesz samochodem czy komunikacją miejską.
+3 Połączenia autobusowe i kolejowe znajdziesz na stronie idos.cz – wpisz skąd, dokąd i kiedy.
+4 Bilet na pociąg kupisz w aplikacji Můj vlak (Koleje Czeskie) lub w kasie. O zniżki dla seniorów zapytaj w kasie.
+## objednat-lekar
+T Jak umówić się do lekarza przez internet?
+A Wiele gabinetów oferuje zapisy przez internet lub e-mail. Każdy korzysta jednak z innego systemu, dlatego najpierw zapytaj w gabinecie.
+1 Zapytaj pielęgniarkę, czy można zapisać się online i pod jakim adresem.
+2 Poproś o zapisanie adresu lub aplikacji na kartce i wpisz go w przeglądarce samodzielnie.
+3 Wybierz termin i potwierdź go. Zwykle dostaniesz potwierdzenie e-mailem lub SMS-em.
+4 Jeśli zapisy online Ci nie odpowiadają, telefon do gabinetu jest nadal w porządku.
+W Na pytania o zdrowie i leki odpowie lekarz lub farmaceuta.
+## erecept
+T Jak działa e-recepta (eRecept)?
+A eRecept to elektroniczna recepta. Lekarz wyśle Ci ją SMS-em lub e-mailem albo wydrukuje.
+1 Poczekaj na SMS lub e-mail od lekarza z kodem recepty.
+2 W aptece pokaż wiadomość z kodem (lub wydrukowaną kartkę).
+3 Farmaceuta odczyta kod i wyda Ci lek.
+4 Kod możesz też wysłać bliskiej osobie, która odbierze lek za Ciebie.
+W Na pytania o leki, dawkowanie i zdrowie odpowiada lekarz lub farmaceuta, nie DIGI parťák.
+## identita
+T Jak załatwiać sprawy w czeskich urzędach przez internet?
+A Wiele spraw z czeskimi urzędami załatwisz na Portalu Obywatela (Portál občana). Zalogujesz się np. tożsamością bankową – tak jak do bankowości internetowej.
+1 Adres Portalu Obywatela wpisz w przeglądarce sam: obcan.portal.gov.cz.
+2 Wybierz logowanie przez swój bank (tożsamość bankowa) lub inną oferowaną możliwość.
+3 Jeśli nie masz pewności, poproś o pomoc bliską osobę lub pracownika Czech POINT na poczcie czy w urzędzie.
+W Nie korzystaj z linków do „urzędu” w SMS-ach lub e-mailach – adres zawsze wpisuj sam.
+## cisla
+T Jakie są ważne numery telefonów?
+A Oto najważniejsze numery. Dotknij dowolnego, aby od razu zadzwonić.
+## samota
+T Jest mi smutno i czuję się samotny
+A Przykro mi. Takie uczucia są całkowicie normalne i nie musisz być z nimi sam. Na tych bezpłatnych liniach chętnie Cię wysłuchają (po czesku).
+## krize
+T Jest mi naprawdę źle i nie wiem, co robić
+A Bardzo mi przykro, że tak się czujesz. Proszę, porozmawiaj z kimś teraz. Jesteś ważny.
+1 Zadzwoń na Linię pierwszej pomocy psychologicznej 116 123 – bezpłatnie i całodobowo (po czesku).
+2 Jeśli jesteś w niebezpieczeństwie, dzwoń pod 112 lub 155.
+3 Możesz też zadzwonić do bliskiej osoby i poprosić, żeby przyszła.
+## zdravi-nouze
+T Problemy zdrowotne – wezwij pomoc
+A To może być poważne. Proszę, od razu zadzwoń na pogotowie 155 lub na numer alarmowy 112.
+1 Zadzwoń pod 155 lub 112.
+2 Powiedz, gdzie jesteś i co się dzieje.
+3 Jeśli to możliwe, otwórz drzwi i zadzwoń do sąsiada lub bliskiej osoby.
+## mimo-zdravi
+T Pytania o zdrowie i leki
+A Na pytania o zdrowie i leki bezpiecznie odpowie tylko lekarz lub farmaceuta. Nie chcę udzielić nieprecyzyjnej porady.
+1 Zadzwoń do swojego lekarza rodzinnego.
+2 Zapytaj w aptece – farmaceuci chętnie doradzą za darmo.
+3 Przy nagłych dolegliwościach dzwoń pod 155.
+## mimo-finance
+T Porady finansowe i prawne
+A Nie udzielam porad finansowych ani prawnych – mógłbym niechcący zaszkodzić. Zwróć się proszę do specjalisty.
+1 O pieniądzach porozmawiaj osobiście w swoim banku.
+2 W sprawach prawnych pomagają bezpłatne poradnie, np. przez Senior telefon (po czesku).
+3 Jeśli ktoś naciska i pogania Cię do podpisania umowy, niczego nie podpisuj.
+## pozdrav
+T Powitanie
+A Dzień dobry, miło Cię widzieć! Jestem DIGI parťák. Pomogę z telefonem, internetem i bezpieczeństwem w sieci. O co chcesz zapytać?
+## dekuji
+T Podziękowanie
+A Nie ma za co! Jestem tu, kiedy tylko zechcesz. Żadne pytanie nie jest głupie.
+## kdo-jsi
+T Kim jest DIGI parťák?
+A Jestem DIGI parťák – cyfrowy pomocnik, nie człowiek. Najpierw odpowiadam z biblioteki sprawdzonych porad. Jeśli tam nie ma odpowiedzi, spróbuję pomóc za pomocą sztucznej inteligencji i zawsze przypomnę, żeby to sprawdzić.
+1 Pomogę z telefonem i aplikacjami.
+2 Pomogę rozpoznać fałszywe wiadomości i połączenia.
+3 Pokażę, gdzie zadzwonić po pomoc.
+## G pismo
+T Powiększ tekst w telefonie
+I Większy tekst łatwiej się czyta i oszczędza oczy. Nic się nie zepsuje – w każdej chwili możesz to cofnąć.
+S Otwórz Ustawienia || Znajdź na ekranie ikonę koła zębatego z napisem „Ustawienia” i dotknij jej. ||
+S Znajdź pozycję wyświetlacza || Android: dotknij „Wyświetlacz” (w niektórych telefonach „Ułatwienia dostępu”). iPhone: dotknij „Ekran i jasność”. || Możesz też szukać lupą u góry – wpisz „czcionka”.
+S Dotknij Rozmiar czcionki || Android: „Rozmiar czcionki” lub „Rozmiar i styl czcionki”. iPhone: „Wielkość tekstu”. ||
+S Przesuń suwak w prawo || Im bardziej w prawo, tym większy tekst. Przykładowy tekst od razu się zmienia, więc zobaczysz efekt. ||
+S Gotowe || Wróć przyciskiem Wstecz lub zamknij Ustawienia. Tekst pozostanie większy w całym telefonie. ||
+## G whatsapp-fotka
+T Wyślij zdjęcie przez WhatsApp
+I Spraw radość rodzinie. Zdjęcie wyślesz prosto z rozmowy z daną osobą.
+S Otwórz WhatsApp || Dotknij zielonej ikony z białym telefonem w dymku. ||
+S Wybierz osobę || Na liście czatów dotknij imienia osoby, której chcesz wysłać zdjęcie. ||
+S Dotknij spinacza lub + || Ikona jest na dole obok pola do pisania. Na Androidzie to spinacz, na iPhonie znak plus. ||
+S Wybierz zdjęcie || Dotknij „Galeria” (Android) lub „Biblioteka zdjęć” (iPhone), a potem zdjęcia, które chcesz wysłać. ||
+S Wyślij || Dotknij okrągłego zielonego przycisku ze strzałką. Zdjęcie jest w drodze! || Dwa niebieskie znaczki oznaczają, że druga osoba już je obejrzała.
+## G whatsapp-video
+T Rozmowa wideo przez WhatsApp
+I Zobaczcie się z bliskimi, nawet gdy są daleko. Rozmowa przez Wi-Fi nic nie kosztuje.
+S Otwórz WhatsApp || Dotknij zielonej ikony WhatsApp. ||
+S Wybierz osobę || Dotknij imienia osoby, do której chcesz zadzwonić. ||
+S Dotknij kamery || W prawym górnym rogu jest mała ikona kamery. Dotknij jej. || Ikona słuchawki obok to zwykła rozmowa bez obrazu.
+S Poczekaj na odebranie || Gdy druga osoba odbierze, zobaczycie się. Trzymaj telefon przed twarzą. ||
+S Zakończ rozmowę || Dotknij czerwonego przycisku ze słuchawką. ||
+## G podvodna-sms
+T Co zrobić z podejrzanym SMS-em
+I Fałszywe wiadomości dostaje każdy. Ważne jest, by wiedzieć, jak się zachować.
+S Nie spiesz się || Oszuści chcą, żebyś działał od razu. Masz czas. Weź głęboki oddech. ||
+S Nie klikaj w link || Nie dotykaj linku w wiadomości i nie odpowiadaj na nią. ||
+S Sprawdź to inaczej || Jeśli wiadomość twierdzi, że jest od banku, poczty lub urzędu, zadzwoń tam sam na numer z oficjalnej strony lub z karty. ||
+S Usuń wiadomość || Przytrzymaj palec na wiadomości i wybierz „Usuń”. Numer możesz zablokować. ||
+S Już kliknąłeś? || Nic się nie stanie, jeśli niczego nie wypełniłeś. Jeśli podałeś kartę lub hasło, od razu zadzwoń do banku. || Wiadomość możesz sprawdzić w DIGI parťáku w sekcji „Czy to oszustwo?”.
+## G screenshot-android
+T Zrzut ekranu na Androidzie
+I Zrzut ekranu to zdjęcie tego, co masz właśnie na ekranie. Przydaje się np. do sprawdzenia podejrzanej wiadomości.
+S Otwórz to, co chcesz uchwycić || Na przykład podejrzany SMS. Otwórz wiadomość tak, by widać było cały tekst i nadawcę. ||
+S Znajdź dwa przyciski || Z boku telefonu jest przycisk zasilania i przyciski głośności. Potrzebujesz zasilania i dolnego przycisku głośności (ściszania). ||
+S Naciśnij oba naraz || Naciśnij jednocześnie zasilanie i ściszanie. Przytrzymaj tylko chwilę (ok. 1 sekundy) i puść. || Jeśli zamiast tego pojawi się menu wyłączania, puściłeś przyciski za późno. Spróbuj ponownie, szybciej.
+S Ekran mignie || Usłyszysz dźwięk lub zobaczysz krótkie mignięcie i mały podgląd na dole. Zrzut jest zapisany. ||
+S Gdzie znajdziesz zrzut || Otwórz aplikację Galeria lub Zdjęcia Google. Zrzut jest wśród najnowszych zdjęć, często w folderze „Zrzuty ekranu”. ||
+S Nie działa? || W niektórych telefonach (np. Samsung) można to zrobić też tak: pociągnij pasek od górnej krawędzi w dół i dotknij „Zrzut ekranu”. Zależy to od producenta. || Zrzut możesz przesłać w DIGI parťáku w sekcji „Czy to oszustwo?”.
+## G screenshot-iphone
+T Zrzut ekranu na iPhonie
+I Zrzut ekranu to zdjęcie tego, co masz właśnie na ekranie. Sposób zależy od tego, czy Twój iPhone ma okrągły przycisk Początek pod ekranem.
+S Otwórz to, co chcesz uchwycić || Na przykład podejrzany SMS. Otwórz wiadomość tak, by widać było cały tekst i nadawcę. ||
+S iPhone BEZ przycisku Początek || Nowsze iPhone'y (ekran do krawędzi): naciśnij jednocześnie przycisk boczny po prawej i przycisk zwiększania głośności po lewej (górny). Od razu puść. ||
+S iPhone Z przyciskiem Początek || Starsze iPhone'y i iPhone SE (okrągły przycisk na dole): naciśnij jednocześnie przycisk Początek i przycisk boczny po prawej (w najstarszych modelach przycisk na górze). ||
+S Ekran mignie || Ekran na chwilę zbieleje, a w lewym dolnym rogu pojawi się mały podgląd. Nie musisz go dotykać – zrzut zapisze się sam. || Jeśli zamiast tego pojawi się suwak „Wyłącz”, trzymałeś przyciski za długo. Dotknij Anuluj i spróbuj szybciej.
+S Gdzie znajdziesz zrzut || Otwórz aplikację Zdjęcia. Zrzut jest wśród najnowszych zdjęć i w albumie „Zrzuty ekranu”. || Zrzut możesz przesłać w DIGI parťáku w sekcji „Czy to oszustwo?”.
+## G banka-hovor
+T Dzwoni „bank” – co teraz?
+I Najczęstsze oszustwo na seniorów. Wystarczy zapamiętać jedną zasadę: rozłącz się i zadzwoń sam.
+S Rozłącz się || Gdy ktoś z „banku” lub „policji” dzwoni w sprawie pieniędzy, zakończ rozmowę. Nie musisz przepraszać. ||
+S Niczego nie podawaj || Nikomu nie mów PIN-u, haseł ani kodów z SMS. Bank nigdy o nie nie poprosi. ||
+S Zadzwoń sam || Weź kartę płatniczą i zadzwoń na numer z jej tylnej strony. ||
+S Powiedz, co się stało || Pracownik banku powie Ci, czy Twoje konto jest w porządku. ||
+## G erecept
+T Odbierz e-receptę (eRecept)
+I Recepta nie musi już być na papierze. Wystarczy kod, który przyśle lekarz.
+S Poczekaj na wiadomość || Lekarz wyśle Ci SMS lub e-mail z kodem recepty. Może go też wydrukować. ||
+S Idź do apteki || Możesz pójść do dowolnej apteki. ||
+S Pokaż kod || Otwórz wiadomość od lekarza i pokaż ją farmaceucie albo podyktuj kod. ||
+S Gotowe || Farmaceuta odczyta kod i wyda Ci lek. || Kod możesz przesłać bliskiej osobie, która odbierze lek za Ciebie.
+## G plocha
+T DIGI parťák na ekranie głównym
+I Dodaj pomocnika do ekranu głównego jak aplikację. Potem otworzysz go jednym dotknięciem.
+S Otwórz DIGI parťáka w przeglądarce || Android: w Chrome. iPhone: w Safari. ||
+S Otwórz menu || Android: dotknij trzech kropek w prawym górnym rogu. iPhone: dotknij ikony Udostępnij na dole (kwadrat ze strzałką w górę). ||
+S Dodaj do ekranu głównego || Wybierz „Dodaj do ekranu głównego” lub „Zainstaluj aplikację”. ||
+S Potwierdź || Dotknij „Dodaj”. Na ekranie pojawi się ikona z uśmiechniętym dymkiem. ||
+P 112 | Numer alarmowy | Każde zagrożenie życia, zdrowia lub mienia. Działa także bez środków na koncie.
+P 150 | Straż pożarna | Pożar, wyciek gazu, pomoc techniczna.
+P 155 | Pogotowie ratunkowe | Nagłe problemy zdrowotne, uraz, utrata przytomności.
+P 158 | Policja Czeska | Oszustwo, kradzież, groźby, podejrzana osoba pod drzwiami.
+P senior | Senior telefon (Život 90) | Bezpłatna linia dla seniorów i ich bliskich. Całodobowo, po czesku.
+P elpida | Linia dla seniorów (Elpida) | Bezpłatna rozmowa, gdy jest Ci smutno lub potrzebujesz porady. Po czesku.
+P psych | Linia pierwszej pomocy psychologicznej | Gdy wszystkiego jest za dużo. Bezpłatnie, całodobowo, po czesku.
+C bezpeci | Bezpieczeństwo w sieci
+C telefon | Telefon i aplikacje
+C internet | Internet, wiadomości i sieci
+C penize | Bank i płatności
+C urady | Urzędy i lekarz
+C pomoc | Pomoc i wsparcie
+U krize | nie chcę żyć; nie chce zyc; zabić się; zabic sie; samobójstw; skrzywdzić siebie; nie ma sensu żyć
+U zdravi-nouze | ból w klatce; boli mnie w klatce; nie mogę oddychać; nie moge oddychac; zawał; udar; nieprzytomn; zemdlał; upadł i nie może wstać; krwawi
+U uz-jsem-zadal | podałem kartę; podałam kartę; kliknąłem w link; kliknęłam w link; wysłałem pieniądze; wysłałam pieniądze; zostałem oszukany; zostałam oszukana; ukradli mi pieniądze
+U banka-vola | bezpieczne konto; dzwoni bank; dział bezpieczeństwa banku; przelać pieniądze
+K card | numer karty|dane karty|cvv|pin|hasło|dane logowania|kod weryfikacyjny|kod sms|kod blik|blik
+K urgent | natychmiast|pilne|pilnie|w ciągu 24|w ciągu 48|ostatnie wezwanie|ostatnie ostrzeżenie|dzisiaj|wygaśnie|zablokowan|zawieszon|dezaktywowan
+K fee | opłat|dopłat|cło|zapłać|uiść|należność|płatność
+K parcel | paczk|przesyłk|dostaw|kurier|poczta|inpost|dpd|dhl
+K bank | bank|konto|policj|urząd skarbowy|komornik
+K safeacc | bezpieczne konto|bezpiecznego konta|przelej|przelać pieniądze
+K prize | wygra|wygrał|zwycięzc|gratulacje|nagrod|prezent|za darmo|wybran
+K family | cześć mamo|hej mamo|cześć tato|cześć babciu|cześć dziadku|nowy numer|zgubiłem telefon|zepsuł mi się telefon|wyślij mi pieniądze
+K money | pieniądze|pieniędzy|wyślij|przelew|przelej|pożycz
+K remote | anydesk|teamviewer|rustdesk|zdalny dostęp|zainstaluj aplikację|pobierz aplikację
+K invest | inwestycj|inwestuj|krypto|bitcoin|zysk|gwarantowan|wzbogac|dochód pasywny

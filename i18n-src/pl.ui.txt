@@ -1,0 +1,296 @@
+0	Rozmiar tekstu: {v}
+1	Twoja przeglądarka nie potrafi czytać na głos.
+2	Zatrzymaj czytanie
+3	Przeczytaj na głos
+4	Mów
+5	Słucham… dotknij, aby zakończyć
+6	Ta przeglądarka nie obsługuje dyktowania. Dotknij pola i użyj mikrofonu na klawiaturze telefonu.
+7	Zezwól na mikrofon dla tej strony w ustawieniach przeglądarki.
+8	Dyktowanie jest wyłączone. Na iPhonie włącz Siri i dyktowanie w Ustawieniach albo użyj mikrofonu na klawiaturze.
+9	Nic nie usłyszałem. Dotknij Mów i mów bliżej telefonu.
+10	Nie znalazłem mikrofonu. Sprawdź, czy nie używa go inna aplikacja.
+11	Dyktowanie potrzebuje internetu. Spróbuj ponownie albo wpisz pytanie.
+12	Dyktowanie w tym języku nie jest tu dostępne. Użyj mikrofonu na klawiaturze.
+13	Sprawdź tekst. Jeśli się zgadza, naciśnij przycisk wysyłania.
+14	Nie udało się uruchomić dyktowania. Spróbuj ponownie.
+15	Zadzwoń
+16	Dzień dobry!
+17	Dobry wieczór!
+18	Dzień dobry!
+19	Wpisz swoje pytanie.
+20	Napisz, w czym potrzebujesz pomocy
+21	Zapytaj
+22	Dzwoni do mnie ktoś z banku
+23	Dostałem dziwnego SMS-a o paczce
+24	Co to jest Facebook?
+25	Jak wysłać zdjęcie wnukom?
+26	Zapomniałem hasła
+27	Telefon szybko się rozładowuje
+28	Twój życzliwy przewodnik
+29	W czym mogę dziś pomóc?
+30	Technologia bez stresu, pośpiechu i obaw. Wszystko wyjaśniamy powoli, krok po kroku.
+31	Na przykład: Jak wysłać zdjęcie?
+32	Uśmiechnięta pani w okularach trzyma smartfon.
+33	Bez obaw
+34	Technologia bez stresu
+35	Pytaj śmiało
+36	Żadne pytanie nie jest głupie. Napisz je albo powiedz na głos przyciskiem
+37	Główni pomocnicy
+38	Zapytaj
+39	Rozmowa z pomocnikiem. Najpierw odpowiada sprawdzonymi poradami, inne odpowiedzi wyraźnie oznacza.
+40	Otwórz rozmowę
+41	Żadne pytanie nie jest głupie
+42	Czy to oszustwo?
+43	Dostałeś dziwnego SMS-a lub e-mail? Razem sprawdzimy sygnały ostrzegawcze.
+44	Sprawdź wiadomość
+45	Nigdzie nie wysyłamy Twojego tekstu
+46	Krok po kroku
+47	Proste poradniki. Zawsze tylko jeden krok na ekranie.
+48	Zobacz poradniki
+49	W Twoim tempie
+50	Częste pytania
+51	Dotknij, a od razu dostaniesz odpowiedź.
+52	Twoje bezpieczeństwo jest najważniejsze
+53	Nigdy nie prosimy o hasła, PIN ani numer karty.
+54	Pomocnik odpowiada z biblioteki sprawdzonych porad. Każdą inną odpowiedź wyraźnie oznacza, abyś mógł ją sprawdzić.
+55	Twoje pytania pozostają tylko na Twoim urządzeniu.
+56	Uśmiechnięty pan w okularach korzysta z tabletu.
+57	Chcesz porozmawiać z człowiekiem?
+58	Senior telefon (czeska infolinia dla seniorów) jest bezpłatny i całodobowy.
+59	Inne numery pomocy
+60	Dostosuj aplikację
+61	Rozmiar tekstu, wysoki kontrast, czytanie na głos
+62	Rozmowa z DIGI parťákiem
+63	Wpisz swoje pytanie…
+64	Zapytaj pomocnika
+65	Sprawdzone porady mają zieloną etykietę
+66	Usunąłem rozmowę.
+67	Nowa rozmowa
+68	Nigdy nie wpisuj do czatu haseł, PIN-u ani numeru karty. Rozmowa nie jest zapisywana i znika po zamknięciu aplikacji.
+69	Twoje pytanie
+70	Wyślij
+71	Czy chodzi o jeden z tych tematów?
+72	Przepraszam, nie zrozumiałem.
+73	Przepraszam, nie mam teraz na to odpowiedzi.
+74	Nie ma tego w aplikacji, szukam odpowiedzi poza aplikacją…
+75	Nie znalazłeś tego, czego szukasz?
+76	Zapytaj poza aplikacją
+77	Uwaga: {t}
+78	DIGI parťák mówi:
+79	Ty:
+80	Dzień dobry! Jestem DIGI parťák.
+81	Zapytaj własnymi słowami albo wybierz temat. Najpierw szukam w bibliotece sprawdzonych porad. Jeśli tam nie ma odpowiedzi, spróbuję pomóc inaczej – ale zawsze przypomnę, żeby to sprawdzić.
+82	Dzień dobry! Jestem DIGI parťák. Zapytaj własnymi słowami albo wybierz temat.
+83	numer karty
+84	numer identyfikacyjny (PESEL / czeskie rodné číslo)
+85	hasło lub kod
+86	 Uwaga na dane wrażliwe
+87	Twoja wiadomość zawierała: {what}. Ukryłem to i nigdzie tego nie wysłano.
+88	Nigdy nikomu nie podawaj tych danych – ani w czacie, ani w SMS-ie czy e-mailu.
+89	Jesteś bez internetu.
+90	Bez internetu mogę odpowiadać tylko z biblioteki sprawdzonych porad. Wybierz temat albo spróbuj ponownie po połączeniu.
+91	W sprawdzonej bibliotece tego nie ma, a odpowiedzi spoza aplikacji nie udało się teraz uzyskać. Spróbuj za chwilę, napisz to innymi słowami albo zapytaj człowieka.
+92	Spróbuj napisać to innymi słowami, wybierz temat albo zapytaj człowieka.
+93	Może szukasz:
+94	Senior telefon 800 157 157
+95	Przepraszam, nie mam na to sprawdzonej odpowiedzi. Nie chcę doradzić nieprecyzyjnie.
+96	Informacja spoza aplikacji – sprawdź ją
+97	Tego nie ma w sprawdzonej bibliotece DIGI parťáka. Odpowiedź przygotowała sztuczna inteligencja na podstawie wiedzy ogólnej. Może zawierać błąd lub być nieaktualna.
+98	Jak to sprawdzić:
+99	Zapytaj bliską osobę, której ufasz.
+100	Zajrzyj na oficjalną stronę instytucji – adres wpisz samodzielnie.
+101	Zadzwoń bezpłatnie do Senior telefon 800 157 157 (czeska infolinia).
+102	Zanim cokolwiek zapłacisz lub zainstalujesz, najpierw sprawdź informację.
+103	 Ważne – działaj od razu
+104	Sprawdzona porada
+105	Skąd to wiemy
+106	Może Cię zainteresować:
+107	Wklej lub przepisz tutaj tekst podejrzanej wiadomości…
+108	Najpierw wklej tekst wiadomości.
+109	Wkleiłem tekst.
+110	Schowek jest pusty.
+111	Wklej tekst, przytrzymując palec w polu i wybierając „Wklej”.
+112	Wklej skopiowany tekst
+113	Wklej tekst podejrzanej wiadomości albo prześlij jej zdjęcie lub zrzut ekranu. Pokażę sygnały ostrzegawcze i doradzę, co bezpiecznie zrobić.
+114	Sprawdź zdjęcie wiadomości
+115	Zrób zrzut ekranu podejrzanego SMS-a, e-maila lub wiadomości i prześlij go tutaj. Możesz też sfotografować wiadomość innym telefonem.
+116	Prześlij zrzut ekranu
+117	Zrób zdjęcie wiadomości
+118	Zdjęcie zostanie wysłane do analizy sztucznej inteligencji (Claude firmy Anthropic). Nigdzie go nie zapisujemy. Numer karty lub kody na zdjęciu lepiej zakryj.
+119	Nie wiesz, jak zrobić zrzut ekranu?
+120	Poradnik dla Androida
+121	Poradnik dla iPhone'a
+122	Albo wklej tekst wiadomości
+123	Tekst wiadomości
+124	Sprawdzanie tekstu odbywa się tylko na Twoim urządzeniu. Nigdzie nie wysyłamy tekstu.
+125	Sprawdź tekst
+126	Wyczyść
+127	Wypróbuj na przykładowym fałszywym SMS-ie
+128	Złota zasada
+129	Gdy wiadomość ponagla i chce pieniędzy lub danych –
+130	zatrzymaj się i sprawdź to sam.
+131	Zadzwoń do banku, na pocztę lub do urzędu na numer z ich oficjalnej strony lub z karty płatniczej – nigdy na numer czy link z wiadomości.
+132	Wybierz obraz.
+133	Obraz jest za duży. Spróbuj zrobić zrzut ekranu.
+134	Nie umiem otworzyć tego obrazu. Spróbuj zrzutu ekranu w formacie JPG lub PNG.
+135	Oglądam zdjęcie… może to potrwać do pół minuty.
+136	Podgląd przesłanego zdjęcia wiadomości
+137	Jesteś bez internetu. Analiza zdjęcia potrzebuje internetu – przepisz tekst wiadomości do pola poniżej.
+138	Analiza zdjęcia się teraz nie udała. Spróbuj za chwilę albo przepisz tekst wiadomości do pola poniżej.
+139	Bardzo podejrzane!
+140	Wiadomość ma kilka typowych cech oszustwa. Niczego nie klikaj i niczego nie płać.
+141	Zachowaj ostrożność
+142	Znalazłem sygnały ostrzegawcze. Zanim cokolwiek zrobisz, sprawdź wiadomość inną drogą.
+143	Nie znalazłem typowych cech oszustwa
+144	To jednak nie znaczy, że wiadomość jest na pewno w porządku. Oszuści wymyślają ciągle nowe sztuczki.
+145	Nie udało się ocenić zdjęcia
+146	Na zdjęciu nie widzę czytelnej wiadomości. Spróbuj ostrzejszego zrzutu ekranu z całym tekstem albo przepisz tekst do pola.
+147	Jeśli wiadomość o coś prosi, sprawdź to u nadawcy pod znanym numerem.
+148	Nigdy nie podawaj PIN-u, haseł ani kodów z SMS przez link.
+149	Nie klikaj w link w wiadomości i nie odpowiadaj.
+150	Sprawdź to sam – zadzwoń na oficjalny numer instytucji albo do bliskiej osoby.
+151	Usuń wiadomość i zablokuj nadawcę.
+152	Jeśli już coś wypełniłeś lub zapłaciłeś, od razu zadzwoń do swojego banku.
+153	Analiza zdjęcia przez sztuczną inteligencję. Wynik jest orientacyjny, sprawdź go.
+154	Co zrobić: {t}
+155	Analiza zdjęcia przez sztuczną inteligencję
+156	Wynik jest orientacyjny i może zawierać błąd. Jeśli nie masz pewności, sprawdź to u bliskiej osoby lub w Senior telefon 800 157 157.
+157	Wynik sprawdzenia
+158	Co zauważyłem:
+159	Co teraz bezpiecznie zrobić:
+160	Tekst, który przeczytałem na zdjęciu
+161	Już kliknąłem – co teraz?
+162	Poradniki krok po kroku
+163	Wybierz, czego chcesz się nauczyć. Na każdym ekranie jest tylko jeden krok. W każdej chwili możesz wrócić.
+164	{n} kroków · ok. {m} min
+165	Wszystkie poradniki
+166	Zacznij
+167	Źródło: {t}
+168	Postęp poradnika
+169	Krok {i} z {n}
+170	Wskazówka:
+171	Krok {i}
+172	Udało się!
+173	Świetnie. Możesz powtórzyć poradnik w każdej chwili.
+174	Wstecz
+175	Następny krok
+176	Gotowe
+177	Pomoc i ważne numery
+178	Dotknij numeru, aby od razu zadzwonić. W poważnej sytuacji nie wahaj się – lepiej zadzwoń.
+179	Numery alarmowe
+180	Gdy potrzebujesz porady lub rozmowy
+181	 Zgubiłeś kartę albo ktoś Cię okradł?
+182	Od razu zadzwoń do swojego banku i zablokuj kartę. Numer znajdziesz na stronie banku lub w umowie.
+183	Kradzież lub oszustwo zgłoś czeskiej policji pod numerem 158.
+184	Numery przygotowane według oficjalnych źródeł (IZS, Život 90, Elpida). Sprawdź je przed publikacją aplikacji.
+185	włączone
+186	wyłączone
+187	Włączone
+188	Wyłączone
+189	Ustawienia
+190	Dostosuj pomocnika tak, aby dobrze się go czytało i używało.
+191	Język
+192	Rozmiar tekstu
+193	Przykład: tak duży będzie tekst w całej aplikacji.
+194	Wysoki kontrast
+195	Wyraźniejsze kolory i grubsze ramki dla słabszego wzroku.
+196	Czytaj odpowiedzi na głos
+197	Pomocnik sam przeczyta każdą odpowiedź w czacie.
+198	Wolniejsze czytanie
+199	Głos będzie mówił wolniej i wyraźniej.
+200	DIGI parťák na ekranie głównym
+201	 Aplikacja jest zainstalowana. Świetnie!
+202	Dodaj DIGI parťáka do ekranu głównego. Otworzysz go jednym dotknięciem, jak każdą inną aplikację.
+203	Gotowe! DIGI parťák jest na ekranie głównym.
+204	Dodaj do ekranu głównego
+205	Poradnik krok po kroku
+206	Prywatność i bezpieczeństwo
+207	Aplikacja nie ma konta ani rejestracji.
+208	Sprawdzanie wklejonego tekstu w sekcji „Czy to oszustwo?” odbywa się tylko na Twoim urządzeniu. Rozmowy nie są zapisywane i znikają po zamknięciu.
+209	Na urządzeniu zapamiętujemy tylko Twoje ustawienia (rozmiar tekstu, kontrast, język).
+210	Gdy pytania nie ma w bibliotece sprawdzonych porad, zostaje ono wysłane (bez numerów kart, PIN-ów i haseł) do sztucznej inteligencji Claude firmy Anthropic. Taka odpowiedź jest zawsze oznaczona „Informacja spoza aplikacji”. Tak samo do analizy wysyłane jest zdjęcie wiadomości, które prześlesz w sekcji „Czy to oszustwo?”. Niczego z tego nie zapisujemy.
+211	Funkcję „Mów” zapewnia Twoja przeglądarka (np. Google lub Apple), która może przetwarzać głos na swoim serwerze.
+212	Na pewno usunąć ustawienia i rozmowę? Aplikacja wróci do stanu początkowego.
+213	Wszystko usunąłem.
+214	Usuń wszystko z tego urządzenia
+215	O aplikacji
+216	DIGI parťák to cierpliwy cyfrowy przewodnik dla seniorów. Chatbot najpierw szuka w bibliotece przygotowanych i sprawdzonych porad ze źródłami. Dopiero gdy tam nie ma odpowiedzi, odpowiada za pomocą sztucznej inteligencji – i zawsze wyraźnie oznacza taką odpowiedź jako niesprawdzoną.
+217	DIGI parťák nie zastępuje lekarza, banku, policji ani prawnika. W poważnej sytuacji dzwoń pod 112.
+218	Stan biblioteki porad: {s}. Liczba sprawdzonych tematów: {n}.
+219	Zmień język
+220	Nie udało się wczytać języka. Sprawdź połączenie z internetem.
+221	Zmieniono język: {name}
+222	Wybierz język aplikacji. Sprawdzone porady są takie same we wszystkich językach.
+223	Porady dotyczą życia w Czechach – numery telefonów i instytucje są czeskie.
+224	Znów jesteś online.
+225	Jesteś offline. DIGI parťák nadal działa.
+226	Zwykły
+227	Duży
+228	Największy
+229	Start
+230	Twoja przesylka nie mogla zostac dostarczona. Aby ja ponownie dostarczyc, zaplac natychmiast oplate 32 CZK na www.poczta-dostawa-cz.top
+231	Uwaga, to informacja spoza aplikacji. Nie pochodzi ze sprawdzonej biblioteki DIGI parťáka, przygotowała ją sztuczna inteligencja i może zawierać błąd. Sprawdź tę informację.
+232	Przejdź do treści
+233	DIGI parťák – start
+234	Nawigacja główna
+235	Poradniki
+236	Zmień rozmiar tekstu
+237	Tekst
+238	Pomoc
+239	Nawigacja dolna
+240	Oszustwo?
+241	Zawiera link
+242	Oszuści wysyłają linki do fałszywych stron, na których chcą danych karty lub haseł.
+243	Skrócony link
+244	Skrócony link ukrywa, dokąd naprawdę prowadzi.
+245	Chce danych karty, hasła lub kodu
+246	Bank, poczta ani urząd nigdy nie proszą o te dane w wiadomości.
+247	Ponagla Cię
+248	Pośpiech i strach to główna broń oszustów. Prawdziwe instytucje dają czas.
+249	Chce, żebyś coś zapłacił
+250	Oszuści często chcą „opłaty”, dopłaty lub płatności. To pretekst, by zdobyć Twoje pieniądze lub dane karty.
+251	Udaje dostawę paczki
+252	Fałszywe wiadomości o paczkach to jedno z najczęstszych oszustw.
+253	Podszywa się pod bank, urząd lub firmę
+254	Oszuści chętnie podszywają się pod zaufane instytucje. Sprawdź to sam pod oficjalnym numerem.
+255	Żąda przelewu pieniędzy
+256	Żaden prawdziwy bankowiec ani policjant nie poprosi o przelew na „bezpieczne konto”.
+257	Obiecuje wygraną lub prezent
+258	Jeśli nie brałeś udziału w konkursie, nie mogłeś nic wygrać.
+259	Podszywa się pod członka rodziny
+260	Częsty trik „Cześć mamo, mam nowy numer”. Zadzwoń do bliskiej osoby na jej stary numer.
+261	Prosi o pieniądze
+262	Gdy wiadomość prosi o pieniądze, sprawdź nadawcę inną drogą – najlepiej dzwoniąc na znany numer.
+263	Chce, żebyś coś zainstalował
+264	Aplikacje do zdalnego dostępu dają oszustowi kontrolę nad Twoim urządzeniem.
+265	Obiecuje szybki zysk
+266	Gwarantowane wysokie zyski nie istnieją. To typowe oszustwo inwestycyjne.
+267	Zagraniczny numer telefonu
+268	Wiadomość przyszła z numeru spoza Czech lub do niego odsyła (prefiks inny niż +420).
+269	Poczta Czeska (Česká pošta)
+270	Policja Czeska (Policie ČR)
+271	Czeskie Stowarzyszenie Bankowe
+272	NÚKIB – czeski Narodowy Urząd ds. Cyberbezpieczeństwa
+273	Czeski Bank Narodowy
+274	Czeska Inspekcja Handlowa
+275	Pomoc Android (Google)
+276	Wsparcie Apple
+277	Pomoc WhatsApp
+278	Pomoc Facebooka
+279	Pomoc Seznam.cz
+280	Pomoc YouTube
+281	Manipulátoři.cz (czeski fact-checking)
+282	Demagog.cz (czeski fact-checking)
+283	Czeski Urząd Ochrony Danych Osobowych
+284	IDOS – czeskie rozkłady jazdy
+285	Mapy.com
+286	SÚKL – eRecept (e-recepta)
+287	Portal Obywatela (Portál občana)
+288	Zintegrowany System Ratowniczy – numery alarmowe
+289	Život 90 – Senior telefon
+290	Elpida – Linia dla seniorów
+291	Pomoc Android (Google), Wsparcie Apple
+292	Policja Czeska, NÚKIB
+293	Czeskie Stowarzyszenie Bankowe, Policja Czeska
+294	SÚKL
+295	Wersja robocza 11/2026 – przed uruchomieniem do sprawdzenia przez eksperta

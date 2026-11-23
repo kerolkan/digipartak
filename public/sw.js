@@ -1,8 +1,9 @@
 /* DIGI parťák – service worker: aplikace funguje i bez internetu. */
-const VERSION = 'dp-v5';
+const VERSION = 'dp-v6';
 const CORE = [
   './', './index.html', './manifest.webmanifest', './css/app.css',
-  './js/icons.js', './js/kb.js', './js/guides.js', './js/bot.js', './js/scam.js', './js/app.js',
+  './js/icons.js', './js/kb.js', './js/guides.js', './js/bot.js', './js/scam.js', './js/i18n.js', './js/app.js',
+  './i18n/en.js', './i18n/uk.js', './i18n/de.js', './i18n/sk.js', './i18n/pl.js',
   './img/senior-zena.jpg', './img/senior-muz.jpg',
   './img/icons/icon-192.png', './img/icons/icon-512.png', './img/icons/maskable-512.png',
   './img/icons/apple-touch-icon.png', './img/icons/favicon-32.png'

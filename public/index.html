@@ -21,29 +21,29 @@
   <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Přeskočit na obsah</a>
+  <a class="skip-link" href="#main" data-i18n="Přeskočit na obsah">Přeskočit na obsah</a>
 
   <header class="topbar" role="banner">
     <div class="topbar__inner">
-      <a class="brand" href="#/" aria-label="DIGI parťák – domů">
+      <a class="brand" href="#/" aria-label="DIGI parťák – domů" data-i18n-aria="DIGI parťák – domů">
         <span class="brand__mascot" data-mascot="small" aria-hidden="true"></span>
         <span class="brand__text"><span class="brand__digi">DIGI</span> <span class="brand__partak">parťák</span></span>
       </a>
-      <nav class="topnav" aria-label="Hlavní navigace">
-        <a href="#/" data-nav="home">Domů</a>
-        <a href="#/chat" data-nav="chat">Zeptat se</a>
-        <a href="#/podvod" data-nav="podvod">Je to podvod?</a>
-        <a href="#/navody" data-nav="navody">Návody</a>
+      <nav class="topnav" aria-label="Hlavní navigace" data-i18n-aria="Hlavní navigace">
+        <a href="#/" data-nav="home" data-i18n="Domů">Domů</a>
+        <a href="#/chat" data-nav="chat" data-i18n="Zeptat se">Zeptat se</a>
+        <a href="#/podvod" data-nav="podvod" data-i18n="Je to podvod?">Je to podvod?</a>
+        <a href="#/navody" data-nav="navody" data-i18n="Návody">Návody</a>
       </nav>
       <div class="topbar__actions">
-        <button type="button" class="pill-btn pill-btn--ghost" id="btn-textsize" aria-label="Změnit velikost písma">
-          <span aria-hidden="true" class="ts-glyph">A<span>A</span></span><span class="pill-btn__label">Písmo</span>
+        <button type="button" class="pill-btn pill-btn--ghost" id="btn-textsize" aria-label="Změnit velikost písma" data-i18n-aria="Změnit velikost písma">
+          <span aria-hidden="true" class="ts-glyph">A<span>A</span></span><span class="pill-btn__label" data-i18n="Písmo">Písmo</span>
         </button>
-        <a class="pill-btn pill-btn--ghost" href="#/nastaveni" data-nav="nastaveni" aria-label="Nastavení">
-          <span data-icon="settings" aria-hidden="true"></span><span class="pill-btn__label">Nastavení</span>
+        <a class="pill-btn pill-btn--ghost" href="#/nastaveni" data-nav="nastaveni" aria-label="Nastavení" data-i18n-aria="Nastavení">
+          <span data-icon="settings" aria-hidden="true"></span><span class="pill-btn__label" data-i18n="Nastavení">Nastavení</span>
         </a>
         <a class="pill-btn pill-btn--sos" href="#/pomoc" data-nav="pomoc">
-          <span data-icon="phone" aria-hidden="true"></span><span>Pomoc</span>
+          <span data-icon="phone" aria-hidden="true"></span><span data-i18n="Pomoc">Pomoc</span>
         </a>
       </div>
     </div>
@@ -58,11 +58,11 @@
     </noscript>
   </main>
 
-  <nav class="bottomnav" aria-label="Spodní navigace">
-    <a href="#/" data-nav="home"><span data-icon="home" aria-hidden="true"></span><span>Domů</span></a>
-    <a href="#/chat" data-nav="chat"><span data-icon="chat" aria-hidden="true"></span><span>Zeptat se</span></a>
-    <a href="#/podvod" data-nav="podvod"><span data-icon="shield" aria-hidden="true"></span><span>Podvod?</span></a>
-    <a href="#/navody" data-nav="navody"><span data-icon="book" aria-hidden="true"></span><span>Návody</span></a>
+  <nav class="bottomnav" aria-label="Spodní navigace" data-i18n-aria="Spodní navigace">
+    <a href="#/" data-nav="home"><span data-icon="home" aria-hidden="true"></span><span data-i18n="Domů">Domů</span></a>
+    <a href="#/chat" data-nav="chat"><span data-icon="chat" aria-hidden="true"></span><span data-i18n="Zeptat se">Zeptat se</span></a>
+    <a href="#/podvod" data-nav="podvod"><span data-icon="shield" aria-hidden="true"></span><span data-i18n="Podvod?">Podvod?</span></a>
+    <a href="#/navody" data-nav="navody"><span data-icon="book" aria-hidden="true"></span><span data-i18n="Návody">Návody</span></a>
   </nav>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
@@ -72,6 +72,7 @@
   <script src="js/guides.js"></script>
   <script src="js/bot.js"></script>
   <script src="js/scam.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

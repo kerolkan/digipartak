@@ -1,0 +1,296 @@
+0	Veľkosť písma: {v}
+1	Váš prehliadač nevie čítať nahlas.
+2	Zastaviť čítanie
+3	Prečítať nahlas
+4	Hovoriť
+5	Počúvam… ťuknite pre koniec
+6	Tento prehliadač nevie diktovať. Ťuknite do poľa a použite mikrofón na klávesnici telefónu.
+7	Povoľte, prosím, mikrofón pre túto stránku v nastaveniach prehliadača.
+8	Diktovanie je vypnuté. Na iPhone zapnite Siri a diktovanie v Nastaveniach alebo použite mikrofón na klávesnici.
+9	Nič som nepočul. Ťuknite na Hovoriť a hovorte, prosím, bližšie k telefónu.
+10	Nenašiel som mikrofón. Skontrolujte, či ho nepoužíva iná aplikácia.
+11	Diktovanie potrebuje internet. Skúste to znova alebo otázku napíšte.
+12	Diktovanie v tomto jazyku tu nie je dostupné. Použite mikrofón na klávesnici.
+13	Skontrolujte, prosím, text. Ak sedí, stlačte tlačidlo na odoslanie.
+14	Diktovanie sa nepodarilo spustiť. Skúste to, prosím, znova.
+15	Zavolať
+16	Dobré ráno!
+17	Dobrý večer!
+18	Dobrý deň!
+19	Napíšte, prosím, svoju otázku.
+20	Napíšte, s čím potrebujete pomôcť
+21	Opýtať sa
+22	Volá mi niekto z banky
+23	Prišla mi čudná SMS o balíku
+24	Čo je Facebook?
+25	Ako poslať fotku vnúčatám?
+26	Zabudol/a som heslo
+27	Telefón sa rýchlo vybíja
+28	Váš vľúdny sprievodca
+29	S čím vám dnes môžem pomôcť?
+30	Technológie bez stresu, zhonu a obáv. Všetko vysvetlíme pomaly a krok za krokom.
+31	Napríklad: Ako poslať fotku?
+32	Usmievavá pani s okuliarmi drží smartfón.
+33	Bez obáv
+34	Technológie bez stresu
+35	Pýtajte sa ľahko
+36	Žiadna otázka nie je hlúpa. Napíšte ju alebo ju povedzte nahlas tlačidlom
+37	Hlavní pomocníci
+38	Opýtajte sa
+39	Rozhovor s parťákom. Prednostne odpovedá overenými radami, iné odpovede jasne označí.
+40	Otvoriť rozhovor
+41	Žiadna otázka nie je hlúpa
+42	Je to podvod?
+43	Prišla vám čudná SMS alebo e-mail? Spoločne skontrolujeme varovné znaky.
+44	Skontrolovať správu
+45	Text nikam neodosielame
+46	Krok za krokom
+47	Jednoduché návody. Vždy len jeden krok na obrazovke.
+48	Pozrieť návody
+49	Pomaly, ako vám vyhovuje
+50	Časté otázky
+51	Ťuknite a hneď dostanete odpoveď.
+52	Vaša bezpečnosť je na 1. mieste
+53	Nikdy od vás nechceme heslá, PIN ani číslo karty.
+54	Parťák odpovedá z knižnice overených rád. Každú inú odpoveď jasne označí, aby ste si ju mohli overiť.
+55	Vaše otázky zostávajú len vo vašom zariadení.
+56	Usmievavý pán s okuliarmi pracuje na tablete.
+57	Chcete hovoriť s človekom?
+58	Senior telefon (česká linka pre seniorov) je zadarmo a nonstop.
+59	Ďalšie čísla pomoci
+60	Prispôsobiť aplikáciu
+61	Veľkosť písma, vysoký kontrast, čítanie nahlas
+62	Rozhovor s DIGI parťákom
+63	Napíšte svoju otázku…
+64	Opýtajte sa parťáka
+65	Overené rady majú zelený štítok
+66	Rozhovor som vymazal.
+67	Nový rozhovor
+68	Do chatu nikdy nepíšte heslá, PIN ani číslo karty. Rozhovor sa neukladá a po zatvorení aplikácie zmizne.
+69	Vaša otázka
+70	Odoslať
+71	Myslíte jednu z týchto tém?
+72	Prepáčte, nerozumel som.
+73	Prepáčte, na toto teraz nemám odpoveď.
+74	V aplikácii to nemám, hľadám odpoveď mimo aplikácie…
+75	Nenašli ste, čo ste hľadali?
+76	Opýtať sa mimo aplikácie
+77	Pozor: {t}
+78	DIGI parťák hovorí:
+79	Vy:
+80	Dobrý deň! Som DIGI parťák.
+81	Pýtajte sa vlastnými slovami alebo si vyberte tému. Najprv hľadám v knižnici overených rád. Keď tam odpoveď nie je, skúsim poradiť inak – ale vždy vás upozorním, aby ste si to overili.
+82	Dobrý deň! Som DIGI parťák. Pýtajte sa vlastnými slovami alebo si vyberte tému.
+83	číslo karty
+84	rodné číslo
+85	heslo alebo kód
+86	 Pozor na citlivé údaje
+87	Vaša správa obsahovala: {what}. Skryl som to a nikam sa to neodoslalo.
+88	Tieto údaje, prosím, nikdy nikomu nepíšte – ani do chatu, ani do SMS či e-mailu.
+89	Ste bez internetu.
+90	Bez internetu viem odpovedať len z knižnice overených rád. Vyberte si tému alebo to skúste znova, keď budete pripojení.
+91	V overenej knižnici to nie je a odpoveď mimo aplikácie sa teraz nepodarilo získať. Skúste to o chvíľu, napíšte to inými slovami alebo sa opýtajte človeka.
+92	Skúste to napísať inými slovami, vyberte si tému alebo sa opýtajte človeka.
+93	Možno hľadáte:
+94	Senior telefon 800 157 157
+95	Prepáčte, na toto nemám overenú odpoveď. Nechcem vám radiť nepresne.
+96	Informácia mimo aplikácie – overte si ju
+97	Toto v overenej knižnici DIGI parťáka nie je. Odpoveď pripravila umelá inteligencia zo všeobecných znalostí. Môže obsahovať chybu alebo byť zastaraná.
+98	Ako si to overiť:
+99	Opýtajte sa blízkeho človeka, ktorému dôverujete.
+100	Pozrite sa na oficiálny web inštitúcie – adresu napíšte sami.
+101	Zavolajte bezplatne na Senior telefon 800 157 157 (česká linka).
+102	Než čokoľvek zaplatíte alebo nainštalujete, najprv si informáciu overte.
+103	 Dôležité – konajte hneď
+104	Overená rada
+105	Odkiaľ to vieme
+106	Mohlo by vás zaujímať:
+107	Sem vložte alebo odpíšte text podozrivej správy…
+108	Najprv, prosím, vložte text správy.
+109	Text som vložil.
+110	Schránka je prázdna.
+111	Text vložíte podržaním prsta v poli a voľbou „Vložiť“.
+112	Vložiť skopírovaný text
+113	Vložte text podozrivej správy alebo nahrajte jej fotku či snímku obrazovky. Ukážem vám varovné znaky a poradím, čo bezpečne urobiť.
+114	Skontrolovať fotku správy
+115	Urobte snímku obrazovky podozrivej SMS, e-mailu alebo správy a nahrajte ju sem. Správu môžete aj odfotiť iným telefónom.
+116	Nahrať snímku obrazovky
+117	Odfotiť správu
+118	Fotka sa odošle na rozbor umelej inteligencii (Claude od firmy Anthropic). Nikde ju neukladáme. Číslo karty alebo kódy na fotke radšej zakryte.
+119	Neviete, ako urobiť snímku obrazovky?
+120	Návod pre Android
+121	Návod pre iPhone
+122	Alebo vložte text správy
+123	Text správy
+124	Kontrola textu prebieha len vo vašom zariadení. Text nikam neodosielame.
+125	Skontrolovať text
+126	Vymazať
+127	Vyskúšať na ukážkovej podvodnej SMS
+128	Zlaté pravidlo
+129	Keď správa súri a chce peniaze alebo údaje –
+130	zastavte sa a overte si to sami.
+131	Zavolajte banke, pošte alebo úradu na číslo z ich oficiálneho webu alebo z platobnej karty – nikdy na číslo či odkaz zo správy.
+132	Vyberte, prosím, obrázok.
+133	Obrázok je príliš veľký. Skúste urobiť snímku obrazovky.
+134	Tento obrázok neviem otvoriť. Skúste snímku obrazovky vo formáte JPG alebo PNG.
+135	Prezerám fotku… môže to trvať až pol minúty.
+136	Náhľad nahranej fotky správy
+137	Ste bez internetu. Rozbor fotky potrebuje internet – skúste, prosím, odpísať text správy do poľa nižšie.
+138	Rozbor fotky sa teraz nepodaril. Skúste to, prosím, o chvíľu alebo odpíšte text správy do poľa nižšie.
+139	Veľmi podozrivé!
+140	Správa má niekoľko typických znakov podvodu. Na nič neklikajte a nič neplaťte.
+141	Buďte opatrní
+142	Našiel som varovné znaky. Než čokoľvek urobíte, overte si správu inou cestou.
+143	Nenašiel som typické znaky podvodu
+144	To ale neznamená, že je správa určite v poriadku. Podvodníci vymýšľajú stále nové triky.
+145	Fotku sa nepodarilo posúdiť
+146	Na fotke nevidím čitateľnú správu. Skúste ostrejšiu snímku obrazovky s celým textom alebo text odpíšte do poľa.
+147	Ak vás správa o niečo žiada, overte si to u odosielateľa na známom čísle.
+148	Nikdy nezadávajte PIN, heslá ani kódy z SMS cez odkaz.
+149	Na odkaz v správe neklikajte a neodpovedajte.
+150	Overte si to sami – zavolajte na oficiálne číslo inštitúcie alebo blízkemu človeku.
+151	Správu vymažte a odosielateľa zablokujte.
+152	Ak ste už niečo vyplnili alebo zaplatili, hneď volajte svoju banku.
+153	Rozbor fotky pomocou umelej inteligencie. Výsledok je orientačný, overte si ho.
+154	Čo urobiť: {t}
+155	Rozbor fotky pomocou umelej inteligencie
+156	Výsledok je orientačný a môže obsahovať chybu. Keď si nie ste istí, overte si to u blízkeho alebo na Senior telefone 800 157 157.
+157	Výsledok kontroly
+158	Čoho som si všimol:
+159	Čo teraz bezpečne urobiť:
+160	Text, ktorý som na fotke prečítal
+161	Už som klikol/a – čo teraz?
+162	Návody krok za krokom
+163	Vyberte si, čo sa chcete naučiť. Na každej obrazovke je len jeden krok. Kedykoľvek sa môžete vrátiť.
+164	{n} krokov · asi {m} min
+165	Všetky návody
+166	Začať
+167	Zdroj: {t}
+168	Postup návodom
+169	Krok {i} z {n}
+170	Tip:
+171	Krok {i}
+172	Zvládli ste to!
+173	Výborne. Návod si môžete kedykoľvek zopakovať.
+174	Späť
+175	Ďalší krok
+176	Hotovo
+177	Pomoc a dôležité čísla
+178	Ťuknutím na číslo rovno zavoláte. V nebezpečnej situácii neváhajte – radšej zavolajte.
+179	Tiesňové volania
+180	Keď potrebujete poradiť alebo sa porozprávať
+181	 Stratili ste kartu alebo vás niekto okradol?
+182	Hneď zavolajte do svojej banky a kartu zablokujte. Číslo nájdete na webe banky alebo v zmluve.
+183	Krádež alebo podvod oznámte českej polícii na čísle 158.
+184	Čísla pripravené podľa oficiálnych zdrojov (IZS, Život 90, Elpida). Pred zverejnením aplikácie ich overte.
+185	zapnuté
+186	vypnuté
+187	Zapnuté
+188	Vypnuté
+189	Nastavenia
+190	Upravte si parťáka tak, aby sa vám dobre čítal a používal.
+191	Jazyk
+192	Veľkosť písma
+193	Ukážka: Takto veľké bude písmo v celej aplikácii.
+194	Vysoký kontrast
+195	Výraznejšie farby a hrubšie okraje pre horší zrak.
+196	Čítať odpovede nahlas
+197	Parťák vám každú odpoveď v chate sám prečíta.
+198	Pomalšie čítanie
+199	Hlas bude hovoriť pomalšie a zreteľnejšie.
+200	Parťák na ploche telefónu
+201	 Aplikácia je nainštalovaná. Výborne!
+202	Pridajte si DIGI parťáka na plochu. Potom ho otvoríte jedným ťuknutím ako každú inú aplikáciu.
+203	Hotovo! Parťák je na ploche.
+204	Pridať na plochu
+205	Návod krok za krokom
+206	Súkromie a bezpečnosť
+207	Aplikácia nemá žiadny účet ani registráciu.
+208	Kontrola vloženého textu v sekcii „Je to podvod?“ prebieha len vo vašom zariadení. Rozhovory sa neukladajú a po zatvorení zmiznú.
+209	V zariadení si pamätáme len vaše nastavenia (veľkosť písma, kontrast, jazyk).
+210	Keď otázka nie je v knižnici overených rád, odošle sa (bez čísel kariet, PIN-ov a hesiel) na zodpovedanie umelej inteligencii Claude od firmy Anthropic. Taká odpoveď je vždy označená „Informácia mimo aplikácie“. Rovnako sa na rozbor odošle fotka správy, ktorú nahráte v sekcii „Je to podvod?“. Nič z toho neukladáme.
+211	Funkciu „Hovoriť“ zabezpečuje váš prehliadač (napr. Google alebo Apple), ktorý môže hlas spracovať na svojom serveri.
+212	Naozaj vymazať nastavenia a rozhovor? Aplikácia sa vráti do pôvodného stavu.
+213	Všetko som vymazal.
+214	Vymazať všetko z tohto zariadenia
+215	O aplikácii
+216	DIGI parťák je trpezlivý digitálny sprievodca pre seniorov. Chatbot najprv hľadá v knižnici vopred pripravených a skontrolovaných rád s uvedenými zdrojmi. Až keď tam odpoveď nie je, odpovie pomocou umelej inteligencie – takú odpoveď vždy výrazne označí ako neoverenú.
+217	Parťák nenahrádza lekára, banku, políciu ani právnika. V nebezpečnej situácii volajte 112.
+218	Stav knižnice rád: {s}. Počet overených tém: {n}.
+219	Zmeniť jazyk
+220	Jazyk sa nepodarilo načítať. Skontrolujte internet.
+221	Jazyk zmenený: {name}
+222	Vyberte jazyk aplikácie. Overené rady sú vo všetkých jazykoch rovnaké.
+223	Rady sa týkajú života v Česku – telefónne čísla a inštitúcie sú české.
+224	Ste opäť pripojení k internetu.
+225	Ste offline. Parťák však funguje ďalej.
+226	Bežné
+227	Veľké
+228	Najväčšie
+229	Domov
+230	Vasa zasielka nemohla byt dorucena. Pre opatovne dorucenie uhradte poplatok 32 Kc ihned na www.posta-dorucenie-cz.top
+231	Pozor, ide o informáciu mimo aplikácie. Nie je z overenej knižnice DIGI parťáka, pripravila ju umelá inteligencia a môže obsahovať chybu. Informáciu si, prosím, overte.
+232	Preskočiť na obsah
+233	DIGI parťák – domov
+234	Hlavná navigácia
+235	Návody
+236	Zmeniť veľkosť písma
+237	Písmo
+238	Pomoc
+239	Spodná navigácia
+240	Podvod?
+241	Obsahuje odkaz
+242	Podvodníci posielajú odkazy na falošné stránky, kde chcú údaje z karty alebo heslá.
+243	Skrátený odkaz
+244	Skrátený odkaz skrýva, kam vás v skutočnosti zavedie.
+245	Chce údaje z karty, heslo alebo kód
+246	Banka, pošta ani úrad od vás tieto údaje v správe nikdy nechcú.
+247	Tlačí vás do zhonu
+248	Zhon a strach sú hlavné zbrane podvodníkov. Skutočné inštitúcie vám dajú čas.
+249	Chce, aby ste niečo zaplatili
+250	Podvodníci často chcú „poplatok“, doplatok alebo úhradu. Je to zámienka, ako získať vaše peniaze alebo údaje z karty.
+251	Tvári sa ako doručenie balíka
+252	Falošné správy o balíkoch sú jedným z najčastejších podvodov.
+253	Vydáva sa za banku, úrad alebo firmu
+254	Podvodníci sa radi vydávajú za dôveryhodné inštitúcie. Overte si to sami na oficiálnom čísle.
+255	Žiada prevod peňazí
+256	Žiadny skutočný bankár ani policajt vás nežiada o prevod na „bezpečný účet“.
+257	Sľubuje výhru alebo darček
+258	Ak ste sa súťaže nezúčastnili, nemôžete nič vyhrať.
+259	Vydáva sa za niekoho z rodiny
+260	Častý trik „Ahoj mami, mám nové číslo“. Zavolajte blízkemu na jeho staré číslo.
+261	Žiada o peniaze
+262	Kedykoľvek vás správa žiada o peniaze, overte si odosielateľa inou cestou – najlepšie telefonátom na známe číslo.
+263	Chce, aby ste si niečo nainštalovali
+264	Aplikácie na vzdialený prístup dávajú podvodníkovi kontrolu nad vaším zariadením.
+265	Sľubuje rýchly zisk
+266	Zaručené a vysoké výnosy neexistujú. Je to typický investičný podvod.
+267	Zahraničné telefónne číslo
+268	Správa prišla z čísla mimo Česka alebo naň odkazuje (predvoľba iná než +420).
+269	Česká pošta
+270	Polícia ČR (Policie ČR)
+271	Česká bankovní asociace
+272	NÚKIB – český Národný úrad pre kybernetickú a informačnú bezpečnosť
+273	Česká národná banka
+274	Česká obchodná inšpekcia
+275	Pomocník Android (Google)
+276	Podpora Apple
+277	Pomocník WhatsApp
+278	Pomocník Facebooku
+279	Pomocník Seznam.cz
+280	Pomocník YouTube
+281	Manipulátoři.cz
+282	Demagog.cz
+283	Úrad na ochranu osobných údajov (ČR)
+284	IDOS – cestovné poriadky
+285	Mapy.com
+286	SÚKL – eRecept
+287	Portál občana (ČR)
+288	Integrovaný záchranný systém – tiesňové čísla
+289	Život 90 – Senior telefon
+290	Elpida – Linka seniorov
+291	Pomocník Android (Google), Podpora Apple
+292	Polícia ČR, NÚKIB
+293	Česká bankovní asociace, Polícia ČR
+294	SÚKL
+295	Koncept 11/2026 – pred spustením nechať skontrolovať odborníkom

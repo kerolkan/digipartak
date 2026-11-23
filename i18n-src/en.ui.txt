@@ -1,0 +1,296 @@
+0	Text size: {v}
+1	Your browser can't read aloud.
+2	Stop reading
+3	Read aloud
+4	Speak
+5	Listening… tap to finish
+6	This browser can't take dictation. Tap the field and use the microphone on your phone's keyboard.
+7	Please allow the microphone for this page in your browser settings.
+8	Dictation is turned off. On iPhone, turn on Siri and Dictation in Settings, or use the microphone on the keyboard.
+9	I didn't hear anything. Tap Speak and please talk closer to the phone.
+10	I couldn't find a microphone. Check that no other app is using it.
+11	Dictation needs the internet. Try again, or type your question.
+12	Dictation isn't available in this language here. Use the microphone on the keyboard.
+13	Please check the text. If it's right, press the send button.
+14	Dictation couldn't start. Please try again.
+15	Call
+16	Good morning!
+17	Good evening!
+18	Hello!
+19	Please type your question.
+20	Write what you need help with
+21	Ask
+22	Someone from the bank is calling me
+23	I got a strange text about a parcel
+24	What is Facebook?
+25	How do I send a photo to my grandchildren?
+26	I forgot my password
+27	My phone battery runs out fast
+28	Your friendly guide
+29	How can I help you today?
+30	Technology without stress, rush or worry. We explain everything slowly, step by step.
+31	For example: How do I send a photo?
+32	A smiling lady with glasses holding a smartphone.
+33	No worries
+34	Technology without stress
+35	Ask with ease
+36	No question is silly. Type it, or say it out loud with the button
+37	Main helpers
+38	Ask a question
+39	Chat with your companion. It answers with verified advice first and clearly marks any other answers.
+40	Open the chat
+41	No question is silly
+42	Is it a scam?
+43	Got a strange text or email? Let's check the warning signs together.
+44	Check a message
+45	We don't send your text anywhere
+46	Step by step
+47	Simple guides. Always just one step per screen.
+48	Browse the guides
+49	At your own pace
+50	Frequent questions
+51	Tap and get an answer straight away.
+52	Your safety comes first
+53	We will never ask for your passwords, PIN or card number.
+54	Your companion answers from a library of verified advice. Any other answer is clearly marked so you can check it.
+55	Your questions stay on your device only.
+56	A smiling man with glasses using a tablet.
+57	Would you like to talk to a person?
+58	Senior telefon (a Czech helpline for seniors) is free and open 24/7.
+59	More help numbers
+60	Customise the app
+61	Text size, high contrast, read aloud
+62	Chat with DIGI parťák
+63	Type your question…
+64	Ask your companion
+65	Verified advice has a green label
+66	I've deleted the conversation.
+67	New conversation
+68	Never type passwords, PINs or card numbers into the chat. The conversation isn't saved and disappears when you close the app.
+69	Your question
+70	Send
+71	Do you mean one of these topics?
+72	Sorry, I didn't understand.
+73	Sorry, I don't have an answer to that right now.
+74	It's not in the app, I'm looking for an answer outside the app…
+75	Didn't find what you were looking for?
+76	Ask outside the app
+77	Warning: {t}
+78	DIGI parťák says:
+79	You:
+80	Hello! I'm DIGI parťák.
+81	Ask in your own words, or choose a topic. I first look in the library of verified advice. If the answer isn't there, I'll try to help another way – but I'll always remind you to check it.
+82	Hello! I'm DIGI parťák. Ask in your own words, or choose a topic.
+83	a card number
+84	a birth number (personal ID number)
+85	a password or code
+86	 Watch out for sensitive data
+87	Your message contained {what}. I've hidden it and it wasn't sent anywhere.
+88	Please never write these details to anyone – not in a chat, a text message or an email.
+89	You're offline.
+90	Without the internet I can only answer from the library of verified advice. Choose a topic, or try again when you're connected.
+91	It's not in the verified library and I couldn't get an answer from outside the app right now. Try again in a moment, rephrase it, or ask a person.
+92	Try saying it in other words, choose a topic, or ask a person.
+93	Perhaps you're looking for:
+94	Senior telefon 800 157 157
+95	Sorry, I don't have verified advice on this. I don't want to give you inaccurate advice.
+96	Information from outside the app – please check it
+97	This is not in DIGI parťák's verified library. The answer was prepared by artificial intelligence from general knowledge. It may contain mistakes or be out of date.
+98	How to check it:
+99	Ask someone close to you whom you trust.
+100	Look at the institution's official website – type the address yourself.
+101	Call Senior telefon free of charge on 800 157 157 (Czech helpline).
+102	Before you pay for or install anything, check the information first.
+103	 Important – act now
+104	Verified advice
+105	Where this comes from
+106	You might also like:
+107	Paste or copy the text of the suspicious message here…
+108	Please paste the text of the message first.
+109	I've pasted the text.
+110	The clipboard is empty.
+111	Paste the text by holding your finger in the field and choosing "Paste".
+112	Paste copied text
+113	Paste the text of a suspicious message, or upload a photo or screenshot of it. I'll show you the warning signs and tell you what to do safely.
+114	Check a photo of a message
+115	Take a screenshot of the suspicious text, email or message and upload it here. You can also photograph the message with another phone.
+116	Upload a screenshot
+117	Take a photo of the message
+118	The photo is sent to artificial intelligence (Claude by Anthropic) for analysis. We don't store it anywhere. It's best to cover up any card numbers or codes in the photo.
+119	Don't know how to take a screenshot?
+120	Guide for Android
+121	Guide for iPhone
+122	Or paste the text of the message
+123	Message text
+124	The text check happens only on your device. We don't send the text anywhere.
+125	Check the text
+126	Clear
+127	Try it on a sample scam text
+128	The golden rule
+129	When a message is in a hurry and wants money or details –
+130	stop and check it yourself.
+131	Call your bank, the post office or the authority on the number from their official website or your payment card – never on a number or link from the message.
+132	Please choose a picture.
+133	The picture is too large. Try taking a screenshot.
+134	I can't open this picture. Try a screenshot in JPG or PNG format.
+135	Looking at the photo… this can take up to half a minute.
+136	Preview of the uploaded photo of the message
+137	You're offline. Photo analysis needs the internet – please type the message text into the field below.
+138	The photo analysis didn't work right now. Please try again in a moment, or type the message text into the field below.
+139	Very suspicious!
+140	The message has several typical signs of a scam. Don't click on anything and don't pay anything.
+141	Be careful
+142	I found warning signs. Before you do anything, check the message another way.
+143	I didn't find typical signs of a scam
+144	But that doesn't mean the message is definitely fine. Scammers keep inventing new tricks.
+145	The photo couldn't be assessed
+146	I can't see a readable message in the photo. Try a sharper screenshot showing the whole text, or type the text into the field.
+147	If the message asks you for something, check with the sender on a number you know.
+148	Never enter your PIN, passwords or SMS codes via a link.
+149	Don't click the link in the message and don't reply.
+150	Check it yourself – call the institution's official number or someone close to you.
+151	Delete the message and block the sender.
+152	If you've already filled something in or paid, call your bank straight away.
+153	Photo analysis by artificial intelligence. The result is only a guide, please check it.
+154	What to do: {t}
+155	Photo analysis by artificial intelligence
+156	The result is only a guide and may contain mistakes. If you're unsure, check with someone close to you or with Senior telefon on 800 157 157.
+157	Check result
+158	What I noticed:
+159	What to do now to stay safe:
+160	Text I read in the photo
+161	I've already clicked – what now?
+162	Step-by-step guides
+163	Choose what you'd like to learn. Each screen has just one step. You can go back at any time.
+164	{n} steps · about {m} min
+165	All guides
+166	Start
+167	Source: {t}
+168	Guide progress
+169	Step {i} of {n}
+170	Tip:
+171	Step {i}
+172	You did it!
+173	Well done. You can repeat the guide any time.
+174	Back
+175	Next step
+176	Done
+177	Help and important numbers
+178	Tap a number to call it straight away. In a serious situation don't hesitate – it's better to call.
+179	Emergency calls
+180	When you need advice or someone to talk to
+181	 Lost your card or been robbed?
+182	Call your bank straight away and block the card. You'll find the number on the bank's website or in your contract.
+183	Report theft or fraud to the Czech Police on 158.
+184	Numbers prepared from official sources (IZS, Život 90, Elpida). Check them before publishing the app.
+185	on
+186	off
+187	On
+188	Off
+189	Settings
+190	Adjust your companion so it's easy to read and use.
+191	Language
+192	Text size
+193	Sample: this is how big the text will be in the whole app.
+194	High contrast
+195	Stronger colours and thicker borders for weaker eyesight.
+196	Read answers aloud
+197	Your companion reads every chat answer aloud for you.
+198	Slower reading
+199	The voice will speak more slowly and clearly.
+200	DIGI parťák on your home screen
+201	 The app is installed. Well done!
+202	Add DIGI parťák to your home screen. Then you can open it with one tap, like any other app.
+203	Done! DIGI parťák is on your home screen.
+204	Add to home screen
+205	Step-by-step guide
+206	Privacy and safety
+207	The app has no account and no registration.
+208	The check of pasted text in "Is it a scam?" happens only on your device. Conversations are not saved and disappear when you close the app.
+209	On your device we only remember your settings (text size, contrast, language).
+210	If a question isn't in the library of verified advice, it is sent (without card numbers, PINs or passwords) to the artificial intelligence Claude by Anthropic to be answered. Such an answer is always marked "Information from outside the app". In the same way, a photo of a message you upload in "Is it a scam?" is sent for analysis. We don't store any of it.
+211	The "Speak" function is provided by your browser (e.g. Google or Apple), which may process your voice on its server.
+212	Really delete the settings and the conversation? The app will return to its original state.
+213	I've deleted everything.
+214	Delete everything from this device
+215	About the app
+216	DIGI parťák is a patient digital guide for seniors. The chatbot first searches a library of prepared and checked advice with sources. Only when the answer isn't there does it answer using artificial intelligence – and it always clearly marks such an answer as unverified.
+217	DIGI parťák does not replace a doctor, bank, police or lawyer. In a serious situation call 112.
+218	Advice library status: {s}. Number of verified topics: {n}.
+219	Change language
+220	The language couldn't be loaded. Please check your internet connection.
+221	Language changed: {name}
+222	Choose the app language. The verified advice is the same in every language.
+223	The advice is about life in the Czech Republic – phone numbers and institutions are Czech.
+224	You're back online.
+225	You're offline. DIGI parťák still works.
+226	Normal
+227	Large
+228	Largest
+229	Home
+230	Your parcel could not be delivered. To redeliver, pay the 32 CZK fee immediately at www.posta-delivery-cz.top
+231	Warning: this is information from outside the app. It is not from DIGI parťák's verified library, it was prepared by artificial intelligence and may contain mistakes. Please check the information.
+232	Skip to content
+233	DIGI parťák – home
+234	Main navigation
+235	Guides
+236	Change text size
+237	Text
+238	Help
+239	Bottom navigation
+240	Scam?
+241	Contains a link
+242	Scammers send links to fake websites where they want your card details or passwords.
+243	Shortened link
+244	A shortened link hides where it really takes you.
+245	Wants card details, a password or a code
+246	Your bank, the post office or an authority will never ask you for these details in a message.
+247	Pushes you to hurry
+248	Hurry and fear are scammers' main weapons. Real institutions give you time.
+249	Wants you to pay something
+250	Scammers often want a "fee", an extra charge or a payment. It's a pretext to get your money or card details.
+251	Pretends to be a parcel delivery
+252	Fake parcel messages are one of the most common scams.
+253	Pretends to be a bank, authority or company
+254	Scammers like to pose as trustworthy institutions. Check it yourself on the official number.
+255	Asks you to transfer money
+256	No real banker or police officer will ask you to transfer money to a "safe account".
+257	Promises a prize or gift
+258	If you didn't enter a competition, you can't have won anything.
+259	Pretends to be a family member
+260	The common trick "Hi Mum, I have a new number". Call your relative on their old number.
+261	Asks for money
+262	Whenever a message asks you for money, check the sender another way – ideally by calling a number you know.
+263	Wants you to install something
+264	Remote access apps give the scammer control over your device.
+265	Promises quick profit
+266	Guaranteed high returns don't exist. This is a typical investment scam.
+267	Foreign phone number
+268	The message came from or refers to a number outside the Czech Republic (prefix other than +420).
+269	Czech Post (Česká pošta)
+270	Czech Police (Policie ČR)
+271	Czech Banking Association
+272	NÚKIB – National Cyber and Information Security Agency
+273	Czech National Bank
+274	Czech Trade Inspection Authority
+275	Android Help (Google)
+276	Apple Support
+277	WhatsApp Help
+278	Facebook Help
+279	Seznam.cz Help
+280	YouTube Help
+281	Manipulátoři.cz (Czech fact-checking)
+282	Demagog.cz (Czech fact-checking)
+283	Office for Personal Data Protection
+284	IDOS – Czech timetables
+285	Mapy.com
+286	SÚKL – eRecept (e-prescription)
+287	Citizen Portal (Portál občana)
+288	Integrated Rescue System – emergency numbers
+289	Život 90 – Senior telefon
+290	Elpida – Seniors' line
+291	Android Help (Google), Apple Support
+292	Czech Police, NÚKIB
+293	Czech Banking Association, Czech Police
+294	SÚKL
+295	Draft 11/2026 – to be checked by an expert before launch

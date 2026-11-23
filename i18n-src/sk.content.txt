@@ -1,0 +1,486 @@
+## sms-balik
+T Prišla mi SMS o balíku a mám doplatiť poplatok
+A Takéto správy sú veľmi často podvod. Podvodníci chcú, aby ste na odkaze zadali údaje z platobnej karty.
+1 Na odkaz v správe neklikajte a nič neplaťte.
+2 Ak balík naozaj čakáte, overte si ho sami – na oficiálnom webe prepravcu alebo telefonicky na čísle z jeho webu.
+3 Správu vymažte. Môžete ju aj nahlásiť ako spam.
+4 Ak ste už na odkaz klikli a zadali kartu, hneď volajte svoju banku.
+W Doručovacie firmy od vás nebudú chcieť údaje z karty cez odkaz v SMS.
+## banka-vola
+T Volá mi niekto z banky a chce previesť peniaze
+A Zložte. Banka vás nikdy nebude žiadať, aby ste previedli peniaze na „bezpečný účet“, ani od vás nebude chcieť PIN, heslo či kód z SMS.
+1 Hneď hovor ukončite. Nemusíte byť zdvorilí.
+2 Nič neinštalujte a nikomu neoznamujte žiadne kódy.
+3 Zavolajte sami do svojej banky – na číslo zo zadnej strany platobnej karty alebo z oficiálneho webu banky.
+4 Ak ste už peniaze poslali alebo prezradili údaje, povedzte to banke hneď a volajte českú políciu na 158.
+W Podvodníci vedia napodobniť aj skutočné číslo banky či polície. Na displeji môže byť „správne“ číslo – aj tak to môže byť podvod.
+## uz-jsem-zadal
+T Už som klikol/a na odkaz alebo zadal/a údaje z karty
+A Nebojte sa, dá sa konať. Čím skôr zavoláte do banky, tým väčšia je šanca peniaze zachrániť.
+1 Hneď zavolajte do svojej banky na číslo zo zadnej strany karty alebo z oficiálneho webu banky. Požiadajte o zablokovanie karty.
+2 Ak ste niekomu dali prístup do telefónu alebo počítača, vypnite internet (Wi-Fi aj dáta).
+3 Zmeňte heslo do internetového bankovníctva a e-mailu – ideálne s pomocou blízkeho človeka.
+4 Podvod oznámte českej polícii na čísle 158.
+5 Nehanbite sa. Podvodníci sú profesionáli a oklamú aj mladých a skúsených ľudí.
+## falesny-policista
+T Volá mi „policajt“ a chce, aby som mu dal/a peniaze
+A Skutočná polícia od vás nikdy nebude chcieť peniaze, hotovosť ani prevod na účet. Je to podvod.
+1 Zložte a nikomu nič neodovzdávajte.
+2 Zavolajte sami na linku 158 a povedzte, čo sa stalo.
+3 Ak niekto stojí pri dverách, neotvárajte a volajte 158.
+## vnoucatko
+T Píše mi „vnúča“ alebo „dcéra“ z nového čísla a chce peniaze
+A Toto je častý podvod. Než čokoľvek pošlete, overte si, že vám naozaj píše váš blízky.
+1 Neposielajte peniaze ani kódy.
+2 Zavolajte svojmu blízkemu na jeho STARÉ, známe číslo alebo sa opýtajte iného člena rodiny.
+3 Môžete položiť otázku, na ktorú pozná odpoveď len on (napr. meno vášho psa).
+4 Ak sa ukáže, že to bol podvodník, číslo zablokujte.
+## vzdalena-plocha
+T Niekto chce, aby som si nainštaloval/a aplikáciu (AnyDesk, TeamViewer)
+A Nikdy neinštalujte aplikáciu na pokyn človeka, ktorý vám sám zavolal alebo napísal. Získal by tým prístup do vášho telefónu aj bankovníctva.
+1 Ukončite hovor alebo konverzáciu.
+2 Nič neinštalujte. Ak ste už nainštalovali, vypnite internet a aplikáciu odinštalujte.
+3 Zavolajte do banky na oficiálne číslo a povedzte, čo sa stalo.
+W Banky, Microsoft ani operátori vám sami nevolajú kvôli „vírusom v počítači“.
+## investice
+T Ponúka mi niekto investíciu, kryptomeny alebo rýchly zisk
+A Sľub vysokého a „zaručeného“ zisku je typický znak podvodu. Často sa pri tom zneužívajú fotky známych osobností.
+1 Nikomu neposielajte peniaze ani doklady.
+2 Neinštalujte žiadne aplikácie, ktoré vám „poradca“ odporučí.
+3 Na webe Českej národnej banky si môžete overiť, či má firma povolenie.
+4 O investíciách sa poraďte vo svojej banke osobne alebo s niekým blízkym.
+W DIGI parťák nedáva investičné rady – pomôže vám len rozpoznať podvod.
+## vyhra
+T Vraj som niečo vyhral/a a mám zaplatiť poplatok
+A Ak ste sa súťaže nezúčastnili, nič ste nevyhrali. Skutočná výhra nikdy nevyžaduje poplatok ani údaje z karty.
+1 Neklikajte na odkaz a nič neplaťte.
+2 Správu vymažte.
+3 Ak ste zadali kartu, volajte banku.
+## jak-poznat-podvod
+T Ako spoznám podvodnú správu alebo e-mail?
+A Podvodné správy majú obvykle niekoľko spoločných znakov. Stačí si všimnúť jeden z nich a spozornieť.
+1 Zhon a strach: „ihneď“, „do 24 hodín“, „účet bude zablokovaný“.
+2 Odkaz, na ktorom máte niečo vyplniť alebo zaplatiť.
+3 Žiadosť o číslo karty, PIN, heslo alebo kód z SMS.
+4 Neznámy odosielateľ, zahraničné číslo alebo čudná adresa.
+5 Keď si nie ste istí, vložte správu do nástroja „Je to podvod?“ alebo sa opýtajte blízkeho.
+## heslo
+T Ako si vytvoriť bezpečné heslo?
+A Najlepšie je dlhé heslo zložené z niekoľkých slov, ktoré si ľahko zapamätáte, ale nikto iný ho neuhádne.
+1 Spojte 3–4 slová, ktoré spolu nesúvisia, napr. „Kos-Rozok-Zahrada-27“ (toto ale nepoužívajte, je verejné).
+2 Pre každý účet použite iné heslo – hlavne pre e-mail a banku.
+3 Heslá si môžete zapísať do zošita, ktorý zostane doma. Nikdy ich nefoťte ani neposielajte.
+4 Kde sa dá, zapnite dvojfázové overenie (kód v SMS alebo v aplikácii).
+W Svoje heslo nikdy nikomu neoznamujte – ani banke, ani „technikovi“. Ani DIGI parťákovi.
+## nakup-online
+T Ako bezpečne nakupovať na internete?
+A Nakupujte v známych e-shopoch a pri neznámych si najprv overte, kto za nimi stojí.
+1 Adresu obchodu napíšte sami, neklikajte na odkazy z reklám a správ.
+2 Pozrite sa na kontakt, IČO a adresu predajcu a na recenzie od iných ľudí.
+3 Majte sa na pozore, keď je cena podozrivo nízka.
+4 Pri neznámom predajcovi zvoľte platbu pri prevzatí.
+5 Na bazároch nikdy neposielajte kód z SMS ani nevypĺňajte kartu cez odkaz od „kupujúceho“.
+## laska-online
+T Zoznámil/a som sa s niekým na internete a chce peniaze
+A Ak vás o peniaze žiada niekto, s kým ste sa nikdy osobne nestretli, je to s vysokou pravdepodobnosťou podvod.
+1 Neposielajte peniaze, darčeky ani kódy.
+2 Porozprávajte sa o tom s niekým blízkym.
+3 Ak ste už peniaze poslali, volajte banku a českú políciu (158).
+## pismo
+T Ako zväčšiť písmo v telefóne?
+A Písmo si zväčšíte v Nastaveniach telefónu. Názvy položiek sa môžu podľa výrobcu trochu líšiť.
+1 Android: otvorte Nastavenia → Displej (alebo Dostupnosť) → Veľkosť písma.
+2 iPhone: otvorte Nastavenia → Displej a jas → Veľkosť textu.
+3 Posuňte jazdec doprava, kým sa vám text dobre nečíta.
+4 Písmo v DIGI parťákovi zväčšíte tlačidlom „Písmo“ hore.
+## whatsapp-fotka
+T Ako poslať fotku cez WhatsApp?
+A Fotku pošlete v niekoľkých krokoch priamo z rozhovoru s daným človekom.
+1 Otvorte WhatsApp a ťuknite na meno človeka.
+2 Dole ťuknite na ikonu spinky alebo „+“.
+3 Vyberte „Galéria“ (Android) alebo „Fotky“ (iPhone).
+4 Ťuknite na fotku a potom na zelenú šípku na odoslanie.
+## whatsapp-video
+T Ako zavolať videohovorom cez WhatsApp?
+A Videohovor začnete jedným ťuknutím v rozhovore s daným človekom.
+1 Otvorte WhatsApp a ťuknite na meno človeka.
+2 Vpravo hore ťuknite na ikonu kamery.
+3 Počkajte, kým to druhý človek prijme.
+4 Hovor ukončíte červeným tlačidlom.
+## wifi
+T Ako sa pripojiť k Wi-Fi?
+A K domácej Wi-Fi sa pripojíte v Nastaveniach. Budete potrebovať názov siete a heslo – bývajú na štítku routera.
+1 Otvorte Nastavenia → Wi-Fi (na Androide niekedy Pripojenia → Wi-Fi).
+2 Zapnite Wi-Fi, ak je vypnutá.
+3 Ťuknite na názov svojej siete.
+4 Zadajte heslo zo štítku na routeri a potvrďte.
+W Na verejnej Wi-Fi (kaviareň, stanica) radšej nepoužívajte internetové bankovníctvo.
+## aktualizace
+T Mám aktualizovať telefón?
+A Áno, aktualizácie z Nastavení telefónu sú dôležité – opravujú bezpečnostné chyby.
+1 Aktualizáciu spúšťajte len z Nastavení telefónu alebo z obchodu Google Play / App Store.
+2 Pred aktualizáciou telefón nabite a pripojte k Wi-Fi.
+3 Ak vás k „aktualizácii“ vyzýva odkaz v SMS alebo e-maile, je to podvod.
+## screenshot
+T Ako urobiť snímku obrazovky (screenshot)?
+A Snímka obrazovky je „fotka“ toho, čo máte práve na displeji. Hodí sa napríklad na kontrolu podozrivej SMS v DIGI parťákovi.
+1 Android: stlačte súčasne tlačidlo zapnutia a tlačidlo na stlmenie hlasitosti (dolné) a hneď ich pustite.
+2 iPhone bez tlačidla Plocha: stlačte súčasne bočné tlačidlo a tlačidlo na zvýšenie hlasitosti (horné).
+3 iPhone s tlačidlom Plocha (okrúhle dole): stlačte súčasne tlačidlo Plocha a bočné (alebo horné) tlačidlo.
+4 Obrazovka krátko blikne. Snímku nájdete v Galérii (Android) alebo vo Fotkách (iPhone).
+W Na niektorých telefónoch s Androidom sa kombinácia tlačidiel líši podľa výrobcu.
+## plocha
+T Ako si dať DIGI parťáka na plochu telefónu?
+A DIGI parťáka si môžete pridať na plochu ako bežnú aplikáciu. Potom ho otvoríte jedným ťuknutím.
+1 Android (Chrome): ťuknite vpravo hore na tri bodky → „Pridať na plochu“ alebo „Inštalovať aplikáciu“.
+2 iPhone (Safari): ťuknite dole na ikonu Zdieľať (štvorček so šípkou) → „Pridať na plochu“.
+3 Potvrďte tlačidlom „Pridať“.
+## facebook
+T Čo je Facebook a ako ho začať používať?
+A Facebook je sociálna sieť – miesto na internete, kde si ľudia zdieľajú fotky a novinky a posielajú si správy (cez aplikáciu Messenger). Používanie je zadarmo.
+1 Stiahnite si aplikáciu Facebook z obchodu Google Play (Android) alebo App Store (iPhone), alebo napíšte do prehliadača sami facebook.com.
+2 Nový účet: ťuknite na „Vytvoriť nový účet“ a vyplňte meno, dátum narodenia a svoj e-mail alebo telefón. Zvoľte heslo.
+3 Prihlásenie: zadajte e-mail alebo telefón a heslo a ťuknite na „Prihlásiť sa“.
+4 V nastaveniach súkromia zvoľte, že vaše príspevky vidia len „Priatelia“.
+5 Žiadosti o priateľstvo prijímajte len od ľudí, ktorých naozaj poznáte.
+W Na Facebooku sa vyskytujú falošné profily a reklamy na „zaručené zárobky“ so známymi osobnosťami. Keď vás niekto žiada o peniaze, overte si to telefonátom.
+## whatsapp-zacit
+T Čo je WhatsApp a ako si ho nainštalovať?
+A WhatsApp je aplikácia na správy, fotky a hovory (aj s obrazom) cez internet. Na Wi-Fi je zadarmo aj do zahraničia. Používa vaše telefónne číslo.
+1 Otvorte Obchod Google Play (Android) alebo App Store (iPhone) a vyhľadajte „WhatsApp Messenger“.
+2 Skontrolujte, že vývojár je „WhatsApp LLC“, a ťuknite na Inštalovať (Získať).
+3 Otvorte WhatsApp, odsúhlaste podmienky a zadajte svoje telefónne číslo.
+4 Príde vám SMS s kódom – zadajte ho len priamo do WhatsAppu.
+5 Napíšte svoje meno. Vaše kontakty, ktoré WhatsApp majú, sa objavia samy.
+W Overovací kód z WhatsAppu nikdy nikomu neposielajte – ani „kamarátovi“, ktorý oň píše. Takto podvodníci kradnú účty.
+## email
+T Ako si založiť e-mail a poslať správu s prílohou?
+A E-mail je elektronická pošta. V Česku sú najpoužívanejšie e-mail na Seznam.cz a Gmail od Googlu. Oboje je zadarmo.
+1 Založenie: na webe seznam.cz ťuknite na „E-mail“ a „Zaregistrovat se“, alebo si založte účet Google (Gmail) – na Androide ho obvykle už máte.
+2 Vymyslite si adresu (napr. jana.novakova@seznam.cz) a bezpečné heslo. Oboje si zapíšte.
+3 Odoslanie: ťuknite na „Napísať“, do poľa „Komu“ zadajte adresu, napíšte predmet a text.
+4 Príloha (fotka): ťuknite na ikonu spinky a vyberte fotku.
+5 Ťuknite na „Odoslať“ (šípka).
+W E-maily, ktoré chcú heslo, platbu alebo kliknutie na odkaz, bývajú podvod. Keď si nie ste istí, vložte ich do „Je to podvod?“.
+## youtube
+T Čo je YouTube a ako na ňom hľadať videá?
+A YouTube je web a aplikácia s videami – pesničky, relácie, recepty, návody. Je zadarmo, len sa občas prehrá reklama.
+1 Otvorte aplikáciu YouTube (býva v telefóne predinštalovaná) alebo napíšte do prehliadača youtube.com.
+2 Ťuknite na lupu hore a napíšte, čo hľadáte (napr. „Karel Gott“ alebo „bryndzové halušky recept“).
+3 Ťuknite na video. Reklamu môžete po pár sekundách preskočiť tlačidlom „Preskočiť“.
+4 Video zväčšíte na celú obrazovku otočením telefónu na šírku.
+W Reklamy na rýchle zbohatnutie alebo zázračné lieky sú často podvod, aj keď v nich vystupujú známe osobnosti.
+## aplikace-instalace
+T Ako bezpečne nainštalovať aplikáciu?
+A Aplikácie sťahujte len z oficiálneho obchodu: Google Play na Androide, App Store na iPhone. Väčšina aplikácií je zadarmo.
+1 Otvorte Obchod Google Play (farebný trojuholník) alebo App Store (modré „A“).
+2 Hore ťuknite na vyhľadávanie a napíšte názov aplikácie.
+3 Skontrolujte meno vývojára (napr. pri bankovej aplikácii vaša banka) a hodnotenie.
+4 Ťuknite na „Inštalovať“ (Android) alebo „Získať“ (iPhone) a počkajte.
+5 Odinštalovanie: podržte prst na ikone aplikácie a zvoľte „Odinštalovať“ / „Odstrániť aplikáciu“.
+W Nikdy neinštalujte aplikáciu podľa pokynov neznámeho volajúceho alebo z odkazu v SMS.
+## zapomenute-heslo
+T Zabudol/a som heslo – čo teraz?
+A Zabudnuté heslo sa dá takmer vždy obnoviť. Služba vám pošle kód na telefón alebo do e-mailu a vy si nastavíte nové heslo.
+1 Na prihlasovacej stránke ťuknite na „Zabudnuté heslo?“.
+2 Zadajte svoj e-mail alebo telefón. Príde vám SMS alebo e-mail s kódom či odkazom.
+3 Kód zadajte len na tej stránke, kde ste obnovu sami začali.
+4 Vymyslite nové heslo a zapíšte si ho do zošita, ktorý zostane doma.
+5 Pri internetovom bankovníctve volajte svoju banku na číslo zo zadnej strany karty.
+W Keď vám príde kód na obnovu hesla, o ktorý ste nežiadali, nikomu ho neposielajte – niekto sa možno snaží dostať do vášho účtu.
+## baterie
+T Telefón sa rýchlo vybíja – čo s tým?
+A Najviac energie spotrebuje jasný displej, navigácia, videá a aplikácie bežiace na pozadí. Pár úprav výdrž výrazne predĺži.
+1 Znížte jas displeja (stiahnite lištu zhora a posuňte jazdec so slniečkom).
+2 Zapnite úsporný režim: Android – Nastavenia → Batéria → Úspora energie; iPhone – Nastavenia → Batéria → Režim nízkej spotreby.
+3 Zatvorte aplikácie, ktoré nepoužívate, a vypnite polohu (GPS), keď ju nepotrebujete.
+4 Nabíjajte originálnou alebo kvalitnou nabíjačkou. Nemusíte čakať, kým sa telefón úplne vybije.
+5 Ak je telefón starý niekoľko rokov a vybíja sa aj tak rýchlo, môže pomôcť výmena batérie v servise.
+## pamet
+T Telefón hlási plnú pamäť – ako uvoľniť miesto?
+A Miesto v telefóne najčastejšie zaberajú videá, fotky a súbory z WhatsAppu. Než ich vymažete, zálohujte si ich.
+1 Pozrite sa, čo zaberá miesto: Android – Nastavenia → Úložisko (alebo Starostlivosť o zariadenie); iPhone – Nastavenia → Všeobecné → Úložisko iPhonu.
+2 Zálohujte fotky (Google Fotky alebo iCloud) a potom vymažte veľké videá.
+3 Vo WhatsAppe: Nastavenia → Úložisko a dáta → Spravovať úložisko – vymažte veľké súbory a preposlané videá.
+4 Odinštalujte aplikácie, ktoré nepoužívate.
+5 Na konci vysypte kôš vo Fotkách („Nedávno vymazané“).
+## pomaly-telefon
+T Telefón je pomalý alebo zamŕza
+A Najčastejšie pomôže obyčajný reštart. Telefón si tým „upratá“ pamäť.
+1 Reštartujte telefón: podržte tlačidlo zapnutia a zvoľte „Reštartovať“ (na iPhone vypnúť a znova zapnúť).
+2 Ak telefón vôbec nereaguje, podržte tlačidlo zapnutia dlhšie (asi 10–15 sekúnd).
+3 Nainštalujte aktualizácie systému a aplikácií.
+4 Uvoľnite miesto v pamäti – plná pamäť telefón spomaľuje.
+5 Keď nič nepomôže, poraďte sa v predajni alebo servise vášho operátora.
+## hlasitost
+T Nepočujem zvonenie – ako zosilniť telefón?
+A Hlasitosť zvonenia nastavíte tlačidlami na boku telefónu alebo v Nastaveniach. Skontrolujte aj, či telefón nie je v tichom režime.
+1 Stlačte horné tlačidlo hlasitosti na boku telefónu, keď nehrá žiadne video.
+2 Android: Nastavenia → Zvuky a vibrácie → Hlasitosť → posuňte „Tón zvonenia“ doprava.
+3 iPhone: Nastavenia → Zvuky a haptika → posuňte jazdec „Zvonenie a upozornenia“. Na boku skontrolujte prepínač tichého režimu (oranžová farba = ticho).
+4 Vypnite režim „Nerušiť“ (ikona mesiaca v hornej lište).
+5 Zapnite aj vibrácie, aby ste zvonenie ucítili vo vrecku.
+## blokovani
+T Ako zablokovať otravné číslo?
+A Číslo, ktoré vás obťažuje, môžete v telefóne zablokovať. Potom vám z neho nikto nezavolá ani nenapíše.
+1 Android: otvorte aplikáciu Telefón → Nedávne, podržte prst na čísle a zvoľte „Blokovať“ (prípadne „Nahlásiť spam“).
+2 iPhone: otvorte Telefón → Nedávne, ťuknite na „i“ vedľa čísla a potom na „Blokovať volajúceho“.
+3 Pri SMS: otvorte správu, ťuknite na číslo hore a zvoľte Blokovať.
+4 Neznáme čísla nemusíte dvíhať. Kto vás potrebuje, nechá odkaz alebo napíše.
+W Ak volajúci tvrdí, že je z banky alebo polície, zložte a zavolajte sami na oficiálne číslo.
+## kontakt
+T Ako si uložiť telefónne číslo do kontaktov?
+A Číslo uložíte jednoducho z aplikácie Telefón alebo Kontakty. Potom pri hovore uvidíte meno namiesto čísla.
+1 Otvorte aplikáciu Telefón → Nedávne a ťuknite na číslo, ktoré chcete uložiť.
+2 Zvoľte „Vytvoriť nový kontakt“ alebo „Pridať kontakt“ (na iPhone „i“ → Vytvoriť nový kontakt).
+3 Napíšte meno a priezvisko, prípadne pridajte fotku.
+4 Ťuknite na „Uložiť“ (Hotovo).
+5 Nové číslo môžete pridať aj v aplikácii Kontakty tlačidlom „+“.
+## nouzove-info
+T Ako si do telefónu nastaviť zdravotné údaje a núdzový kontakt?
+A Do telefónu si môžete uložiť zdravotné údaje a núdzový kontakt. Záchranári ich uvidia aj na zamknutom telefóne.
+1 iPhone: otvorte aplikáciu Zdravie → vaša fotka vpravo hore → Zdravotný preukaz → Upraviť. Vyplňte údaje a zapnite „Zobraziť pri zamknutí“.
+2 Android: Nastavenia → Bezpečnosť a núdzové situácie (alebo Núdzové informácie). Presný názov sa líši podľa výrobcu.
+3 Pridajte núdzový kontakt – niekoho blízkeho.
+4 Uveďte dôležité choroby, alergie a lieky, ktoré beriete.
+## ztraceny-telefon
+T Stratil/a som telefón – ako ho nájsť?
+A Telefón môžete nájsť, zamknúť alebo na diaľku rozozvučať z počítača alebo z telefónu niekoho blízkeho.
+1 Android: na inom zariadení otvorte stránku android.com/find a prihláste sa svojím účtom Google.
+2 iPhone: otvorte stránku icloud.com/find a prihláste sa svojím Apple ID (alebo použite aplikáciu Nájsť na inom zariadení Apple).
+3 Telefón môžete rozozvučať, zobraziť na mape alebo zamknúť.
+4 Pri krádeži volajte svojho operátora (zablokovanie SIM), banku (ak máte v telefóne bankovníctvo) a českú políciu na 158.
+## zaloha-fotek
+T Ako si zálohovať fotky, aby som o ne neprišiel/a?
+A Zálohované fotky sa automaticky ukladajú aj mimo telefónu. Keď telefón stratíte alebo rozbijete, fotky vám zostanú.
+1 Android: otvorte aplikáciu Google Fotky → vaša ikona vpravo hore → zapnite „Zálohovanie“.
+2 iPhone: Nastavenia → vaše meno hore → iCloud → Fotky → zapnite „Synchronizovať tento iPhone“.
+3 Zálohovanie prebieha najlepšie na Wi-Fi a pri nabíjaní.
+4 Zadarmo je len obmedzené miesto. Keď dôjde, služba ponúkne platené rozšírenie – nemusíte ho kupovať, môžete vymazať nepotrebné.
+## mobilni-data
+T Čo sú mobilné dáta a kedy ich zapnúť?
+A Mobilné dáta sú internet od vášho operátora. Fungujú aj vonku, kde nie je Wi-Fi. Koľko dát máte, záleží od tarifu.
+1 Zapnutie: stiahnite prstom lištu z horného okraja a ťuknite na ikonu „Mobilné dáta“ (dve šípky).
+2 Doma a u blízkych používajte radšej Wi-Fi – nespotrebúva vaše dáta.
+3 V zahraničí mimo EÚ vypnite dáta alebo roaming, aby vám neprišiel vysoký účet. V EÚ platíte ako doma.
+4 Koľko dát vám zostáva, zistíte v aplikácii svojho operátora.
+## qr-kod
+T Ako naskenovať QR kód?
+A QR kód je štvorček z bodiek, ktorý obsahuje odkaz alebo platobné údaje. Prečítate ho fotoaparátom telefónu.
+1 Otvorte Fotoaparát a namierte ho na QR kód (nič nefoťte).
+2 Objaví sa odkaz – ťuknite naň.
+3 QR platba (napr. na faktúre či zloženke): otvorte aplikáciu svojej banky a zvoľte „Platba QR kódom“. Údaje sa vyplnia samy, skontrolujte sumu a príjemcu.
+W QR kódy v e-mailoch, SMS alebo nalepené na parkovacích automatoch môžu viesť na podvodné stránky. Platby robte len v aplikácii svojej banky.
+## pin-karty
+T Ako si zmeniť PIN ku karte?
+A PIN ku karte si zmeníte v aplikácii svojej banky, v internetovom bankovníctve, na pobočke alebo pri niektorých bankomatoch vašej banky.
+1 Otvorte aplikáciu svojej banky a hľadajte pri karte „Zmeniť PIN“ alebo „Zobraziť PIN“.
+2 Bez aplikácie zájdite na pobočku banky s občianskym preukazom.
+3 Nový PIN voľte tak, aby nebol dátum narodenia ani 1234.
+4 PIN si nepíšte ku karte ani do telefónu.
+W Banka od vás PIN nikdy nechce – ani telefonicky, ani v SMS, ani e-mailom. Kto oň žiada, je podvodník.
+## internetove-bankovnictvi
+T Ako začať s internetovým bankovníctvom bezpečne?
+A Internetové bankovníctvo vám zriadi vaša banka – najistejšie osobne na pobočke, kde vám rovno pomôžu s nastavením.
+1 Zájdite na pobočku a požiadajte o internetové a mobilné bankovníctvo. Povedzte, že s tým začínate.
+2 Aplikáciu banky si stiahnite len z Google Play alebo App Store (vydavateľom musí byť vaša banka).
+3 Do bankovníctva sa prihlasujte len cez túto aplikáciu alebo adresu, ktorú napíšete sami. Nikdy cez odkaz zo správy.
+4 Platbu faktúry urobte cez „Platba QR kódom“ alebo „Nová platba“. Pred potvrdením skontrolujte číslo účtu a sumu.
+W Prihlasovacie údaje a potvrdzovacie kódy nikomu neoznamujte. Banka vás nikdy nevyzve na prevod na „bezpečný účet“.
+## platba-telefonem
+T Ako platiť telefónom namiesto kartou?
+A Platobnú kartu si môžete nahrať do telefónu a platiť priložením telefónu k terminálu, rovnako ako kartou.
+1 Otvorte aplikáciu svojej banky a hľadajte pri karte „Pridať do Google Wallet“ alebo „Pridať do Apple Wallet“.
+2 Potvrďte pridanie podľa pokynov banky.
+3 Pri platení odomknite telefón a priložte ho k terminálu.
+4 Telefón majte zamknutý kódom alebo odtlačkom prsta.
+## hoax
+T Ako spoznať hoax a falošnú správu?
+A Hoax je poplašná alebo vymyslená správa, ktorá sa šíri preposielaním. Často straší, rozčuľuje alebo sľubuje zázraky.
+1 Spozornite, keď správa vyzýva „pošli ďalej všetkým“ alebo veľmi straší a pobúri.
+2 Hľadajte zdroj: kto to napísal a kde to vyšlo? Seriózne správy majú autora a dátum.
+3 Overte si to v dôveryhodnom médiu alebo na weboch na overovanie faktov (v Česku Manipulátoři.cz a Demagog.cz).
+4 Keď si nie ste istí, správu nepreposielajte.
+## cookies
+T Čo mám robiť s lištou „cookies“ na webe?
+A Cookies sú malé súbory, ktorými si web pamätá, čo robíte. Lišta sa pýta, či smie sledovať vaše správanie kvôli reklame.
+1 Pokojne zvoľte „Odmietnuť všetko“ alebo „Len nevyhnutné“. Web bude fungovať ďalej.
+2 Ak také tlačidlo nevidíte, ťuknite na „Nastavenia“ a nechajte zapnuté len „Nevyhnutné“.
+3 Lištu nemusíte riešiť zakaždým – web si vašu voľbu zapamätá.
+## vir-hlaska
+T Na webe vyskočilo, že mám v telefóne vírus
+A Hlášky na webových stránkach typu „Váš telefón je zavírený!“ sú takmer vždy podvod. Chcú vás vystrašiť, aby ste niečo nainštalovali alebo zaplatili.
+1 Na nič v okne neklikajte a nevolajte na číslo, ktoré sa zobrazí.
+2 Zatvorte kartu alebo celý prehliadač. Prípadne telefón reštartujte.
+3 Nič neinštalujte a nič neplaťte.
+4 Ak ste už niečo nainštalovali alebo zadali kartu, volajte banku a požiadajte o pomoc blízkeho.
+## mapy
+T Ako nájsť cestu a spojenie v telefóne?
+A Cestu aj spojenie nájdete v aplikáciách Mapy.com (predtým Mapy.cz) alebo Google Mapy. České cestovné poriadky sú na webe IDOS.
+1 Otvorte Mapy.com alebo Google Mapy a do vyhľadávania napíšte, kam chcete ísť.
+2 Ťuknite na „Trasa“ a zvoľte, či idete pešo, autom alebo hromadnou dopravou.
+3 Spojenie autobusom a vlakom nájdete na webe idos.cz – zadajte odkiaľ, kam a kedy.
+4 Lístok na vlak si kúpite v aplikácii Můj vlak (České dráhy) alebo pri pokladni. Na zľavy pre seniorov sa opýtajte pri pokladni.
+## objednat-lekar
+T Ako sa objednať k lekárovi cez internet?
+A Mnohé ambulancie ponúkajú objednanie cez internet alebo e-mail. Každá však používa iný systém, preto sa najprv opýtajte v ambulancii.
+1 Opýtajte sa sestričky, či sa môžete objednávať online a na akej adrese.
+2 Adresu alebo aplikáciu si nechajte napísať na papier a do prehliadača ju píšte sami.
+3 Vyberte termín a potvrďte ho. Obvykle vám príde potvrdenie e-mailom alebo SMS.
+4 Keď vám online objednanie nevyhovuje, telefonát do ambulancie je stále v poriadku.
+W Na otázky o zdraví a liekoch vám odpovie lekár alebo lekárnik.
+## erecept
+T Ako funguje eRecept?
+A eRecept je elektronický recept. Lekár vám ho pošle v SMS alebo e-mailom, prípadne vytlačí.
+1 Počkajte na SMS alebo e-mail od lekára s kódom receptu.
+2 V lekárni ukážte správu s kódom (alebo vytlačený papier).
+3 Lekárnik kód načíta a vydá vám liek.
+4 Kód môžete poslať aj blízkemu, ktorý liek vyzdvihne za vás.
+W Na otázky o liekoch, dávkovaní a zdraví odpovedá lekár alebo lekárnik, nie DIGI parťák.
+## identita
+T Ako vybaviť veci s českými úradmi cez internet?
+A Mnoho vecí s českými úradmi vybavíte na Portáli občana (Portál občana). Prihlásite sa napríklad bankovou identitou – rovnako ako do internetového bankovníctva.
+1 Adresu Portálu občana napíšte do prehliadača sami: obcan.portal.gov.cz.
+2 Zvoľte prihlásenie cez svoju banku (banková identita) alebo inú ponúkanú možnosť.
+3 Ak si nie ste istí, požiadajte o pomoc blízkeho alebo pracovníka Czech POINTu na pošte či úrade.
+W Odkazy na „úrad“ v SMS alebo e-maile nepoužívajte – adresu vždy píšte sami.
+## cisla
+T Aké sú dôležité telefónne čísla?
+A Tu sú najdôležitejšie čísla. Na každé môžete ťuknúť a rovno zavolať.
+## samota
+T Je mi smutno a cítim sa sám/sama
+A To ma mrzí. Takéto pocity sú úplne v poriadku a nemusíte na ne byť sami. Na týchto bezplatných linkách vás radi vypočujú (po česky).
+## krize
+T Je mi naozaj zle a neviem si rady
+A Veľmi ma mrzí, že sa takto cítite. Prosím, porozprávajte sa s niekým hneď teraz. Ste dôležití.
+1 Zavolajte na Linku prvej psychickej pomoci 116 123 – bezplatne a nonstop.
+2 Ak ste v ohrození, volajte 112 alebo 155.
+3 Môžete zavolať aj niekomu blízkemu a požiadať ho, aby prišiel.
+## zdravi-nouze
+T Zdravotné ťažkosti – volajte pomoc
+A Toto môže byť vážne. Prosím, hneď volajte záchrannú službu 155 alebo tiesňovú linku 112.
+1 Zavolajte 155 alebo 112.
+2 Povedzte, kde ste a čo sa deje.
+3 Ak je to možné, odomknite dvere a zavolajte suseda alebo blízkeho.
+## mimo-zdravi
+T Otázky o zdraví a liekoch
+A Na otázky o zdraví a liekoch vám bezpečne odpovie len lekár alebo lekárnik. Nechcem vám dať nepresnú radu.
+1 Zavolajte svojmu praktickému lekárovi.
+2 Opýtajte sa v lekárni – lekárnici radi poradia zadarmo.
+3 Pri náhlych ťažkostiach volajte 155.
+## mimo-finance
+T Finančné a právne rady
+A Finančné a právne rady neposkytujem – mohol by som vám nechtiac uškodiť. Obráťte sa, prosím, na odborníka.
+1 O peniazoch sa poraďte osobne vo svojej banke.
+2 S právnymi otázkami pomáhajú bezplatné poradne, napr. cez Senior telefon.
+3 Ak vás niekto na zmluvu tlačí a ponáhľa, nič nepodpisujte.
+## pozdrav
+T Pozdrav
+A Dobrý deň, rád vás vidím! Som DIGI parťák. Pomôžem vám s telefónom, internetom a bezpečnosťou online. Na čo sa chcete opýtať?
+## dekuji
+T Poďakovanie
+A Rado sa stalo! Kedykoľvek budete chcieť, som tu. Žiadna otázka nie je hlúpa.
+## kdo-jsi
+T Kto je DIGI parťák?
+A Som DIGI parťák – digitálny pomocník, nie človek. Najprv odpovedám z knižnice overených rád. Keď tam odpoveď nie je, skúsim poradiť pomocou umelej inteligencie a vždy vás upozorním, že si to máte overiť.
+1 Viem poradiť s telefónom a aplikáciami.
+2 Pomôžem rozpoznať podvodné správy a hovory.
+3 Ukážem vám, kam zavolať o pomoc.
+## G pismo
+T Zväčšiť písmo v telefóne
+I Väčšie písmo sa lepšie číta a šetrí oči. Nič sa tým nepokazí – kedykoľvek to môžete vrátiť.
+S Otvorte Nastavenia || Nájdite na ploche ikonu ozubeného kolieska s nápisom „Nastavenia“ a ťuknite na ňu. ||
+S Nájdite položku displeja || Android: ťuknite na „Displej“ (pri niektorých telefónoch „Dostupnosť“). iPhone: ťuknite na „Displej a jas“. || Položky môžete hľadať aj lupou hore – napíšte „písmo“.
+S Ťuknite na Veľkosť písma || Android: „Veľkosť písma“ alebo „Veľkosť a štýl písma“. iPhone: „Veľkosť textu“. ||
+S Posuňte jazdec doprava || Čím viac doprava, tým väčšie písmo. Ukážkový text sa hneď mení, takže uvidíte výsledok. ||
+S Hotovo || Vráťte sa tlačidlom Späť alebo zatvorte Nastavenia. Písmo zostane väčšie všade v telefóne. ||
+## G whatsapp-fotka
+T Poslať fotku cez WhatsApp
+I Urobte radosť rodine. Fotku pošlete priamo z rozhovoru s daným človekom.
+S Otvorte WhatsApp || Ťuknite na zelenú ikonu s bielym telefónom v bubline. ||
+S Vyberte človeka || V zozname rozhovorov ťuknite na meno toho, komu chcete fotku poslať. ||
+S Ťuknite na spinku alebo + || Ikona je dole vedľa políčka na písanie. Na Androide je to spinka, na iPhone znamienko plus. ||
+S Vyberte fotku || Ťuknite na „Galéria“ (Android) alebo „Knižnica fotiek“ (iPhone) a potom na fotku, ktorú chcete poslať. ||
+S Odošlite || Ťuknite na okrúhle zelené tlačidlo so šípkou. Fotka je na ceste! || Dve modré fajky znamenajú, že si ju druhý človek už pozrel.
+## G whatsapp-video
+T Videohovor cez WhatsApp
+I Uvidíte sa s blízkymi, aj keď sú ďaleko. Hovor cez Wi-Fi nič nestojí.
+S Otvorte WhatsApp || Ťuknite na zelenú ikonu WhatsApp. ||
+S Vyberte človeka || Ťuknite na meno toho, komu chcete zavolať. ||
+S Ťuknite na kameru || Vpravo hore je ikona malej kamery. Ťuknite na ňu. || Ikona slúchadla vedľa je obyčajný hovor bez obrazu.
+S Počkajte na prijatie || Keď druhý človek hovor prijme, uvidíte sa. Telefón držte pred tvárou. ||
+S Ukončite hovor || Ťuknite na červené tlačidlo so slúchadlom. ||
+## G podvodna-sms
+T Čo robiť s podozrivou SMS
+I Podvodné správy chodia každému. Dôležité je vedieť, ako sa zachovať.
+S Neponáhľajte sa || Podvodníci chcú, aby ste konali hneď. Vy máte čas. Zhlboka sa nadýchnite. ||
+S Neklikajte na odkaz || Na odkaz v správe neťukajte a na správu neodpovedajte. ||
+S Overte si to inak || Ak správa tvrdí, že je od banky, pošty alebo úradu, zavolajte im sami na číslo z ich oficiálneho webu alebo z karty. ||
+S Vymažte správu || Podržte prst na správe a vyberte „Vymazať“. Číslo môžete zablokovať. ||
+S Už ste klikli? || Nič sa nedeje, ak ste nič nevyplnili. Ak ste zadali kartu alebo heslo, hneď volajte svoju banku. || Správu môžete skontrolovať v DIGI parťákovi v sekcii „Je to podvod?“.
+## G screenshot-android
+T Snímka obrazovky na Androide
+I Snímka obrazovky (screenshot) je fotka toho, čo máte práve na displeji. Hodí sa napríklad na kontrolu podozrivej správy.
+S Otvorte, čo chcete odfotiť || Napríklad podozrivú SMS. Správu otvorte tak, aby bol vidieť celý text aj odosielateľ. ||
+S Nájdite dve tlačidlá || Na boku telefónu je tlačidlo zapnutia a tlačidlo hlasitosti. Budete potrebovať zapnutie a dolnú časť hlasitosti (stlmenie). ||
+S Stlačte obe naraz || Stlačte súčasne tlačidlo zapnutia a stlmenia hlasitosti. Držte ich len chvíľku (asi 1 sekundu) a pustite. || Keď sa namiesto toho objaví ponuka vypnutia, pustili ste tlačidlá neskoro. Skúste to znova a rýchlejšie.
+S Obrazovka blikne || Budete počuť zvuk alebo uvidíte krátke bliknutie a dole malý náhľad. Snímka je uložená. ||
+S Kde snímku nájdete || Otvorte aplikáciu Galéria alebo Fotky (Google). Snímka je medzi najnovšími fotkami, často v priečinku „Snímky obrazovky“. ||
+S Nejde to? || Pri niektorých telefónoch (napr. Samsung) sa dá snímka urobiť aj takto: stiahnite prstom lištu z horného okraja nadol a ťuknite na „Snímka obrazovky“. Postup sa líši podľa výrobcu. || Snímku môžete nahrať v DIGI parťákovi v sekcii „Je to podvod?“.
+## G screenshot-iphone
+T Snímka obrazovky na iPhone
+I Snímka obrazovky (screenshot) je fotka toho, čo máte práve na displeji. Postup závisí od toho, či má váš iPhone okrúhle tlačidlo Plocha dole pod displejom.
+S Otvorte, čo chcete odfotiť || Napríklad podozrivú SMS. Správu otvorte tak, aby bol vidieť celý text aj odosielateľ. ||
+S iPhone BEZ tlačidla Plocha || Novšie iPhony (displej až po okraj): stlačte súčasne bočné tlačidlo vpravo a tlačidlo na zvýšenie hlasitosti vľavo (horné). Hneď ich pustite. ||
+S iPhone S tlačidlom Plocha || Staršie iPhony a iPhone SE (okrúhle tlačidlo dole): stlačte súčasne tlačidlo Plocha a bočné tlačidlo vpravo (pri najstarších modeloch tlačidlo hore). ||
+S Obrazovka blikne || Obrazovka krátko zbelie a vľavo dole sa objaví malý náhľad. Nemusíte naň ťukať – snímka sa uloží sama. || Keď sa namiesto toho objaví posúvač „Vypnúť“, držali ste tlačidlá príliš dlho. Ťuknite na Zrušiť a skúste to rýchlejšie.
+S Kde snímku nájdete || Otvorte aplikáciu Fotky. Snímka je medzi najnovšími fotkami a tiež v albume „Snímky obrazovky“. || Snímku môžete nahrať v DIGI parťákovi v sekcii „Je to podvod?“.
+## G banka-hovor
+T Volá mi „banka“ – čo teraz?
+I Najčastejší podvod na seniorov. Stačí si zapamätať jedno pravidlo: zložiť a zavolať sám.
+S Zložte || Keď vám niekto z „banky“ alebo „polície“ volá kvôli peniazom, ukončite hovor. Nemusíte sa ospravedlňovať. ||
+S Nič neprezrádzajte || Nikomu nehovorte PIN, heslá ani kódy z SMS. Banka ich od vás nikdy nebude chcieť. ||
+S Zavolajte sami || Vezmite platobnú kartu a zavolajte na číslo, ktoré je na jej zadnej strane. ||
+S Povedzte, čo sa stalo || Pracovník banky vám povie, či je váš účet v poriadku. ||
+## G erecept
+T Vyzdvihnúť eRecept
+I Recept už nemusí byť na papieri. Stačí kód, ktorý vám pošle lekár.
+S Počkajte na správu || Lekár vám pošle SMS alebo e-mail s kódom receptu. Môže vám ho aj vytlačiť. ||
+S Zájdite do lekárne || Môžete ísť do ktorejkoľvek lekárne. ||
+S Ukážte kód || Otvorte správu od lekára a ukážte ju lekárnikovi, alebo mu kód nadiktujte. ||
+S Hotovo || Lekárnik kód načíta a vydá vám liek. || Kód môžete preposlať blízkemu, ktorý liek vyzdvihne za vás.
+## G plocha
+T DIGI parťák na ploche telefónu
+I Pridajte si parťáka na plochu ako aplikáciu. Potom ho otvoríte jedným ťuknutím.
+S Otvorte DIGI parťáka v prehliadači || Android: v Chrome. iPhone: v Safari. ||
+S Otvorte ponuku || Android: ťuknite vpravo hore na tri bodky. iPhone: ťuknite dole na ikonu Zdieľať (štvorček so šípkou nahor). ||
+S Pridať na plochu || Vyberte „Pridať na plochu“ alebo „Inštalovať aplikáciu“. ||
+S Potvrďte || Ťuknite na „Pridať“. Na ploche sa objaví ikona s usmievavou bublinou. ||
+P 112 | Tiesňová linka | Akékoľvek ohrozenie života, zdravia alebo majetku. Funguje aj bez kreditu.
+P 150 | Hasiči | Požiar, únik plynu, technická pomoc.
+P 155 | Záchranná služba | Náhle zdravotné ťažkosti, úraz, bezvedomie.
+P 158 | Česká polícia | Podvod, krádež, vyhrážky, podozrivý človek pri dverách.
+P senior | Senior telefon (Život 90) | Bezplatná linka pre seniorov a ich blízkych. Nonstop, po česky.
+P elpida | Linka seniorov (Elpida) | Bezplatný rozhovor, keď je vám smutno alebo potrebujete poradiť. Po česky.
+P psych | Linka prvej psychickej pomoci | Keď je toho na vás veľa. Bezplatne, nonstop, po česky.
+C bezpeci | Bezpečnosť online
+C telefon | Telefón a aplikácie
+C internet | Internet, správy a siete
+C penize | Banka a platenie
+C urady | Úrady a lekár
+C pomoc | Pomoc a podpora
+U krize | nechcem žiť; nechcem uz zit; zabiť sa; samovražd; ublížiť si; nemá to zmysel
+U zdravi-nouze | bolesť na hrudi; bolí ma na hrudi; nemôžem dýchať; nemozem dychat; infarkt; mŕtvica; porážka; bezvedomie; odpadol; spadol a nemôže vstať; krváca
+U uz-jsem-zadal | zadal som kartu; zadala som kartu; klikol som na odkaz; klikla som na odkaz; poslal som peniaze; poslala som peniaze; okradli ma; ukradli mi peniaze
+U banka-vola | bezpečný účet; volá mi banka; bezpečnostné oddelenie banky; previesť peniaze
+K card | číslo karty|údaje z karty|údaje karty|cvv|pin|heslo|prihlasovacie|overovací kód|sms kód|kód z sms
+K urgent | ihneď|okamžite|bezodkladne|do 24|do 48|posledná výzva|posledné upozornenie|dnes do|vyprší|prepadne|zablokovan|pozastaven|zrušen|deaktiv
+K fee | poplatok|doplatok|clo|dobierk|uhraďte|zaplaťte|úhrad
+K parcel | zásielk|balík|doruč|kuriér|pošta|slovenská pošta|packeta
+K bank | bank|účet|polícia|daňový úrad|exekúc
+K safeacc | bezpečný účet|bezpečného účtu|preveďte|previesť peniaze
+K prize | vyhral|výhr|gratul|odmen|darček|zadarmo|losovan
+K family | ahoj mami|ahoj oci|ahoj babi|ahoj dedo|nové číslo|rozbil|stratil|pošli mi|potrebujem peniaze
+K money | peniaze|peňazí|pošli|pošlite|prevod|preveď|požičaj
+K remote | anydesk|teamviewer|rustdesk|vzdialen|nainštalujte|stiahnite aplikáciu
+K invest | investíci|investov|krypto|bitcoin|výnos|zaručen|zbohatn|pasívny príjem

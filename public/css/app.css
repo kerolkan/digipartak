@@ -628,3 +628,24 @@ html[data-contrast="high"] .ai-warn { border-width: 3px; border-color: #000; }
 .extracted { white-space: pre-wrap; padding: 0 1rem 1rem; margin: 0; overflow-wrap: anywhere; }
 .outside { border-top: 1.5px dashed var(--border); padding-top: 0.75rem; display: flex; flex-direction: column; gap: 0.4rem; align-items: flex-start; }
 .outside p { margin: 0; }
+
+/* ================= Jazyk ================= */
+.lang-btn {
+  display: inline-flex; align-items: center; gap: 0.4rem; min-height: 3rem; padding: 0.25rem 0.9rem;
+  border-radius: var(--r-full); border: 1.5px solid var(--ink); background: var(--white); color: var(--ink);
+  font-weight: 800; font-size: 1rem; text-decoration: none; width: fit-content;
+}
+.lang-btn:hover { background: var(--lime); }
+.hero { position: relative; }
+.hero__lang { grid-column: 1 / -1; justify-self: start; }
+@media (max-width: 479px) { .hero__lang { position: static; } }
+.lang-list { display: grid; gap: 0.6rem; }
+@media (min-width: 600px) { .lang-list { grid-template-columns: 1fr 1fr; } }
+.lang-item {
+  display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
+  min-height: var(--tap-lg); padding: 0.6rem 1.2rem; border-radius: var(--r);
+  border: 1.5px solid var(--border); background: var(--cream); color: var(--ink);
+  font: inherit; font-weight: 800; font-size: 1.1875rem; text-align: left; cursor: pointer;
+}
+.lang-item:hover { border-color: var(--ink); }
+.lang-item[aria-checked="true"] { background: var(--lime); border-color: var(--ink); }

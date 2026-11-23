@@ -83,6 +83,17 @@ Bez API klíče aplikace funguje dál, jen AI funkce slušně oznámí, že nejs
 **Ochrana osobních údajů:** otázky mimo knihovnu a fotky zpracovává Anthropic. Uveďte to v zásadách ochrany osobních
 údajů (GDPR). Text je i v Nastavení aplikace a přímo u nahrávání fotky.
 
+## Jazyky
+
+Čeština je hlavní jazyk. Dále: angličtina, ukrajinština, němčina, slovenština, polština.
+
+- Texty v kódu jsou česky a slouží jako klíče překladů. Překlady jsou v `i18n-src/<jazyk>.ui.txt` (rozhraní)
+  a `i18n-src/<jazyk>.content.txt` (ověřené rady, návody, čísla, nouzové fráze, klíčová slova podvodů).
+- Po úpravě spusťte `node i18n-src/build.mjs` – vytvoří `public/i18n/<jazyk>.js` a zkontroluje,
+  že nic nechybí. Pak zvyšte `VERSION` v `public/sw.js`.
+- V jiném jazyce než češtině přiřadí otázku k ověřené radě AI; nouzové fráze se poznají i offline.
+- Překlady nechte před zveřejněním zkontrolovat rodilými mluvčími.
+
 ## ⚠️ Před zveřejněním
 
 1. **Otestujte AI** na 30–50 typických otázkách a 10–20 skutečných podvodných i nepodvodných snímcích obrazovky. Podle výsledků upravte pokyny v `lib/ai.mjs`.

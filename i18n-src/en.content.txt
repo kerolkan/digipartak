@@ -1,0 +1,486 @@
+## sms-balik
+T I got a text about a parcel and I'm asked to pay a fee
+A Messages like this are very often a scam. Scammers want you to enter your payment card details on a link.
+1 Don't click the link in the message and don't pay anything.
+2 If you really are expecting a parcel, check it yourself – on the courier's official website or by phone on the number from their website.
+3 Delete the message. You can also report it as spam.
+4 If you've already clicked the link and entered your card, call your bank straight away.
+W Delivery companies will not ask for your card details through a link in a text message.
+## banka-vola
+T Someone from the bank is calling and wants me to transfer money
+A Hang up. A bank will never ask you to transfer money to a "safe account", and will never ask for your PIN, password or SMS code.
+1 End the call immediately. You don't have to be polite.
+2 Don't install anything and don't tell anyone any codes.
+3 Call your bank yourself – on the number on the back of your payment card or from the bank's official website.
+4 If you have already sent money or given out details, tell the bank straight away and call the Czech Police on 158.
+W Scammers can even fake the bank's or police's real number. The "right" number may appear on your screen – it can still be a scam.
+## uz-jsem-zadal
+T I've already clicked a link or entered my card details
+A Don't panic, you can still act. The sooner you call your bank, the better the chance of saving your money.
+1 Call your bank straight away on the number on the back of your card or from the bank's official website. Ask them to block the card.
+2 If you gave someone access to your phone or computer, turn off the internet (Wi-Fi and mobile data).
+3 Change your online banking and email passwords – ideally with help from someone close to you.
+4 Report the fraud to the Czech Police on 158.
+5 Don't be ashamed. Scammers are professionals and fool young and experienced people too.
+## falesny-policista
+T A "police officer" is calling and wants me to give them money
+A The real police will never ask you for money, cash or a bank transfer. It's a scam.
+1 Hang up and don't hand anything over to anyone.
+2 Call 158 yourself and say what happened.
+3 If someone is standing at your door, don't open it and call 158.
+## vnoucatko
+T A "grandchild" or "daughter" is writing from a new number and wants money
+A This is a common scam. Before you send anything, make sure it really is your relative writing to you.
+1 Don't send money or codes.
+2 Call your relative on their OLD, known number, or ask another family member.
+3 You can ask a question only they know the answer to (e.g. your dog's name).
+4 If it turns out to be a scammer, block the number.
+## vzdalena-plocha
+T Someone wants me to install an app (AnyDesk, TeamViewer)
+A Never install an app because someone who called or wrote to you told you to. It would give them access to your phone and your banking.
+1 End the call or conversation.
+2 Don't install anything. If you already have, turn off the internet and uninstall the app.
+3 Call your bank on its official number and tell them what happened.
+W Banks, Microsoft and phone operators never call you about "viruses on your computer".
+## investice
+T Someone is offering me an investment, cryptocurrency or quick profit
+A A promise of high, "guaranteed" profit is a typical sign of a scam. Photos of famous people are often misused for it.
+1 Don't send anyone money or documents.
+2 Don't install any apps an "adviser" recommends.
+3 On the Czech National Bank's website you can check whether a company has a licence.
+4 Talk about investments in person at your bank or with someone close to you.
+W DIGI parťák does not give investment advice – it only helps you recognise a scam.
+## vyhra
+T I've supposedly won something and have to pay a fee
+A If you didn't enter a competition, you haven't won anything. A real prize never requires a fee or your card details.
+1 Don't click the link and don't pay anything.
+2 Delete the message.
+3 If you entered your card, call your bank.
+## jak-poznat-podvod
+T How do I recognise a scam message or email?
+A Scam messages usually share several signs. Noticing just one of them is enough to be careful.
+1 Hurry and fear: "immediately", "within 24 hours", "your account will be blocked".
+2 A link where you are supposed to fill something in or pay.
+3 A request for your card number, PIN, password or SMS code.
+4 An unknown sender, a foreign number or a strange address.
+5 If you're unsure, paste the message into the "Is it a scam?" tool or ask someone close to you.
+## heslo
+T How do I create a safe password?
+A The best is a long password made of several words that you can easily remember but nobody else can guess.
+1 Join 3–4 unrelated words, e.g. "Blackbird-Roll-Garden-27" (but don't use this one, it's public).
+2 Use a different password for each account – especially for email and banking.
+3 You can write passwords in a notebook that stays at home. Never photograph or send them.
+4 Where possible, turn on two-step verification (a code by SMS or in an app).
+W Never tell anyone your password – not the bank, not a "technician". Not even DIGI parťák.
+## nakup-online
+T How do I shop safely online?
+A Shop at well-known online stores, and with unknown ones first check who is behind them.
+1 Type the shop's address yourself, don't click links from adverts and messages.
+2 Look for the seller's contact details, company ID and address, and reviews from other people.
+3 Be careful when the price is suspiciously low.
+4 With an unknown seller, choose to pay on delivery.
+5 On second-hand marketplaces, never send an SMS code or enter your card via a link from a "buyer".
+## laska-online
+T I met someone online and they want money
+A If someone you have never met in person asks you for money, it is very likely a scam.
+1 Don't send money, gifts or codes.
+2 Talk about it with someone close to you.
+3 If you've already sent money, call your bank and the Czech Police (158).
+## pismo
+T How do I make the text bigger on my phone?
+A You can enlarge the text in your phone's Settings. Menu names may differ slightly by manufacturer.
+1 Android: open Settings → Display (or Accessibility) → Font size.
+2 iPhone: open Settings → Display & Brightness → Text Size.
+3 Move the slider to the right until the text is easy to read.
+4 In DIGI parťák you can enlarge the text with the "Text" button at the top.
+## whatsapp-fotka
+T How do I send a photo via WhatsApp?
+A You send a photo in a few steps straight from the chat with that person.
+1 Open WhatsApp and tap the person's name.
+2 At the bottom, tap the paperclip or "+" icon.
+3 Choose "Gallery" (Android) or "Photos" (iPhone).
+4 Tap the photo and then the green arrow to send it.
+## whatsapp-video
+T How do I make a video call on WhatsApp?
+A You start a video call with one tap in the chat with that person.
+1 Open WhatsApp and tap the person's name.
+2 In the top right corner, tap the camera icon.
+3 Wait for the other person to answer.
+4 End the call with the red button.
+## wifi
+T How do I connect to Wi-Fi?
+A You connect to your home Wi-Fi in Settings. You'll need the network name and password – they are usually on a sticker on the router.
+1 Open Settings → Wi-Fi (on Android sometimes Connections → Wi-Fi).
+2 Turn Wi-Fi on if it's off.
+3 Tap the name of your network.
+4 Enter the password from the router's sticker and confirm.
+W On public Wi-Fi (café, station) it's better not to use online banking.
+## aktualizace
+T Should I update my phone?
+A Yes, updates from your phone's Settings are important – they fix security problems.
+1 Start updates only from your phone's Settings or from Google Play / App Store.
+2 Before updating, charge your phone and connect to Wi-Fi.
+3 If a link in a text or email asks you to "update", it's a scam.
+## screenshot
+T How do I take a screenshot?
+A A screenshot is a "photo" of what is on your screen right now. It's useful, for example, for checking a suspicious text in DIGI parťák.
+1 Android: press the power button and the volume down button at the same time and let go straight away.
+2 iPhone without a Home button: press the side button and the volume up button at the same time.
+3 iPhone with a Home button (round, at the bottom): press the Home button and the side (or top) button at the same time.
+4 The screen flashes briefly. You'll find the screenshot in Gallery (Android) or Photos (iPhone).
+W On some Android phones the button combination differs by manufacturer.
+## plocha
+T How do I put DIGI parťák on my phone's home screen?
+A You can add DIGI parťák to your home screen like a normal app. Then you open it with one tap.
+1 Android (Chrome): tap the three dots in the top right → "Add to Home screen" or "Install app".
+2 iPhone (Safari): tap the Share icon at the bottom (a square with an arrow) → "Add to Home Screen".
+3 Confirm with the "Add" button.
+## facebook
+T What is Facebook and how do I start using it?
+A Facebook is a social network – a place on the internet where people share photos and news and send each other messages (via the Messenger app). It's free to use.
+1 Download the Facebook app from Google Play (Android) or the App Store (iPhone), or type facebook.com into your browser yourself.
+2 New account: tap "Create new account" and fill in your name, date of birth and your email or phone number. Choose a password.
+3 Logging in: enter your email or phone number and password and tap "Log in".
+4 In the privacy settings, choose that your posts are seen only by "Friends".
+5 Accept friend requests only from people you really know.
+W Facebook has fake profiles and adverts for "guaranteed earnings" featuring famous people. If someone asks you for money, check by phone.
+## whatsapp-zacit
+T What is WhatsApp and how do I install it?
+A WhatsApp is an app for messages, photos and calls (including video) over the internet. On Wi-Fi it's free, even abroad. It uses your phone number.
+1 Open Google Play (Android) or the App Store (iPhone) and search for "WhatsApp Messenger".
+2 Check that the developer is "WhatsApp LLC" and tap Install (Get).
+3 Open WhatsApp, accept the terms and enter your phone number.
+4 You'll get a text with a code – enter it only directly in WhatsApp.
+5 Type your name. Your contacts who use WhatsApp will appear automatically.
+W Never send your WhatsApp verification code to anyone – not even a "friend" who asks for it. That's how scammers steal accounts.
+## email
+T How do I set up an email address and send a message with an attachment?
+A Email is electronic mail. The most popular in the Czech Republic are Seznam email and Google's Gmail. Both are free.
+1 Setting up: on seznam.cz tap "E-mail" and "Register", or create a Google account (Gmail) – on Android you usually already have one.
+2 Choose an address (e.g. jana.novakova@seznam.cz) and a safe password. Write both down.
+3 Sending: tap "Compose", enter the address in the "To" field, write a subject and the text.
+4 Attachment (photo): tap the paperclip icon and choose a photo.
+5 Tap "Send" (the arrow).
+W Emails that want your password, a payment or a click on a link are often scams. If you're unsure, paste them into "Is it a scam?".
+## youtube
+T What is YouTube and how do I search for videos?
+A YouTube is a website and app with videos – songs, programmes, recipes, how-tos. It's free, an advert just plays now and then.
+1 Open the YouTube app (usually pre-installed on the phone) or type youtube.com into your browser.
+2 Tap the magnifying glass at the top and type what you're looking for (e.g. "Frank Sinatra" or "apple pie recipe").
+3 Tap the video. You can skip an advert after a few seconds with the "Skip" button.
+4 Turn the phone sideways to make the video fill the screen.
+W Adverts for getting rich quickly or miracle cures are often scams, even when famous people appear in them.
+## aplikace-instalace
+T How do I install an app safely?
+A Only download apps from the official store: Google Play on Android, the App Store on iPhone. Most apps are free.
+1 Open Google Play (coloured triangle) or the App Store (blue "A").
+2 Tap search at the top and type the name of the app.
+3 Check the developer's name (e.g. your bank for a banking app) and the ratings.
+4 Tap "Install" (Android) or "Get" (iPhone) and wait.
+5 Uninstalling: hold your finger on the app icon and choose "Uninstall" / "Remove App".
+W Never install an app on the instructions of an unknown caller or from a link in a text message.
+## zapomenute-heslo
+T I've forgotten my password – what now?
+A A forgotten password can almost always be reset. The service sends a code to your phone or email and you set a new password.
+1 On the login page, tap "Forgot password?".
+2 Enter your email or phone number. You'll get a text or email with a code or link.
+3 Enter the code only on the page where you started the reset yourself.
+4 Choose a new password and write it in a notebook that stays at home.
+5 For online banking, call your bank on the number on the back of your card.
+W If you receive a password reset code you didn't ask for, don't send it to anyone – someone may be trying to get into your account.
+## baterie
+T My phone battery runs out quickly – what can I do?
+A A bright screen, navigation, videos and apps running in the background use the most energy. A few changes make the battery last much longer.
+1 Lower the screen brightness (pull down the bar from the top and move the slider with the sun).
+2 Turn on power saving: Android – Settings → Battery → Power saving; iPhone – Settings → Battery → Low Power Mode.
+3 Close apps you're not using and turn off location (GPS) when you don't need it.
+4 Charge with an original or good-quality charger. You don't have to wait until the phone is completely flat.
+5 If the phone is several years old and still drains quickly, a battery replacement at a service centre may help.
+## pamet
+T My phone says the memory is full – how do I free up space?
+A Space on the phone is most often taken up by videos, photos and WhatsApp files. Back them up before deleting them.
+1 See what takes up space: Android – Settings → Storage (or Device care); iPhone – Settings → General → iPhone Storage.
+2 Back up your photos (Google Photos or iCloud) and then delete large videos.
+3 In WhatsApp: Settings → Storage and data → Manage storage – delete large files and forwarded videos.
+4 Uninstall apps you don't use.
+5 Finally, empty the bin in Photos ("Recently Deleted").
+## pomaly-telefon
+T My phone is slow or freezes
+A A simple restart helps most often. It lets the phone "tidy up" its memory.
+1 Restart the phone: hold the power button and choose "Restart" (on iPhone, turn it off and on again).
+2 If the phone doesn't respond at all, hold the power button longer (about 10–15 seconds).
+3 Install system and app updates.
+4 Free up memory – a full memory slows the phone down.
+5 If nothing helps, ask at your operator's shop or service centre.
+## hlasitost
+T I can't hear it ring – how do I make my phone louder?
+A You set the ringtone volume with the buttons on the side of the phone or in Settings. Also check the phone isn't in silent mode.
+1 Press the volume up button on the side of the phone when no video is playing.
+2 Android: Settings → Sounds and vibration → Volume → move "Ringtone" to the right.
+3 iPhone: Settings → Sounds & Haptics → move the "Ringtone and Alerts" slider. On the side, check the silent mode switch (orange = silent).
+4 Turn off "Do Not Disturb" (the moon icon in the top bar).
+5 Turn on vibration too, so you feel it ring in your pocket.
+## blokovani
+T How do I block an annoying number?
+A You can block a number that bothers you on your phone. Then nobody can call or text you from it.
+1 Android: open the Phone app → Recents, hold your finger on the number and choose "Block" (or "Report spam").
+2 iPhone: open Phone → Recents, tap the "i" next to the number and then "Block this Caller".
+3 For texts: open the message, tap the number at the top and choose Block.
+4 You don't have to answer unknown numbers. Whoever needs you will leave a message or write.
+W If the caller claims to be from the bank or the police, hang up and call the official number yourself.
+## kontakt
+T How do I save a phone number to my contacts?
+A You can easily save a number from the Phone or Contacts app. Then you'll see a name instead of a number when they call.
+1 Open the Phone app → Recents and tap the number you want to save.
+2 Choose "Create new contact" or "Add contact" (on iPhone "i" → Create New Contact).
+3 Type the first name and surname, and add a photo if you like.
+4 Tap "Save" (Done).
+5 You can also add a new number in the Contacts app with the "+" button.
+## nouzove-info
+T How do I set up medical details and an emergency contact on my phone?
+A You can store medical details and an emergency contact on your phone. Paramedics can see them even when the phone is locked.
+1 iPhone: open the Health app → your photo in the top right → Medical ID → Edit. Fill in the details and turn on "Show When Locked".
+2 Android: Settings → Safety and emergency (or Emergency information). The exact name differs by manufacturer.
+3 Add an emergency contact – someone close to you.
+4 List important illnesses, allergies and the medicines you take.
+## ztraceny-telefon
+T I've lost my phone – how do I find it?
+A You can find, lock or make your phone ring remotely from a computer or from someone else's phone.
+1 Android: on another device open android.com/find and sign in with your Google account.
+2 iPhone: open icloud.com/find and sign in with your Apple ID (or use the Find My app on another Apple device).
+3 You can make the phone ring, show it on a map or lock it.
+4 If it was stolen, call your operator (to block the SIM), your bank (if you have banking on the phone) and the Czech Police on 158.
+## zaloha-fotek
+T How do I back up my photos so I don't lose them?
+A Backed-up photos are automatically stored outside the phone too. If you lose or break the phone, you keep your photos.
+1 Android: open the Google Photos app → your icon in the top right → turn on "Backup".
+2 iPhone: Settings → your name at the top → iCloud → Photos → turn on "Sync this iPhone".
+3 Backup works best on Wi-Fi and while charging.
+4 Only limited space is free. When it runs out, the service offers paid storage – you don't have to buy it, you can delete what you don't need.
+## mobilni-data
+T What is mobile data and when should I turn it on?
+A Mobile data is internet from your phone operator. It works outside, where there's no Wi-Fi. How much data you have depends on your plan.
+1 Turning it on: pull down the bar from the top edge and tap the "Mobile data" icon (two arrows).
+2 At home and at relatives' it's better to use Wi-Fi – it doesn't use up your data.
+3 Abroad outside the EU, turn off data or roaming so you don't get a high bill. In the EU you pay as at home.
+4 You can find out how much data you have left in your operator's app.
+## qr-kod
+T How do I scan a QR code?
+A A QR code is a square made of dots that contains a link or payment details. You read it with your phone's camera.
+1 Open the Camera and point it at the QR code (don't take a photo).
+2 A link appears – tap it.
+3 QR payment (e.g. on a payment slip): open your bank's app and choose "QR code payment". The details fill in automatically – check the amount and the recipient.
+W QR codes in emails, texts or stuck on parking machines can lead to scam websites. Only make payments in your bank's app.
+## pin-karty
+T How do I change my card PIN?
+A You can change your card PIN in your bank's app, in online banking, at a branch or at some of your bank's cash machines.
+1 Open your bank's app and look for "Change PIN" or "Show PIN" next to the card.
+2 Without the app, go to a bank branch with your ID card.
+3 Choose a new PIN that is not your date of birth or 1234.
+4 Don't write your PIN next to the card or in your phone.
+W Your bank will never ask for your PIN – not by phone, text or email. Anyone who asks for it is a scammer.
+## internetove-bankovnictvi
+T How do I start with online banking safely?
+A Your own bank sets up online banking – most reliably in person at a branch, where they'll help you set it up straight away.
+1 Go to a branch and ask for online and mobile banking. Tell them you're just starting.
+2 Download the bank's app only from Google Play or the App Store (the publisher must be your bank).
+3 Log in to your banking only through this app or an address you type yourself. Never via a link from a message.
+4 Pay a bill with "QR code payment" or "New payment". Check the account number and amount before confirming.
+W Never tell anyone your login details or confirmation codes. A bank will never ask you to transfer money to a "safe account".
+## platba-telefonem
+T How do I pay with my phone instead of a card?
+A You can add your payment card to your phone and pay by holding the phone to the terminal, just like a card.
+1 Open your bank's app and look for "Add to Google Wallet" or "Add to Apple Wallet" next to the card.
+2 Confirm adding it according to the bank's instructions.
+3 When paying, unlock the phone and hold it to the terminal.
+4 Keep your phone locked with a code or fingerprint.
+## hoax
+T How do I recognise a hoax or fake news?
+A A hoax is an alarming or made-up message that spreads by forwarding. It often frightens, angers or promises miracles.
+1 Be alert when a message says "forward to everyone" or is very frightening and outrageous.
+2 Look for the source: who wrote it and where was it published? Serious news has an author and a date.
+3 Check it with a trustworthy news outlet or on fact-checking websites (in the Czech Republic Manipulátoři.cz and Demagog.cz).
+4 If you're not sure, don't forward the message.
+## cookies
+T What should I do with the "cookies" bar on a website?
+A Cookies are small files a website uses to remember what you do. The bar asks whether it may track your behaviour for advertising.
+1 Feel free to choose "Reject all" or "Necessary only". The website will keep working.
+2 If you don't see such a button, tap "Settings" and leave only "Necessary" turned on.
+3 You don't have to deal with the bar every time – the website remembers your choice.
+## vir-hlaska
+T A website popped up saying my phone has a virus
+A Messages on websites like "Your phone is infected!" are almost always a scam. They want to frighten you into installing or paying for something.
+1 Don't click anything in the window and don't call the number shown.
+2 Close the tab or the whole browser. If needed, restart the phone.
+3 Don't install anything and don't pay anything.
+4 If you've already installed something or entered your card, call your bank and ask someone close to you for help.
+## mapy
+T How do I find a route and travel connections on my phone?
+A You'll find routes and connections in the Mapy.com (formerly Mapy.cz) or Google Maps apps. Czech timetables are on the IDOS website.
+1 Open Mapy.com or Google Maps and type where you want to go into the search.
+2 Tap "Route" (Directions) and choose whether you're walking, driving or using public transport.
+3 Bus and train connections are on idos.cz – enter from where, to where and when.
+4 You can buy a train ticket in the Můj vlak app (Czech Railways) or at the ticket office. Ask at the ticket office about senior discounts.
+## objednat-lekar
+T How do I book a doctor's appointment online?
+A Many surgeries offer booking online or by email. But each uses a different system, so ask at the surgery first.
+1 Ask the nurse whether you can book online and at what address.
+2 Have the address or app written down on paper and type it into the browser yourself.
+3 Choose a time and confirm it. You'll usually get a confirmation by email or text.
+4 If online booking doesn't suit you, phoning the surgery is still fine.
+W Questions about health and medicines are answered by a doctor or pharmacist.
+## erecept
+T How does an e-prescription (eRecept) work?
+A An eRecept is an electronic prescription. Your doctor sends it to you by text or email, or prints it.
+1 Wait for a text or email from your doctor with the prescription code.
+2 At the pharmacy, show the message with the code (or the printed paper).
+3 The pharmacist scans the code and gives you the medicine.
+4 You can also send the code to someone close who will collect the medicine for you.
+W Questions about medicines, dosage and health are answered by a doctor or pharmacist, not by DIGI parťák.
+## identita
+T How do I deal with Czech authorities online?
+A You can sort out many things with Czech authorities on the Citizen Portal (Portál občana). You log in, for example, with your bank identity – just like online banking.
+1 Type the Citizen Portal address into your browser yourself: obcan.portal.gov.cz.
+2 Choose to log in through your bank (bank identity) or another option offered.
+3 If you're unsure, ask someone close or a Czech POINT employee at the post office or town hall.
+W Don't use links to an "authority" in texts or emails – always type the address yourself.
+## cisla
+T What are the important phone numbers?
+A Here are the most important numbers. Tap any of them to call straight away.
+## samota
+T I feel sad and lonely
+A I'm sorry to hear that. Feelings like this are completely normal and you don't have to face them alone. These free lines will gladly listen to you (in Czech).
+## krize
+T I feel really bad and don't know what to do
+A I'm very sorry you feel this way. Please talk to someone right now. You matter.
+1 Call the First Psychological Aid Line on 116 123 – free and 24/7 (in Czech).
+2 If you are in danger, call 112 (operators also speak English) or 155.
+3 You can also call someone close to you and ask them to come.
+## zdravi-nouze
+T Health problems – call for help
+A This may be serious. Please call the ambulance on 155 or the emergency line 112 straight away (112 operators also speak English).
+1 Call 155 or 112.
+2 Say where you are and what is happening.
+3 If possible, unlock the door and call a neighbour or someone close to you.
+## mimo-zdravi
+T Questions about health and medicines
+A Only a doctor or pharmacist can safely answer questions about health and medicines. I don't want to give you inaccurate advice.
+1 Call your GP.
+2 Ask at the pharmacy – pharmacists are happy to advise for free.
+3 For sudden problems, call 155.
+## mimo-finance
+T Financial and legal advice
+A I don't give financial or legal advice – I could harm you without meaning to. Please contact an expert.
+1 Talk about money in person at your bank.
+2 Free advice centres help with legal questions, e.g. via Senior telefon (in Czech).
+3 If someone pressures and hurries you to sign a contract, don't sign anything.
+## pozdrav
+T Greeting
+A Hello, nice to see you! I'm DIGI parťák. I'll help you with your phone, the internet and staying safe online. What would you like to ask?
+## dekuji
+T Thanks
+A You're welcome! I'm here whenever you need me. No question is silly.
+## kdo-jsi
+T Who is DIGI parťák?
+A I'm DIGI parťák – a digital helper, not a person. I answer first from a library of verified advice. If the answer isn't there, I'll try to help using artificial intelligence and I'll always remind you to check it.
+1 I can help with your phone and apps.
+2 I'll help you recognise scam messages and calls.
+3 I'll show you where to call for help.
+## G pismo
+T Make the text bigger on your phone
+I Bigger text is easier to read and kinder to your eyes. Nothing can break – you can change it back any time.
+S Open Settings || Find the gear icon labelled "Settings" on your home screen and tap it. ||
+S Find the display item || Android: tap "Display" (on some phones "Accessibility"). iPhone: tap "Display & Brightness". || You can also search with the magnifying glass at the top – type "font".
+S Tap Font size || Android: "Font size" or "Font size and style". iPhone: "Text Size". ||
+S Move the slider to the right || The further right, the bigger the text. The sample text changes straight away, so you'll see the result. ||
+S Done || Go back with the Back button or close Settings. The text stays bigger everywhere on your phone. ||
+## G whatsapp-fotka
+T Send a photo via WhatsApp
+I Make your family happy. Send a photo straight from the chat with that person.
+S Open WhatsApp || Tap the green icon with a white phone in a speech bubble. ||
+S Choose the person || In the list of chats, tap the name of the person you want to send the photo to. ||
+S Tap the paperclip or + || The icon is at the bottom next to the typing field. On Android it's a paperclip, on iPhone a plus sign. ||
+S Choose the photo || Tap "Gallery" (Android) or "Photo Library" (iPhone) and then the photo you want to send. ||
+S Send it || Tap the round green button with the arrow. Your photo is on its way! || Two blue ticks mean the other person has already seen it.
+## G whatsapp-video
+T Video call on WhatsApp
+I See your loved ones even when they're far away. A call over Wi-Fi costs nothing.
+S Open WhatsApp || Tap the green WhatsApp icon. ||
+S Choose the person || Tap the name of the person you want to call. ||
+S Tap the camera || In the top right there's a small camera icon. Tap it. || The handset icon next to it is an ordinary call without video.
+S Wait for them to answer || When the other person answers, you'll see each other. Hold the phone in front of your face. ||
+S End the call || Tap the red button with the handset. ||
+## G podvodna-sms
+T What to do with a suspicious text message
+I Everyone gets scam messages. What matters is knowing how to react.
+S Don't rush || Scammers want you to act immediately. You have time. Take a deep breath. ||
+S Don't click the link || Don't tap the link in the message and don't reply to it. ||
+S Check it another way || If the message claims to be from a bank, the post office or an authority, call them yourself on the number from their official website or your card. ||
+S Delete the message || Hold your finger on the message and choose "Delete". You can block the number. ||
+S Already clicked? || Nothing happens if you didn't fill anything in. If you entered your card or a password, call your bank straight away. || You can check the message in DIGI parťák under "Is it a scam?".
+## G screenshot-android
+T Screenshot on Android
+I A screenshot is a photo of what is on your screen right now. It's useful, for example, for checking a suspicious message.
+S Open what you want to capture || For example a suspicious text. Open the message so the whole text and the sender are visible. ||
+S Find two buttons || On the side of the phone there's a power button and volume buttons. You'll need the power button and the lower volume button (volume down). ||
+S Press both at once || Press the power and volume down buttons at the same time. Hold them only briefly (about 1 second) and let go. || If the power-off menu appears instead, you let go too late. Try again, more quickly.
+S The screen flashes || You'll hear a sound or see a brief flash and a small preview at the bottom. The screenshot is saved. ||
+S Where to find it || Open the Gallery or Google Photos app. The screenshot is among the newest photos, often in the "Screenshots" folder. ||
+S Doesn't work? || On some phones (e.g. Samsung) you can also do it like this: pull down the bar from the top edge and tap "Screenshot". It differs by manufacturer. || You can upload the screenshot in DIGI parťák under "Is it a scam?".
+## G screenshot-iphone
+T Screenshot on iPhone
+I A screenshot is a photo of what is on your screen right now. How you do it depends on whether your iPhone has a round Home button below the screen.
+S Open what you want to capture || For example a suspicious text. Open the message so the whole text and the sender are visible. ||
+S iPhone WITHOUT a Home button || Newer iPhones (screen to the edge): press the side button on the right and the volume up button on the left (upper) at the same time. Let go straight away. ||
+S iPhone WITH a Home button || Older iPhones and iPhone SE (round button at the bottom): press the Home button and the side button on the right at the same time (on the oldest models the top button). ||
+S The screen flashes || The screen briefly turns white and a small preview appears in the bottom left. You don't need to tap it – the screenshot saves itself. || If the "slide to power off" slider appears instead, you held the buttons too long. Tap Cancel and try again more quickly.
+S Where to find it || Open the Photos app. The screenshot is among the newest photos and also in the "Screenshots" album. || You can upload the screenshot in DIGI parťák under "Is it a scam?".
+## G banka-hovor
+T The "bank" is calling me – what now?
+I The most common scam targeting seniors. Just remember one rule: hang up and call back yourself.
+S Hang up || If someone from the "bank" or "police" calls you about money, end the call. You don't need to apologise. ||
+S Don't share anything || Never tell anyone your PIN, passwords or SMS codes. A bank will never ask you for them. ||
+S Call them yourself || Take your payment card and call the number on the back of it. ||
+S Say what happened || The bank employee will tell you whether your account is OK. ||
+## G erecept
+T Collect an e-prescription (eRecept)
+I A prescription no longer has to be on paper. All you need is the code your doctor sends you.
+S Wait for the message || Your doctor sends you a text or email with the prescription code. They can also print it for you. ||
+S Go to a pharmacy || You can go to any pharmacy. ||
+S Show the code || Open the message from your doctor and show it to the pharmacist, or read out the code. ||
+S Done || The pharmacist scans the code and gives you the medicine. || You can forward the code to someone close who will collect the medicine for you.
+## G plocha
+T DIGI parťák on your home screen
+I Add your companion to the home screen like an app. Then you open it with one tap.
+S Open DIGI parťák in the browser || Android: in Chrome. iPhone: in Safari. ||
+S Open the menu || Android: tap the three dots in the top right. iPhone: tap the Share icon at the bottom (a square with an arrow pointing up). ||
+S Add to home screen || Choose "Add to Home screen" or "Install app". ||
+S Confirm || Tap "Add". An icon with a smiling speech bubble appears on your home screen. ||
+P 112 | Emergency line | Any threat to life, health or property. Works even without credit. Operators also speak English.
+P 150 | Fire brigade | Fire, gas leak, technical help.
+P 155 | Ambulance service | Sudden health problems, injury, unconsciousness.
+P 158 | Czech Police | Fraud, theft, threats, a suspicious person at the door.
+P senior | Senior telefon (Život 90) | Free line for seniors and their families. 24/7, in Czech.
+P elpida | Seniors' line (Elpida) | A free chat when you feel sad or need advice. In Czech.
+P psych | First Psychological Aid Line | When things feel too much. Free, 24/7, in Czech.
+C bezpeci | Online safety
+C telefon | Phone and apps
+C internet | Internet, messages and social media
+C penize | Banking and payments
+C urady | Authorities and doctors
+C pomoc | Help and support
+U krize | want to die; kill myself; end my life; suicide; hurt myself; no reason to live
+U zdravi-nouze | chest pain; pain in my chest; can't breathe; cannot breathe; heart attack; stroke; unconscious; fainted; fell and can't get up; bleeding heavily
+U uz-jsem-zadal | entered my card; gave my card details; i clicked the link; sent money to; i've been scammed; they stole my money
+U banka-vola | safe account; bank is calling; bank security department; transfer my money
+K card | card number|card details|cvv|pin|password|login details|verification code|sms code|one-time code
+K urgent | immediately|urgent|within 24|within 48|final notice|last warning|today only|expires|will be blocked|suspended|deactivated
+K fee | fee|charge|customs|duty|pay|payment|outstanding
+K parcel | parcel|package|delivery|courier|shipment|royal mail|post office
+K bank | bank|account|police|tax office|bailiff
+K safeacc | safe account|secure account|transfer your|move your money
+K prize | won|winner|congratulations|prize|reward|gift|free|selected
+K family | hi mum|hi mom|hi dad|hi grandma|hi grandpa|new number|lost my phone|broke my phone|send me money
+K money | money|send|transfer|loan|borrow
+K remote | anydesk|teamviewer|rustdesk|remote access|install the app|download the app
+K invest | investment|invest|crypto|bitcoin|returns|guaranteed|get rich|passive income

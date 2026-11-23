@@ -3,6 +3,8 @@
   'use strict';
   const DP = window.DP;
   const icon = DP.icon;
+  const T = DP.T;
+  const L = () => DP.i18n.current();
   const main = document.getElementById('main');
 
   /* ================= Pomocné funkce ================= */
@@ -63,7 +65,7 @@
   document.getElementById('btn-textsize').addEventListener('click', () => {
     const next = (settings.size + 1) % SIZES.length;
     setSetting('size', next);
-    toast('Velikost písma: ' + SIZES[next].label);
+    toast(T('Velikost písma: {v}', { v: T(SIZES[next].label) }));
     syncSettingsUI();
   });
 
@@ -74,13 +76,14 @@
   function czVoice() {
     if (!synth) return null;
     const vs = synth.getVoices();
-    return vs.find((v) => /^cs/i.test(v.lang)) || null;
+    const code = L();
+    return vs.find((v) => v.lang && v.lang.toLowerCase().replace('_', '-').startsWith(code)) || null;
   }
   function speak(text, btn) {
-    if (!synth) { toast('Váš prohlížeč neumí číst nahlas.'); return; }
+    if (!synth) { toast(T('Váš prohlížeč neumí číst nahlas.')); return; }
     if (currentUtter) { const was = speakingBtn; stopSpeaking(); if (btn && was === btn) return; }
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'cs-CZ';
+    u.lang = DP.i18n.speech();
     const v = czVoice(); if (v) u.voice = v;
     u.rate = settings.slow ? 0.85 : 1;
     u.onend = u.onerror = () => {
@@ -103,13 +106,13 @@
     btn.classList.toggle('is-active', on);
     btn.setAttribute('aria-pressed', on ? 'true' : 'false');
     const lbl = btn.querySelector('.lbl');
-    if (lbl) lbl.textContent = on ? 'Zastavit čtení' : 'Přečíst nahlas';
+    if (lbl) lbl.textContent = on ? T('Zastavit čtení') : T('Přečíst nahlas');
     const ic = btn.querySelector('.ico-wrap');
     if (ic) ic.innerHTML = icon(on ? 'stop' : 'speaker');
   }
   function speakButton(getText, extraClass) {
     const b = h('button', { type: 'button', class: 'btn btn--soft btn--sm ' + (extraClass || ''), 'aria-pressed': 'false', onclick: () => speak(getText(), b) },
-      ico('speaker'), h('span', { class: 'lbl' }, 'Přečíst nahlas'));
+      ico('speaker'), h('span', { class: 'lbl' }, T('Přečíst nahlas')));
     if (!synth) b.hidden = true;
     return b;
   }
@@ -140,16 +143,16 @@
   }
   function micButton(input) {
     const b = h('button', { type: 'button', class: 'btn btn--mic', 'aria-pressed': 'false' },
-      ico('mic', 26), h('span', { class: 'lbl' }, 'Mluvit'));
+      ico('mic', 26), h('span', { class: 'lbl' }, T('Mluvit')));
     const setLabel = (on) => {
       b.classList.toggle('is-listening', on);
       b.setAttribute('aria-pressed', on ? 'true' : 'false');
-      b.querySelector('.lbl').textContent = on ? 'Poslouchám… klepněte pro konec' : 'Mluvit';
+      b.querySelector('.lbl').textContent = on ? T('Poslouchám… klepněte pro konec') : T('Mluvit');
     };
     if (!Rec) {
       b.addEventListener('click', () => {
         input.focus();
-        toast('Tento prohlížeč diktování neumí. Klepněte do pole a použijte mikrofon na klávesnici telefonu.');
+        toast(T('Tento prohlížeč diktování neumí. Klepněte do pole a použijte mikrofon na klávesnici telefonu.'));
       });
       return b;
     }
@@ -160,7 +163,7 @@
       if (rec) { stop(); return; }
       stopSpeaking();
       rec = new Rec();
-      rec.lang = 'cs-CZ';
+      rec.lang = DP.i18n.speech();
       rec.interimResults = true;
       rec.maxAlternatives = 1;
       rec.continuous = !IS_ANDROID; // na Androidu je „continuous“ nespolehlivé
@@ -176,12 +179,12 @@
       };
       rec.onerror = (e) => {
         const msg = {
-          'not-allowed': 'Povolte prosím mikrofon pro tuto stránku v nastavení prohlížeče.',
-          'service-not-allowed': 'Diktování je vypnuté. Na iPhonu zapněte Siri a diktování v Nastavení, nebo použijte mikrofon na klávesnici.',
-          'no-speech': 'Nic jsem neslyšel. Klepněte na Mluvit a mluvte prosím blíž k telefonu.',
-          'audio-capture': 'Nenašel jsem mikrofon. Zkontrolujte, že ho nepoužívá jiná aplikace.',
-          'network': 'Diktování potřebuje internet. Zkuste to znovu, nebo dotaz napište.',
-          'language-not-supported': 'Diktování v češtině tu není dostupné. Použijte mikrofon na klávesnici.'
+          'not-allowed': T('Povolte prosím mikrofon pro tuto stránku v nastavení prohlížeče.'),
+          'service-not-allowed': T('Diktování je vypnuté. Na iPhonu zapněte Siri a diktování v Nastavení, nebo použijte mikrofon na klávesnici.'),
+          'no-speech': T('Nic jsem neslyšel. Klepněte na Mluvit a mluvte prosím blíž k telefonu.'),
+          'audio-capture': T('Nenašel jsem mikrofon. Zkontrolujte, že ho nepoužívá jiná aplikace.'),
+          'network': T('Diktování potřebuje internet. Zkuste to znovu, nebo dotaz napište.'),
+          'language-not-supported': T('Diktování v tomto jazyce tu není dostupné. Použijte mikrofon na klávesnici.')
         }[e.error];
         if (msg) toast(msg);
       };
@@ -191,10 +194,10 @@
         if (got) {
           input.focus();
           try { input.setSelectionRange(input.value.length, input.value.length); } catch (e) { /* nic */ }
-          toast('Zkontrolujte prosím text. Pokud sedí, stiskněte tlačítko pro odeslání.');
+          toast(T('Zkontrolujte prosím text. Pokud sedí, stiskněte tlačítko pro odeslání.'));
         }
       };
-      try { rec.start(); } catch (e) { rec = null; setLabel(false); toast('Diktování se nepodařilo spustit. Zkuste to prosím znovu.'); }
+      try { rec.start(); } catch (e) { rec = null; setLabel(false); toast(T('Diktování se nepodařilo spustit. Zkuste to prosím znovu.')); }
     });
     return b;
   }
@@ -214,7 +217,7 @@
       h('span', { class: 'phone-card__body' },
         h('span', { class: 'phone-card__name' }, p.name),
         h('span', { class: 'phone-card__desc' }, p.desc)),
-      h('span', { class: 'phone-card__call' }, ico('phone'), h('span', null, 'Zavolat')));
+      h('span', { class: 'phone-card__call' }, ico('phone'), h('span', null, T('Zavolat'))));
   }
   const phoneById = (id) => DP.PHONES.find((p) => p.id === id);
 
@@ -225,9 +228,9 @@
   /* ================= Router ================= */
   const routes = {
     '': viewHome, 'chat': viewChat, 'podvod': viewScam, 'navody': viewGuides,
-    'pomoc': viewHelp, 'nastaveni': viewSettings
+    'pomoc': viewHelp, 'nastaveni': viewSettings, 'jazyk': viewLanguage
   };
-  const TITLES = { '': 'Domů', chat: 'Zeptejte se', podvod: 'Je to podvod?', navody: 'Návody krok za krokem', pomoc: 'Pomoc a důležitá čísla', nastaveni: 'Nastavení' };
+  const TITLES = { '': 'Domů', chat: 'Zeptejte se', podvod: 'Je to podvod?', navody: 'Návody krok za krokem', pomoc: 'Pomoc a důležitá čísla', nastaveni: 'Nastavení', jazyk: 'Jazyk' };
   let firstRender = true;
 
   function render() {
@@ -237,7 +240,7 @@
     main.innerHTML = '';
     main.className = 'view view--' + (key || 'home');
     routes[key](parts.slice(1));
-    document.title = (key === 'navody' && parts[1] ? (DP.GUIDES.find((g) => g.id === parts[1]) || {}).title || TITLES[key] : TITLES[key]) + ' – DIGI parťák';
+    document.title = (key === 'navody' && parts[1] ? (DP.GUIDES.find((g) => g.id === parts[1]) || {}).title || T(TITLES[key]) : T(TITLES[key])) + ' – DIGI parťák';
     document.querySelectorAll('[data-nav]').forEach((a) => {
       const on = a.dataset.nav === (key || 'home');
       if (on) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
@@ -256,61 +259,62 @@
   /* ================= DOMŮ ================= */
   function greeting() {
     const hr = new Date().getHours();
-    if (hr < 9 && hr >= 4) return 'Dobré ráno!';
-    if (hr >= 18 || hr < 4) return 'Dobrý večer!';
-    return 'Dobrý den!';
+    if (hr < 9 && hr >= 4) return T('Dobré ráno!');
+    if (hr >= 18 || hr < 4) return T('Dobrý večer!');
+    return T('Dobrý den!');
   }
 
   function askBox(placeholder) {
     const input = h('input', { type: 'text', id: 'home-ask', class: 'input', placeholder: placeholder, autocomplete: 'off', enterkeyhint: 'send', maxlength: '500' });
-    const submit = (txt) => { const q = (txt || input.value).trim(); if (!q) { input.focus(); toast('Napište prosím svůj dotaz.'); return; } DP.pendingQuestion = q; go('#/chat'); };
+    const submit = (txt) => { const q = (txt || input.value).trim(); if (!q) { input.focus(); toast(T('Napište prosím svůj dotaz.')); return; } DP.pendingQuestion = q; go('#/chat'); };
     const form = h('form', { class: 'ask', onsubmit: (e) => { e.preventDefault(); submit(); } },
-      h('label', { for: 'home-ask', class: 'ask__label' }, 'Napište, s čím potřebujete pomoct'),
+      h('label', { for: 'home-ask', class: 'ask__label' }, T('Napište, s čím potřebujete pomoct')),
       h('div', { class: 'ask__row' }, input,
         micButton(input),
-        h('button', { type: 'submit', class: 'btn btn--dark' }, h('span', null, 'Zeptat se'), ico('arrowR'))));
+        h('button', { type: 'submit', class: 'btn btn--dark' }, h('span', null, T('Zeptat se')), ico('arrowR'))));
     return form;
   }
 
   function viewHome() {
     const faqs = [
-      ['Volá mi někdo z banky', 'banka-vola'], ['Přišla mi divná SMS o balíku', 'sms-balik'],
-      ['Co je Facebook?', 'facebook'], ['Jak poslat fotku vnoučatům?', 'whatsapp-fotka'],
-      ['Zapomněl/a jsem heslo', 'zapomenute-heslo'], ['Telefon se rychle vybíjí', 'baterie']
+      [T('Volá mi někdo z banky'), 'banka-vola'], [T('Přišla mi divná SMS o balíku'), 'sms-balik'],
+      [T('Co je Facebook?'), 'facebook'], [T('Jak poslat fotku vnoučatům?'), 'whatsapp-fotka'],
+      [T('Zapomněl/a jsem heslo'), 'zapomenute-heslo'], [T('Telefon se rychle vybíjí'), 'baterie']
     ];
     append(main, [
       h('section', { class: 'home-hero' },
         h('div', { class: 'card card--cream hero' },
+          langButton('hero__lang'),
           h('div', { class: 'hero__text' },
-            h('p', { class: 'badge badge--lime' }, ico('heart', 18), 'Váš vlídný průvodce'),
+            h('p', { class: 'badge badge--lime' }, ico('heart', 18), T('Váš vlídný průvodce')),
             h('h1', { tabindex: '-1', class: 'hero__title' }, greeting()),
-            h('p', { class: 'hero__sub' }, 'S čím vám mohu dnes pomoci?'),
-            h('p', { class: 'muted' }, 'Technologie bez stresu, spěchu a obav. Vše vysvětlíme česky, pomalu a krok za krokem.')),
+            h('p', { class: 'hero__sub' }, T('S čím vám mohu dnes pomoci?')),
+            h('p', { class: 'muted' }, T('Technologie bez stresu, spěchu a obav. Vše vysvětlíme česky, pomalu a krok za krokem.'))),
           h('div', { class: 'hero__mascot', 'aria-hidden': 'true', html: DP.mascot() })),
-        h('div', { class: 'card card--lime askcard' }, askBox('Například: Jak poslat fotku?'))
+        h('div', { class: 'card card--lime askcard' }, askBox(T('Například: Jak poslat fotku?')))
       ),
 
       h('section', { class: 'photo-row' },
         h('figure', { class: 'photo-card' },
-          h('img', { src: 'img/senior-zena.jpg', alt: 'Usměvavá paní s brýlemi drží chytrý telefon.', width: '304', height: '372', loading: 'lazy' }),
-          h('figcaption', null, h('span', { class: 'photo-card__tag' }, 'Bez obav'), h('strong', null, 'Technologie bez stresu'))),
+          h('img', { src: 'img/senior-zena.jpg', alt: T('Usměvavá paní s brýlemi drží chytrý telefon.'), width: '304', height: '372', loading: 'lazy' }),
+          h('figcaption', null, h('span', { class: 'photo-card__tag' }, T('Bez obav')), h('strong', null, T('Technologie bez stresu')))),
         h('div', { class: 'card card--lavender ask-easy' },
-          h('h2', null, 'Ptejte se snadno'),
-          h('p', null, 'Žádná otázka není hloupá. Napište ji, nebo ji řekněte nahlas tlačítkem ', h('strong', null, 'Mluvit'), '.'),
+          h('h2', null, T('Ptejte se snadno')),
+          h('p', null, T('Žádná otázka není hloupá. Napište ji, nebo ji řekněte nahlas tlačítkem '), h('strong', null, T('Mluvit')), '.'),
           h('div', { class: 'ask-easy__mascot', 'aria-hidden': 'true', html: DP.mascot('plain') }))
       ),
 
       h('section', { class: 'section', 'aria-labelledby': 'h-pom' },
-        h('h2', { id: 'h-pom', class: 'section__title' }, 'Hlavní pomocníci'),
+        h('h2', { id: 'h-pom', class: 'section__title' }, T('Hlavní pomocníci')),
         h('div', { class: 'grid-3' },
-          featureCard('lavender', 'chat', 'Zeptejte se', 'Rozhovor s parťákem. Přednostně odpovídá ověřenými radami, jiné odpovědi jasně označí.', 'Otevřít rozhovor', '#/chat', 'Žádná otázka není hloupá'),
-          featureCard('sky', 'shield', 'Je to podvod?', 'Přišla vám divná SMS nebo e-mail? Společně zkontrolujeme varovné znaky.', 'Zkontrolovat zprávu', '#/podvod', 'Text nikam neodesíláme'),
-          featureCard('cream', 'steps', 'Krok za krokem', 'Jednoduché návody. Vždy jen jeden krok na obrazovce.', 'Prohlédnout návody', '#/navody', 'Pomalu, jak vám vyhovuje')
+          featureCard('lavender', 'chat', T('Zeptejte se'), T('Rozhovor s parťákem. Přednostně odpovídá ověřenými radami, jiné odpovědi jasně označí.'), T('Otevřít rozhovor'), '#/chat', T('Žádná otázka není hloupá')),
+          featureCard('sky', 'shield', T('Je to podvod?'), T('Přišla vám divná SMS nebo e-mail? Společně zkontrolujeme varovné znaky.'), T('Zkontrolovat zprávu'), '#/podvod', T('Text nikam neodesíláme')),
+          featureCard('cream', 'steps', T('Krok za krokem'), T('Jednoduché návody. Vždy jen jeden krok na obrazovce.'), T('Prohlédnout návody'), '#/navody', T('Pomalu, jak vám vyhovuje'))
         )),
 
       h('section', { class: 'section card card--cream', 'aria-labelledby': 'h-faq' },
-        h('h2', { id: 'h-faq', class: 'section__title' }, 'Časté otázky'),
-        h('p', { class: 'muted' }, 'Klepněte a hned dostanete odpověď.'),
+        h('h2', { id: 'h-faq', class: 'section__title' }, T('Časté otázky')),
+        h('p', { class: 'muted' }, T('Klepněte a hned dostanete odpověď.')),
         h('ul', { class: 'faq-list' }, faqs.map(([label, id]) =>
           h('li', null, h('button', { type: 'button', class: 'faq-item', onclick: () => { DP.pendingEntry = id; go('#/chat'); } },
             h('span', null, label), ico('arrowR')))))),
@@ -318,25 +322,25 @@
       h('section', { class: 'section grid-2' },
         h('div', { class: 'card card--sky promise' },
           h('div', { class: 'promise__icon', 'aria-hidden': 'true', html: icon('lock', 40) }),
-          h('h2', null, 'Vaše bezpečí je na 1. místě'),
+          h('h2', null, T('Vaše bezpečí je na 1. místě')),
           h('ul', { class: 'checklist' },
-            h('li', null, ico('check'), 'Nikdy po vás nechceme hesla, PIN ani číslo karty.'),
-            h('li', null, ico('check'), 'Parťák odpovídá z knihovny ověřených rad. Každou jinou odpověď jasně označí, abyste si ji mohli ověřit.'),
-            h('li', null, ico('check'), 'Vaše dotazy zůstávají jen ve vašem zařízení.'))),
+            h('li', null, ico('check'), T('Nikdy po vás nechceme hesla, PIN ani číslo karty.')),
+            h('li', null, ico('check'), T('Parťák odpovídá z knihovny ověřených rad. Každou jinou odpověď jasně označí, abyste si ji mohli ověřit.')),
+            h('li', null, ico('check'), T('Vaše dotazy zůstávají jen ve vašem zařízení.')))),
         h('div', { class: 'card card--lavender human' },
-          h('img', { src: 'img/senior-muz.jpg', alt: 'Usměvavý pán s brýlemi pracuje na tabletu.', width: '308', height: '292', loading: 'lazy', class: 'human__img' }),
+          h('img', { src: 'img/senior-muz.jpg', alt: T('Usměvavý pán s brýlemi pracuje na tabletu.'), width: '308', height: '292', loading: 'lazy', class: 'human__img' }),
           h('div', null,
-            h('h2', null, 'Chcete mluvit s člověkem?'),
-            h('p', null, 'Senior telefon je zdarma a nonstop.'),
+            h('h2', null, T('Chcete mluvit s člověkem?')),
+            h('p', null, T('Senior telefon je zdarma a nonstop.')),
             h('div', { class: 'btn-row' },
               h('a', { class: 'btn btn--primary', href: 'tel:800157157' }, ico('phone'), h('span', null, '800 157 157')),
-              h('a', { class: 'btn btn--outline', href: '#/pomoc' }, h('span', null, 'Další čísla pomoci')))))),
+              h('a', { class: 'btn btn--outline', href: '#/pomoc' }, h('span', null, T('Další čísla pomoci'))))))),
 
       h('a', { class: 'card card--white settings-link', href: '#/nastaveni' },
         h('span', { class: 'feature__icon', 'aria-hidden': 'true', html: icon('text', 30) }),
         h('span', { class: 'guide-card__body' },
-          h('span', { class: 'guide-card__title' }, 'Přizpůsobit aplikaci'),
-          h('span', { class: 'guide-card__meta' }, 'Velikost písma, vysoký kontrast, čtení nahlas')),
+          h('span', { class: 'guide-card__title' }, T('Přizpůsobit aplikaci')),
+          h('span', { class: 'guide-card__meta' }, T('Velikost písma, vysoký kontrast, čtení nahlas'))),
         ico('arrowR'))
     ]);
   }
@@ -354,8 +358,8 @@
   const chat = { log: [] }; // jen v paměti – po zavření aplikace zmizí
 
   function viewChat() {
-    const list = h('div', { class: 'chat__log', role: 'log', 'aria-live': 'polite', 'aria-label': 'Rozhovor s DIGI parťákem' });
-    const input = h('textarea', { id: 'chat-input', class: 'input chat__input', rows: '1', placeholder: 'Napište svůj dotaz…', maxlength: '500', autocomplete: 'off', enterkeyhint: 'send' });
+    const list = h('div', { class: 'chat__log', role: 'log', 'aria-live': 'polite', 'aria-label': T('Rozhovor s DIGI parťákem') });
+    const input = h('textarea', { id: 'chat-input', class: 'input chat__input', rows: '1', placeholder: T('Napište svůj dotaz…'), maxlength: '500', autocomplete: 'off', enterkeyhint: 'send' });
     const send = (txt) => {
       const q = (txt != null ? txt : input.value).trim();
       if (!q) { input.focus(); return; }
@@ -370,17 +374,17 @@
       h('div', { class: 'chat-head' },
         h('div', { class: 'chat-head__avatar', 'aria-hidden': 'true', html: DP.mascot('small') }),
         h('div', null,
-          h('h1', { tabindex: '-1', class: 'page-title page-title--sm' }, 'Zeptejte se parťáka'),
-          h('p', { class: 'chat-head__status' }, ico('shield', 18), 'Ověřené rady mají zelený štítek')),
-        h('button', { type: 'button', class: 'btn btn--soft btn--sm', onclick: () => { chat.log = []; render(); toast('Rozhovor jsem smazal.'); } }, ico('trash', 20), h('span', null, 'Nový rozhovor'))),
-      h('p', { class: 'notice' }, ico('lock', 20), h('span', null, 'Do chatu nikdy nepište hesla, PIN ani číslo karty. Rozhovor se neukládá a po zavření aplikace zmizí.')),
+          h('h1', { tabindex: '-1', class: 'page-title page-title--sm' }, T('Zeptejte se parťáka')),
+          h('p', { class: 'chat-head__status' }, ico('shield', 18), T('Ověřené rady mají zelený štítek'))),
+        h('button', { type: 'button', class: 'btn btn--soft btn--sm', onclick: () => { chat.log = []; render(); toast(T('Rozhovor jsem smazal.')); } }, ico('trash', 20), h('span', null, T('Nový rozhovor')))),
+      h('p', { class: 'notice' }, ico('lock', 20), h('span', null, T('Do chatu nikdy nepište hesla, PIN ani číslo karty. Rozhovor se neukládá a po zavření aplikace zmizí.'))),
       list,
       h('form', { class: 'chat__bar', onsubmit: (e) => { e.preventDefault(); send(); } },
-        h('label', { for: 'chat-input', class: 'sr-only' }, 'Váš dotaz'),
+        h('label', { for: 'chat-input', class: 'sr-only' }, T('Váš dotaz')),
         input,
         h('div', { class: 'chat__btns' },
           micButton(input),
-          h('button', { type: 'submit', class: 'btn btn--primary btn--send' }, ico('send'), h('span', { class: 'lbl' }, 'Odeslat'))))
+          h('button', { type: 'submit', class: 'btn btn--primary btn--send' }, ico('send'), h('span', { class: 'lbl' }, T('Odeslat')))))
     ]);
 
     if (!chat.log.length) chat.log.push({ who: 'bot', kind: 'welcome' });
@@ -408,7 +412,7 @@
   }
 
   function ask(q, list) {
-    const r = DP.bot.reply(q);
+    const r = DP.bot.reply(q, L());
     push({ who: 'user', text: r.scrubbed }, list);
     if (r.sensitive.length) push({ who: 'bot', kind: 'sensitive', found: r.sensitive }, list);
     const typing = h('div', { class: 'msg msg--bot msg--typing', 'aria-hidden': 'true' }, h('span'), h('span'), h('span'));
@@ -416,25 +420,27 @@
     setTimeout(() => {
       typing.remove();
       if (r.type === 'answer') { push(entryMsg(r.entry, r.scrubbed), list); return; }
-      if (r.type === 'clarify') { push({ who: 'bot', kind: 'clarify', q: r.scrubbed, options: r.options.map((e) => e.id), speak: 'Myslíte jedno z těchto témat?' }, list); return; }
-      if (r.reason === 'empty') { push({ who: 'bot', kind: 'unknown', suggestions: [], speak: 'Promiňte, nerozuměl jsem.' }, list); return; }
-      askOutside(r.scrubbed, list, (r.suggestions || []).map((e) => e.id));
+      if (r.type === 'clarify') { push({ who: 'bot', kind: 'clarify', q: r.scrubbed, options: r.options.map((e) => e.id), speak: T('Myslíte jedno z těchto témat?') }, list); return; }
+      if (r.reason === 'empty') { push({ who: 'bot', kind: 'unknown', suggestions: [], speak: T('Promiňte, nerozuměl jsem.') }, list); return; }
+      askOutside(r.scrubbed, list, (r.suggestions || []).map((e) => e.id), false);
     }, matchMedia('(prefers-reduced-motion: reduce)').matches ? 50 : 550);
   }
 
   /* Otázka mimo ověřenou knihovnu → AI. Odpověď je vždy označená „Informace mimo aplikaci“. */
-  async function askOutside(question, list, suggestions) {
-    const unknown = (reason) => push({ who: 'bot', kind: 'unknown', reason, suggestions: suggestions || [], speak: 'Promiňte, na tohle teď nemám odpověď.' }, list);
+  async function askOutside(question, list, suggestions, noRoute) {
+    const unknown = (reason) => push({ who: 'bot', kind: 'unknown', reason, suggestions: suggestions || [], speak: T('Promiňte, na tohle teď nemám odpověď.') }, list);
     if (!navigator.onLine) { unknown('offline'); return; }
     const history = chatHistory(question);
     const typing = h('div', { class: 'msg msg--bot msg--typing msg--typing-label', role: 'status' },
       h('span', { 'aria-hidden': 'true' }), h('span', { 'aria-hidden': 'true' }), h('span', { 'aria-hidden': 'true' }),
-      h('em', { class: 'typing__text' }, 'V aplikaci to nemám, hledám odpověď mimo aplikaci…'));
+      h('em', { class: 'typing__text' }, T('V aplikaci to nemám, hledám odpověď mimo aplikaci…')));
     list.appendChild(typing);
     scrollChat(list, true);
-    const ai = await askAI(question, history);
+    const ai = await askAI(question, history, !noRoute);
     typing.remove();
-    if (ai) push({ who: 'bot', kind: 'ai', text: ai, speak: AI_WARNING + ' ' + ai }, list);
+    // AI poznala, že otázka patří k ověřenému tématu → ukážeme ověřenou radu (v jazyce uživatele).
+    if (ai && ai.topic && DP.bot.byId(ai.topic)) { push(entryMsg(DP.bot.byId(ai.topic), question), list); return; }
+    if (ai && ai.answer) push({ who: 'bot', kind: 'ai', text: ai.answer, speak: T(AI_WARNING) + ' ' + ai.answer }, list);
     else unknown('unavailable');
   }
 
@@ -452,17 +458,24 @@
 
   const AI_WARNING = 'Pozor, jde o informaci mimo aplikaci. Není z ověřené knihovny DIGI parťáka, připravila ji umělá inteligence a může obsahovat chybu. Informaci si prosím ověřte.';
 
-  async function askAI(question, history) {
+  /* Seznam ověřených témat pro AI (id + název v jazyce uživatele), aby mohla otázku přiřadit. */
+  function topicList() {
+    return DP.KB.filter((e) => e.cat !== 'konverzace' && e.cat !== 'mimo').map((e) => ({ id: e.id, title: e.title.slice(0, 120) }));
+  }
+
+  async function askAI(question, history, route) {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 50000);
     try {
       const res = await fetch('api/ask', {
         method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: question.slice(0, 500), history: history || [] }), signal: ctrl.signal
+        body: JSON.stringify({ question: question.slice(0, 500), history: history || [], lang: L(), topics: route ? topicList() : [] }), signal: ctrl.signal
       });
       if (!res.ok) return null;
       const data = await res.json();
-      return typeof data.answer === 'string' && data.answer.trim() ? data.answer.trim() : null;
+      const topic = typeof data.topic === 'string' && data.topic !== 'none' ? data.topic : null;
+      const answer = typeof data.answer === 'string' && data.answer.trim() ? data.answer.trim() : null;
+      return topic || answer ? { topic, answer } : null;
     } catch (e) { return null; }
     finally { clearTimeout(timer); }
   }
@@ -480,9 +493,9 @@
 
   function outsideButton(q, list) {
     return h('div', { class: 'outside' },
-      h('p', { class: 'muted' }, 'Nenašli jste, co jste hledali?'),
-      h('button', { type: 'button', class: 'btn btn--outline btn--sm', onclick: (ev) => { ev.currentTarget.disabled = true; askOutside(q, list); } },
-        ico('sparkle', 20), h('span', null, 'Zeptat se mimo aplikaci')));
+      h('p', { class: 'muted' }, T('Nenašli jste, co jste hledali?')),
+      h('button', { type: 'button', class: 'btn btn--outline btn--sm', onclick: (ev) => { ev.currentTarget.disabled = true; askOutside(q, list, [], true); } },
+        ico('sparkle', 20), h('span', null, T('Zeptat se mimo aplikaci'))));
   }
 
   function showEntry(id, list, fromChip) {
@@ -492,14 +505,14 @@
   }
 
   function entryMsg(e, q) {
-    return { who: 'bot', kind: 'entry', id: e.id, q: q || null, speak: [e.a].concat(e.steps.map((s, i) => (i + 1) + '. ' + s)).concat(e.warn ? ['Pozor: ' + e.warn] : []).join(' ') };
+    return { who: 'bot', kind: 'entry', id: e.id, q: q || null, speak: [e.a].concat(e.steps.map((s, i) => (i + 1) + '. ' + s)).concat(e.warn ? [T('Pozor: {t}', { t: e.warn })] : []).join(' ') };
   }
 
   function botBubble(children, speakText) {
     return h('div', { class: 'msg msg--bot' },
       h('div', { class: 'msg__avatar', 'aria-hidden': 'true', html: DP.mascot('small') }),
       h('div', { class: 'msg__bubble' },
-        h('span', { class: 'sr-only' }, 'DIGI parťák říká: '),
+        h('span', { class: 'sr-only' }, T('DIGI parťák říká: ')),
         children,
         speakText ? h('div', { class: 'msg__tools' }, speakButton(() => speakText)) : null));
   }
@@ -522,27 +535,27 @@
 
   function renderMsg(m, list) {
     if (m.who === 'user') {
-      return h('div', { class: 'msg msg--user' }, h('div', { class: 'msg__bubble' }, h('span', { class: 'sr-only' }, 'Vy: '), m.text));
+      return h('div', { class: 'msg msg--user' }, h('div', { class: 'msg__bubble' }, h('span', { class: 'sr-only' }, T('Vy: ')), m.text));
     }
     if (m.kind === 'welcome') {
       return botBubble([
-        h('p', { class: 'msg__lead' }, 'Dobrý den! Jsem DIGI parťák.'),
-        h('p', null, 'Zeptejte se vlastními slovy, nebo si vyberte téma. Nejdřív hledám v knihovně ověřených rad. Když tam odpověď není, zkusím poradit jinak – ale vždy vás upozorním, ať si to ověříte.'),
+        h('p', { class: 'msg__lead' }, T('Dobrý den! Jsem DIGI parťák.')),
+        h('p', null, T('Zeptejte se vlastními slovy, nebo si vyberte téma. Nejdřív hledám v knihovně ověřených rad. Když tam odpověď není, zkusím poradit jinak – ale vždy vás upozorním, ať si to ověříte.')),
         topicPicker(list)
-      ], 'Dobrý den! Jsem DIGI parťák. Zeptejte se vlastními slovy, nebo si vyberte téma.');
+      ], T('Dobrý den! Jsem DIGI parťák. Zeptejte se vlastními slovy, nebo si vyberte téma.'));
     }
     if (m.kind === 'sensitive') {
-      const what = m.found.map((f) => ({ karta: 'číslo karty', rodne: 'rodné číslo', heslo: 'heslo nebo kód' })[f]).join(', ');
+      const what = m.found.map((f) => ({ karta: T('číslo karty'), rodne: T('rodné číslo'), heslo: T('heslo nebo kód') })[f]).join(', ');
       return h('div', { class: 'msg msg--bot' },
         h('div', { class: 'msg__avatar', 'aria-hidden': 'true', html: DP.mascot('small') }),
         h('div', { class: 'msg__bubble msg__bubble--warn', role: 'alert' },
-          h('p', { class: 'msg__lead' }, ico('alert'), ' Pozor na citlivé údaje'),
-          h('p', null, 'Ve vaší zprávě bylo ' + what + '. Skryl jsem to a nikam se to neodeslalo.'),
-          h('p', null, 'Tyto údaje prosím nikdy nikomu nepište – ani do chatu, ani do SMS či e-mailu.')));
+          h('p', { class: 'msg__lead' }, ico('alert'), T(' Pozor na citlivé údaje')),
+          h('p', null, T('Ve vaší zprávě bylo {what}. Skryl jsem to a nikam se to neodeslalo.', { what })),
+          h('p', null, T('Tyto údaje prosím nikdy nikomu nepište – ani do chatu, ani do SMS či e-mailu.'))));
     }
     if (m.kind === 'clarify') {
       return botBubble([
-        h('p', { class: 'msg__lead' }, 'Myslíte jedno z těchto témat?'),
+        h('p', { class: 'msg__lead' }, T('Myslíte jedno z těchto témat?')),
         h('div', { class: 'chips' }, m.options.map((id) => { const e = DP.bot.byId(id); return chip(e.title, () => showEntry(id, list)); })),
         m.q ? outsideButton(m.q, list) : null
       ], m.speak);
@@ -550,37 +563,37 @@
     if (m.kind === 'unknown') {
       const sug = (m.suggestions || []).map((id) => DP.bot.byId(id)).filter(Boolean);
       return botBubble([
-        h('p', { class: 'msg__lead' }, m.reason === 'offline' ? 'Jste bez internetu.' : 'Promiňte, na tohle teď nemám odpověď.'),
+        h('p', { class: 'msg__lead' }, m.reason === 'offline' ? T('Jste bez internetu.') : T('Promiňte, na tohle teď nemám odpověď.')),
         h('p', null, m.reason === 'offline'
-          ? 'Bez internetu umím odpovídat jen z knihovny ověřených rad. Vyberte si téma, nebo to zkuste znovu, až budete připojeni.'
+          ? T('Bez internetu umím odpovídat jen z knihovny ověřených rad. Vyberte si téma, nebo to zkuste znovu, až budete připojeni.')
           : m.reason === 'unavailable'
-            ? 'V ověřené knihovně to není a odpověď mimo aplikaci se teď nepodařilo získat. Zkuste to za chvíli, napište to jinými slovy, nebo se zeptejte člověka.'
-            : 'Zkuste to napsat jinými slovy, vyberte si téma, nebo se zeptejte člověka.'),
-        sug.length ? h('div', null, h('p', { class: 'msg__sub' }, 'Možná hledáte:'), h('div', { class: 'chips' }, sug.map((e) => chip(e.title, () => showEntry(e.id, list))))) : null,
+            ? T('V ověřené knihovně to není a odpověď mimo aplikaci se teď nepodařilo získat. Zkuste to za chvíli, napište to jinými slovy, nebo se zeptejte člověka.')
+            : T('Zkuste to napsat jinými slovy, vyberte si téma, nebo se zeptejte člověka.')),
+        sug.length ? h('div', null, h('p', { class: 'msg__sub' }, T('Možná hledáte:')), h('div', { class: 'chips' }, sug.map((e) => chip(e.title, () => showEntry(e.id, list))))) : null,
         topicPicker(list),
-        h('div', { class: 'btn-row' }, h('a', { class: 'btn btn--outline btn--sm', href: 'tel:800157157' }, ico('phone', 20), h('span', null, 'Senior telefon 800 157 157')))
-      ], 'Promiňte, na tohle nemám ověřenou odpověď. Nechci vám radit nepřesně.');
+        h('div', { class: 'btn-row' }, h('a', { class: 'btn btn--outline btn--sm', href: 'tel:800157157' }, ico('phone', 20), h('span', null, T('Senior telefon 800 157 157'))))
+      ], T('Promiňte, na tohle nemám ověřenou odpověď. Nechci vám radit nepřesně.'));
     }
     if (m.kind === 'ai') {
       return botBubble([
         h('div', { class: 'ai-warn', role: 'note' },
-          h('p', { class: 'ai-warn__title' }, ico('alert'), h('span', null, 'Informace mimo aplikaci – ověřte si ji')),
-          h('p', null, 'Tohle v ověřené knihovně DIGI parťáka není. Odpověď připravila umělá inteligence z obecných znalostí. Může obsahovat chybu nebo být zastaralá.')),
+          h('p', { class: 'ai-warn__title' }, ico('alert'), h('span', null, T('Informace mimo aplikaci – ověřte si ji'))),
+          h('p', null, T('Tohle v ověřené knihovně DIGI parťáka není. Odpověď připravila umělá inteligence z obecných znalostí. Může obsahovat chybu nebo být zastaralá.'))),
         aiText(m.text),
         h('div', { class: 'ai-verify' },
-          h('p', { class: 'msg__sub' }, 'Jak si to ověřit:'),
+          h('p', { class: 'msg__sub' }, T('Jak si to ověřit:')),
           h('ul', { class: 'checklist' },
-            h('li', null, ico('check'), 'Zeptejte se blízkého člověka, kterému věříte.'),
-            h('li', null, ico('check'), 'Podívejte se na oficiální web instituce – adresu napište sami.'),
-            h('li', null, ico('check'), 'Zavolejte bezplatně na Senior telefon 800 157 157.'))),
-        h('p', { class: 'muted ai-note' }, 'Než cokoli zaplatíte nebo nainstalujete, nejdřív si informaci ověřte.')
+            h('li', null, ico('check'), T('Zeptejte se blízkého člověka, kterému věříte.')),
+            h('li', null, ico('check'), T('Podívejte se na oficiální web instituce – adresu napište sami.')),
+            h('li', null, ico('check'), T('Zavolejte bezplatně na Senior telefon 800 157 157.')))),
+        h('p', { class: 'muted ai-note' }, T('Než cokoli zaplatíte nebo nainstalujete, nejdřív si informaci ověřte.'))
       ], m.speak);
     }
     if (m.kind === 'entry') {
       const e = DP.bot.byId(m.id);
       return botBubble([
-        e.urgent ? h('p', { class: 'msg__urgent' }, ico('alert'), ' Důležité – jednejte hned') : null,
-        e.cat !== 'konverzace' && e.cat !== 'mimo' ? h('p', { class: 'verified-tag' }, ico('checkCircle', 18), h('span', null, 'Ověřená rada')) : null,
+        e.urgent ? h('p', { class: 'msg__urgent' }, ico('alert'), T(' Důležité – jednejte hned')) : null,
+        e.cat !== 'konverzace' && e.cat !== 'mimo' ? h('p', { class: 'verified-tag' }, ico('checkCircle', 18), h('span', null, T('Ověřená rada'))) : null,
         h('h3', { class: 'msg__title' }, e.title),
         h('p', { class: 'msg__answer' }, e.a),
         e.steps.length ? h('ol', { class: 'steps' }, e.steps.map((s) => h('li', null, h('span', null, s)))) : null,
@@ -588,9 +601,9 @@
         e.phones ? h('div', { class: 'phones phones--compact' }, e.phones.map((id) => phoneCard(phoneById(id)))) : null,
         e.action ? h('a', { class: 'btn btn--primary btn--sm', href: e.action.href }, h('span', null, e.action.label), ico('arrowR', 20)) : null,
         e.src && e.src.length ? h('details', { class: 'sources' },
-          h('summary', null, ico('checkCircle', 20), 'Odkud to víme'),
-          h('ul', null, e.src.map((s) => h('li', null, h('a', { href: s.u, target: '_blank', rel: 'noopener noreferrer' }, s.n, ico('external', 18)))))) : null,
-        e.rel && e.rel.length ? h('div', null, h('p', { class: 'msg__sub' }, 'Mohlo by vás zajímat:'),
+          h('summary', null, ico('checkCircle', 20), T('Odkud to víme')),
+          h('ul', null, e.src.map((s) => h('li', null, h('a', { href: s.u, target: '_blank', rel: 'noopener noreferrer' }, T(s.n), ico('external', 18)))))) : null,
+        e.rel && e.rel.length ? h('div', null, h('p', { class: 'msg__sub' }, T('Mohlo by vás zajímat:')),
           h('div', { class: 'chips' }, e.rel.map((id) => DP.bot.byId(id)).filter(Boolean).map((r) => chip(r.title, () => showEntry(r.id, list))))) : null,
         m.q && !e.urgent ? outsideButton(m.q, list) : null
       ], m.speak);
@@ -602,18 +615,18 @@
   const SAMPLE = 'Vase zasilka nemohla byt dorucena. Pro opetovne doruceni uhradte poplatek 32 Kc ihned na www.posta-doruceni-cz.top';
 
   function viewScam() {
-    const ta = h('textarea', { id: 'scam-text', class: 'input scam__input', rows: '6', maxlength: '4000', placeholder: 'Sem vložte nebo opište text podezřelé zprávy…' });
+    const ta = h('textarea', { id: 'scam-text', class: 'input scam__input', rows: '6', maxlength: '4000', placeholder: T('Sem vložte nebo opište text podezřelé zprávy…') });
     const result = h('div', { class: 'scam__result', 'aria-live': 'polite' });
     const doCheck = () => {
       const txt = ta.value.trim();
-      if (txt.length < 5) { toast('Nejdřív prosím vložte text zprávy.'); ta.focus(); return; }
+      if (txt.length < 5) { toast(T('Nejdřív prosím vložte text zprávy.')); ta.focus(); return; }
       const r = DP.scam.check(txt);
       showResult({ level: r.level, flags: r.flags.map((f) => ({ title: f.title, why: f.why })) }, result);
     };
     const pasteBtn = h('button', { type: 'button', class: 'btn btn--outline', onclick: async () => {
-      try { const t = await navigator.clipboard.readText(); if (t) { ta.value = t; toast('Text jsem vložil.'); } else toast('Schránka je prázdná.'); }
-      catch (e) { toast('Vložte text podržením prstu v poli a volbou „Vložit“.'); ta.focus(); }
-    } }, ico('paste'), h('span', null, 'Vložit zkopírovaný text'));
+      try { const t = await navigator.clipboard.readText(); if (t) { ta.value = t; toast(T('Text jsem vložil.')); } else toast(T('Schránka je prázdná.')); }
+      catch (e) { toast(T('Vložte text podržením prstu v poli a volbou „Vložit“.')); ta.focus(); }
+    } }, ico('paste'), h('span', null, T('Vložit zkopírovaný text')));
     if (!navigator.clipboard || !navigator.clipboard.readText) pasteBtn.hidden = true;
 
     /* --- Fotka / snímek obrazovky --- */
@@ -627,35 +640,35 @@
     };
 
     append(main, [
-      pageHead('Je to podvod?', 'Vložte text podezřelé zprávy, nebo nahrajte její fotku či snímek obrazovky. Ukážu vám varovné znaky a poradím, co bezpečně udělat.', 'sky', icon('shield', 80)),
+      pageHead(T('Je to podvod?'), T('Vložte text podezřelé zprávy, nebo nahrajte její fotku či snímek obrazovky. Ukážu vám varovné znaky a poradím, co bezpečně udělat.'), 'sky', icon('shield', 80)),
 
       h('section', { class: 'card card--white', 'aria-labelledby': 'h-photo' },
-        h('h2', { id: 'h-photo' }, 'Zkontrolovat fotku zprávy'),
-        h('p', null, 'Udělejte snímek obrazovky podezřelé SMS, e-mailu nebo zprávy a nahrajte ho sem. Můžete zprávu i vyfotit jiným telefonem.'),
+        h('h2', { id: 'h-photo' }, T('Zkontrolovat fotku zprávy')),
+        h('p', null, T('Udělejte snímek obrazovky podezřelé SMS, e-mailu nebo zprávy a nahrajte ho sem. Můžete zprávu i vyfotit jiným telefonem.')),
         h('div', { class: 'btn-row' },
-          h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: () => pick(false) }, ico('download'), h('span', null, 'Nahrát snímek obrazovky')),
-          h('button', { type: 'button', class: 'btn btn--outline', onclick: () => pick(true) }, ico('smartphone'), h('span', null, 'Vyfotit zprávu'))),
-        h('p', { class: 'hint' }, ico('info', 18), h('span', null, 'Fotka se odešle k rozboru umělé inteligenci (Claude od firmy Anthropic). Nikde ji neukládáme. Číslo karty nebo kódy na fotce raději zakryjte.')),
-        h('p', { class: 'howto' }, 'Nevíte, jak udělat snímek obrazovky? ',
-          h('a', { href: '#/navody/screenshot-android' }, 'Návod pro Android'), ' · ',
-          h('a', { href: '#/navody/screenshot-iphone' }, 'Návod pro iPhone')),
+          h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: () => pick(false) }, ico('download'), h('span', null, T('Nahrát snímek obrazovky'))),
+          h('button', { type: 'button', class: 'btn btn--outline', onclick: () => pick(true) }, ico('smartphone'), h('span', null, T('Vyfotit zprávu')))),
+        h('p', { class: 'hint' }, ico('info', 18), h('span', null, T('Fotka se odešle k rozboru umělé inteligenci (Claude od firmy Anthropic). Nikde ji neukládáme. Číslo karty nebo kódy na fotce raději zakryjte.'))),
+        h('p', { class: 'howto' }, T('Nevíte, jak udělat snímek obrazovky? '),
+          h('a', { href: '#/navody/screenshot-android' }, T('Návod pro Android')), ' · ',
+          h('a', { href: '#/navody/screenshot-iphone' }, T('Návod pro iPhone'))),
         preview),
 
       h('section', { class: 'card card--white', 'aria-labelledby': 'h-text' },
-        h('h2', { id: 'h-text' }, 'Nebo vložte text zprávy'),
-        h('label', { for: 'scam-text', class: 'field-label' }, 'Text zprávy'),
+        h('h2', { id: 'h-text' }, T('Nebo vložte text zprávy')),
+        h('label', { for: 'scam-text', class: 'field-label' }, T('Text zprávy')),
         ta,
-        h('p', { class: 'hint' }, ico('lock', 18), h('span', null, 'Kontrola textu probíhá jen ve vašem zařízení. Text nikam neodesíláme.')),
+        h('p', { class: 'hint' }, ico('lock', 18), h('span', null, T('Kontrola textu probíhá jen ve vašem zařízení. Text nikam neodesíláme.'))),
         h('div', { class: 'btn-row' },
-          h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: doCheck }, ico('shield'), h('span', null, 'Zkontrolovat text')),
+          h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: doCheck }, ico('shield'), h('span', null, T('Zkontrolovat text'))),
           pasteBtn,
-          h('button', { type: 'button', class: 'btn btn--soft', onclick: () => { ta.value = ''; result.innerHTML = ''; preview.innerHTML = ''; ta.focus(); } }, ico('trash'), h('span', null, 'Vymazat'))),
-        h('button', { type: 'button', class: 'linkbtn', onclick: () => { ta.value = SAMPLE; doCheck(); } }, 'Vyzkoušet na ukázkové podvodné SMS')),
+          h('button', { type: 'button', class: 'btn btn--soft', onclick: () => { ta.value = ''; result.innerHTML = ''; preview.innerHTML = ''; ta.focus(); } }, ico('trash'), h('span', null, T('Vymazat')))),
+        h('button', { type: 'button', class: 'linkbtn', onclick: () => { ta.value = T(SAMPLE); doCheck(); } }, T('Vyzkoušet na ukázkové podvodné SMS'))),
       result,
       h('section', { class: 'card card--cream' },
-        h('h2', null, 'Zlaté pravidlo'),
-        h('p', { class: 'big-rule' }, 'Když zpráva spěchá a chce peníze nebo údaje – ', h('strong', null, 'zastavte se a ověřte si to sami.')),
-        h('p', null, 'Zavolejte bance, poště nebo úřadu na číslo z jejich oficiálního webu nebo z platební karty – nikdy na číslo či odkaz ze zprávy.'))
+        h('h2', null, T('Zlaté pravidlo')),
+        h('p', { class: 'big-rule' }, T('Když zpráva spěchá a chce peníze nebo údaje – '), h('strong', null, T('zastavte se a ověřte si to sami.'))),
+        h('p', null, T('Zavolejte bance, poště nebo úřadu na číslo z jejich oficiálního webu nebo z platební karty – nikdy na číslo či odkaz ze zprávy.')))
     ]);
   }
 
@@ -682,28 +695,28 @@
 
   async function analysePhoto(file, preview, result) {
     preview.innerHTML = ''; result.innerHTML = '';
-    if (!/^image\//.test(file.type) && !/\.(jpe?g|png|webp|heic|heif|gif)$/i.test(file.name)) { toast('Vyberte prosím obrázek.'); return; }
-    if (file.size > 25 * 1024 * 1024) { toast('Obrázek je moc velký. Zkuste udělat snímek obrazovky.'); return; }
+    if (!/^image\//.test(file.type) && !/\.(jpe?g|png|webp|heic|heif|gif)$/i.test(file.name)) { toast(T('Vyberte prosím obrázek.')); return; }
+    if (file.size > 25 * 1024 * 1024) { toast(T('Obrázek je moc velký. Zkuste udělat snímek obrazovky.')); return; }
     let img;
     try { img = await prepareImage(file); }
-    catch (e) { toast('Tento obrázek neumím otevřít. Zkuste snímek obrazovky ve formátu JPG nebo PNG.'); return; }
+    catch (e) { toast(T('Tento obrázek neumím otevřít. Zkuste snímek obrazovky ve formátu JPG nebo PNG.')); return; }
 
-    const status = h('p', { class: 'photo-status', role: 'status' }, h('span', { class: 'spinner', 'aria-hidden': 'true' }), 'Prohlížím fotku… může to trvat až půl minuty.');
-    append(preview, [h('img', { src: img.url, alt: 'Náhled nahrané fotky zprávy', class: 'photo-preview__img' }), status]);
-    if (!navigator.onLine) { status.textContent = 'Jste bez internetu. Rozbor fotky potřebuje internet – zkuste prosím opsat text zprávy do pole níže.'; return; }
+    const status = h('p', { class: 'photo-status', role: 'status' }, h('span', { class: 'spinner', 'aria-hidden': 'true' }), T('Prohlížím fotku… může to trvat až půl minuty.'));
+    append(preview, [h('img', { src: img.url, alt: T('Náhled nahrané fotky zprávy'), class: 'photo-preview__img' }), status]);
+    if (!navigator.onLine) { status.textContent = T('Jste bez internetu. Rozbor fotky potřebuje internet – zkuste prosím opsat text zprávy do pole níže.'); return; }
 
     let data = null;
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 60000);
     try {
       const res = await fetch('api/scan', { method: 'POST', headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ image: img.data, mediaType: img.mediaType }), signal: ctrl.signal });
+        body: JSON.stringify({ image: img.data, mediaType: img.mediaType, lang: L() }), signal: ctrl.signal });
       if (res.ok) data = await res.json();
     } catch (e) { data = null; }
     finally { clearTimeout(timer); }
 
     if (!data) {
-      status.textContent = 'Rozbor fotky se teď nepodařil. Zkuste to prosím za chvíli, nebo opište text zprávy do pole níže.';
+      status.textContent = T('Rozbor fotky se teď nepodařil. Zkuste to prosím za chvíli, nebo opište text zprávy do pole níže.');
       return;
     }
     status.remove();
@@ -716,44 +729,44 @@
     const rank = { low: 0, medium: 1, high: 2 };
     const level = rank[local.level] > rank[data.risk] ? local.level : data.risk;
     const flags = data.signs.slice();
-    local.flags.forEach((f) => { if (!flags.some((x) => x.title.toLowerCase() === f.title.toLowerCase())) flags.push({ title: f.title, why: f.why }); });
+    local.flags.forEach((f) => { const t = T(f.title); if (!flags.some((x) => x.title.toLowerCase() === t.toLowerCase())) flags.push({ title: t, why: T(f.why) }); });
     showResult({ level, flags: flags.slice(0, 7), summary: data.summary, advice: data.advice, ai: true, extracted: data.extracted_text }, result);
   }
 
   function showResult(r, box) {
     box.innerHTML = '';
     const M = {
-      high: { cls: 'high', title: 'Velmi podezřelé!', sub: 'Zpráva má několik typických znaků podvodu. Na nic neklikejte a nic neplaťte.', ic: 'alert' },
-      medium: { cls: 'medium', title: 'Buďte opatrní', sub: 'Našel jsem varovné znaky. Než cokoli uděláte, ověřte si zprávu jinou cestou.', ic: 'info' },
-      low: { cls: 'low', title: 'Nenašel jsem typické znaky podvodu', sub: 'To ale neznamená, že je zpráva určitě v pořádku. Podvodníci vymýšlejí stále nové triky.', ic: 'checkCircle' },
-      unclear: { cls: 'medium', title: 'Fotku se nepodařilo posoudit', sub: 'Na fotce nevidím čitelnou zprávu. Zkuste ostřejší snímek obrazovky, na kterém je celý text, nebo text opište do pole.', ic: 'info' }
+      high: { cls: 'high', title: T('Velmi podezřelé!'), sub: T('Zpráva má několik typických znaků podvodu. Na nic neklikejte a nic neplaťte.'), ic: 'alert' },
+      medium: { cls: 'medium', title: T('Buďte opatrní'), sub: T('Našel jsem varovné znaky. Než cokoli uděláte, ověřte si zprávu jinou cestou.'), ic: 'info' },
+      low: { cls: 'low', title: T('Nenašel jsem typické znaky podvodu'), sub: T('To ale neznamená, že je zpráva určitě v pořádku. Podvodníci vymýšlejí stále nové triky.'), ic: 'checkCircle' },
+      unclear: { cls: 'medium', title: T('Fotku se nepodařilo posoudit'), sub: T('Na fotce nevidím čitelnou zprávu. Zkuste ostřejší snímek obrazovky, na kterém je celý text, nebo text opište do pole.'), ic: 'info' }
     }[r.level];
     const defaultSteps = r.level === 'low'
-      ? ['Pokud vás zpráva o něco žádá, ověřte si to u odesílatele na známém čísle.', 'Nikdy nezadávejte PIN, hesla ani kódy z SMS přes odkaz.']
-      : ['Na odkaz ve zprávě neklikejte a neodpovídejte.', 'Ověřte si to sami – zavolejte na oficiální číslo instituce nebo blízkému člověku.', 'Zprávu smažte a odesílatele zablokujte.', 'Pokud jste už něco vyplnili nebo zaplatili, hned volejte svou banku.'];
+      ? [T('Pokud vás zpráva o něco žádá, ověřte si to u odesílatele na známém čísle.'), T('Nikdy nezadávejte PIN, hesla ani kódy z SMS přes odkaz.')]
+      : [T('Na odkaz ve zprávě neklikejte a neodpovídejte.'), T('Ověřte si to sami – zavolejte na oficiální číslo instituce nebo blízkému člověku.'), T('Zprávu smažte a odesílatele zablokujte.'), T('Pokud jste už něco vyplnili nebo zaplatili, hned volejte svou banku.')];
     const steps = r.level === 'unclear' ? [] : (r.advice && r.advice.length ? r.advice : defaultSteps);
     const flags = r.flags || [];
-    const speakText = (r.ai ? 'Rozbor fotky pomocí umělé inteligence. Výsledek je orientační, ověřte si ho. ' : '') +
-      M.title + '. ' + (r.summary || M.sub) + ' ' + flags.map((f) => f.title + '.').join(' ') + (steps.length ? ' Co udělat: ' + steps.join(' ') : '');
+    const speakText = (r.ai ? T('Rozbor fotky pomocí umělé inteligence. Výsledek je orientační, ověřte si ho. ') : '') +
+      M.title + '. ' + (r.summary || M.sub) + ' ' + flags.map((f) => T(f.title) + '.').join(' ') + (steps.length ? ' ' + T('Co udělat: {t}', { t: steps.join(' ') }) : '');
     append(box, h('section', { class: 'card verdict verdict--' + M.cls, tabindex: '-1' },
       r.ai ? h('div', { class: 'ai-warn', role: 'note' },
-        h('p', { class: 'ai-warn__title' }, ico('alert'), h('span', null, 'Rozbor fotky pomocí umělé inteligence')),
-        h('p', null, 'Výsledek je orientační a může obsahovat chybu. Když si nejste jistí, ověřte si to u blízkého nebo na Senior telefonu 800 157 157.')) : null,
+        h('p', { class: 'ai-warn__title' }, ico('alert'), h('span', null, T('Rozbor fotky pomocí umělé inteligence'))),
+        h('p', null, T('Výsledek je orientační a může obsahovat chybu. Když si nejste jistí, ověřte si to u blízkého nebo na Senior telefonu 800 157 157.'))) : null,
       h('div', { class: 'verdict__head' },
         h('span', { class: 'verdict__icon', 'aria-hidden': 'true', html: icon(M.ic, 40) }),
-        h('div', null, h('p', { class: 'verdict__kicker' }, 'Výsledek kontroly'), h('h2', { class: 'verdict__title' }, M.title))),
+        h('div', null, h('p', { class: 'verdict__kicker' }, T('Výsledek kontroly')), h('h2', { class: 'verdict__title' }, M.title))),
       h('p', { class: 'lead' }, r.summary || M.sub),
       r.ai && r.level === 'low' ? h('p', null, M.sub) : null,
-      flags.length ? h('div', null, h('h3', null, 'Čeho jsem si všiml:'),
-        h('ul', { class: 'flags' }, flags.map((f) => h('li', null, h('strong', null, f.title), h('span', null, f.why))))) : null,
-      steps.length ? h('h3', null, 'Co teď bezpečně udělat:') : null,
+      flags.length ? h('div', null, h('h3', null, T('Čeho jsem si všiml:')),
+        h('ul', { class: 'flags' }, flags.map((f) => h('li', null, h('strong', null, T(f.title)), h('span', null, T(f.why)))))) : null,
+      steps.length ? h('h3', null, T('Co teď bezpečně udělat:')) : null,
       steps.length ? h('ol', { class: 'steps' }, steps.map((s) => h('li', null, h('span', null, s)))) : null,
       r.extracted ? h('details', { class: 'sources' },
-        h('summary', null, ico('text', 20), 'Text, který jsem na fotce přečetl'),
+        h('summary', null, ico('text', 20), T('Text, který jsem na fotce přečetl')),
         h('p', { class: 'extracted' }, r.extracted)) : null,
       h('div', { class: 'btn-row' },
         speakButton(() => speakText),
-        r.level === 'high' || r.level === 'medium' ? h('button', { type: 'button', class: 'btn btn--outline btn--sm', onclick: () => { DP.pendingEntry = 'uz-jsem-zadal'; go('#/chat'); } }, h('span', null, 'Už jsem klikl/a – co teď?')) : null)));
+        r.level === 'high' || r.level === 'medium' ? h('button', { type: 'button', class: 'btn btn--outline btn--sm', onclick: () => { DP.pendingEntry = 'uz-jsem-zadal'; go('#/chat'); } }, h('span', null, T('Už jsem klikl/a – co teď?'))) : null)));
     const v = box.querySelector('.verdict');
     v.focus({ preventScroll: true });
     v.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
@@ -763,13 +776,13 @@
   function viewGuides(params) {
     if (params[0]) return viewGuide(params[0], params[1]);
     append(main, [
-      pageHead('Návody krok za krokem', 'Vyberte si, co se chcete naučit. Na každé obrazovce je jen jeden krok. Můžete se kdykoli vrátit.', 'lavender', icon('steps', 80)),
+      pageHead(T('Návody krok za krokem'), T('Vyberte si, co se chcete naučit. Na každé obrazovce je jen jeden krok. Můžete se kdykoli vrátit.'), 'lavender', icon('steps', 80)),
       h('ul', { class: 'guide-list' }, DP.GUIDES.map((g) => h('li', null,
         h('a', { class: 'guide-card card card--' + g.tone, href: '#/navody/' + g.id },
           h('span', { class: 'guide-card__icon', 'aria-hidden': 'true', html: icon(g.icon, 30) }),
           h('span', { class: 'guide-card__body' },
             h('span', { class: 'guide-card__title' }, g.title),
-            h('span', { class: 'guide-card__meta' }, g.steps.length + ' kroků · asi ' + g.minutes + ' min')),
+            h('span', { class: 'guide-card__meta' }, T('{n} kroků · asi {m} min', { n: g.steps.length, m: g.minutes }))),
           ico('arrowR')))))
     ]);
   }
@@ -783,7 +796,7 @@
     if (i > total) i = total;
     const nav = (n) => go('#/navody/' + g.id + '/' + n);
 
-    const back = h('a', { class: 'btn btn--soft btn--sm back', href: '#/navody' }, ico('arrowL', 20), h('span', null, 'Všechny návody'));
+    const back = h('a', { class: 'btn btn--soft btn--sm back', href: '#/navody' }, ico('arrowL', 20), h('span', null, T('Všechny návody')));
 
     if (i === 0) {
       append(main, [back,
@@ -791,53 +804,53 @@
           h('span', { class: 'guide-card__icon guide-card__icon--lg', 'aria-hidden': 'true', html: icon(g.icon, 44) }),
           h('h1', { tabindex: '-1', class: 'page-title' }, g.title),
           h('p', { class: 'lead' }, g.intro),
-          h('p', { class: 'muted' }, total + ' kroků · asi ' + g.minutes + ' minuty'),
+          h('p', { class: 'muted' }, T('{n} kroků · asi {m} min', { n: total, m: g.minutes })),
           h('div', { class: 'btn-row' },
-            h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: () => nav(1) }, h('span', null, 'Začít'), ico('arrowR')),
+            h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: () => nav(1) }, h('span', null, T('Začít')), ico('arrowR')),
             speakButton(() => g.title + '. ' + g.intro))),
-        h('p', { class: 'src-line' }, 'Zdroj: ' + g.src)]);
+        h('p', { class: 'src-line' }, T('Zdroj: {t}', { t: g.src }))]);
       return;
     }
 
     const s = g.steps[i - 1];
     const pct = Math.round((i / total) * 100);
     append(main, [back,
-      h('div', { class: 'progress', role: 'progressbar', 'aria-valuemin': '1', 'aria-valuemax': String(total), 'aria-valuenow': String(i), 'aria-label': 'Postup návodem' },
+      h('div', { class: 'progress', role: 'progressbar', 'aria-valuemin': '1', 'aria-valuemax': String(total), 'aria-valuenow': String(i), 'aria-label': T('Postup návodem') },
         (function () { const b = h('div', { class: 'progress__bar' }); b.style.width = pct + '%'; return b; })()),
       h('section', { class: 'card card--white guide-step' },
-        h('p', { class: 'guide-step__count' }, h('span', { class: 'stepnum', 'aria-hidden': 'true' }, String(i)), 'Krok ' + i + ' z ' + total),
+        h('p', { class: 'guide-step__count' }, h('span', { class: 'stepnum', 'aria-hidden': 'true' }, String(i)), T('Krok {i} z {n}', { i, n: total })),
         h('p', { class: 'guide-step__of' }, g.title),
         h('h1', { tabindex: '-1', class: 'page-title' }, s.t),
         h('p', { class: 'guide-step__text' }, s.p),
-        s.tip ? h('p', { class: 'tipbox' }, ico('sparkle'), h('span', null, h('strong', null, 'Tip: '), s.tip)) : null,
-        speakButton(() => 'Krok ' + i + '. ' + s.t + '. ' + s.p + (s.tip ? ' Tip: ' + s.tip : ''))),
+        s.tip ? h('p', { class: 'tipbox' }, ico('sparkle'), h('span', null, h('strong', null, T('Tip: ')), s.tip)) : null,
+        speakButton(() => T('Krok {i}', { i }) + '. ' + s.t + '. ' + s.p + (s.tip ? ' ' + T('Tip: ') + s.tip : ''))),
       i === total ? h('section', { class: 'card card--lime done' },
         h('div', { class: 'done__mascot', 'aria-hidden': 'true', html: DP.mascot() }),
-        h('div', null, h('h2', null, 'Zvládli jste to!'), h('p', null, 'Výborně. Návod si můžete kdykoli zopakovat.'))) : null,
+        h('div', null, h('h2', null, T('Zvládli jste to!')), h('p', null, T('Výborně. Návod si můžete kdykoli zopakovat.')))) : null,
       h('div', { class: 'stepper' },
-        h('button', { type: 'button', class: 'btn btn--outline btn--lg', onclick: () => nav(i - 1) }, ico('arrowL'), h('span', null, 'Zpět')),
+        h('button', { type: 'button', class: 'btn btn--outline btn--lg', onclick: () => nav(i - 1) }, ico('arrowL'), h('span', null, T('Zpět'))),
         i < total
-          ? h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: () => nav(i + 1) }, h('span', null, 'Další krok'), ico('arrowR'))
-          : h('a', { class: 'btn btn--primary btn--lg', href: '#/navody' }, ico('check'), h('span', null, 'Hotovo')))
+          ? h('button', { type: 'button', class: 'btn btn--primary btn--lg', onclick: () => nav(i + 1) }, h('span', null, T('Další krok')), ico('arrowR'))
+          : h('a', { class: 'btn btn--primary btn--lg', href: '#/navody' }, ico('check'), h('span', null, T('Hotovo'))))
     ]);
   }
 
   /* ================= POMOC ================= */
   function viewHelp() {
     append(main, [
-      pageHead('Pomoc a důležitá čísla', 'Klepnutím na číslo rovnou zavoláte. Ve vážné situaci neváhejte – raději zavolejte.', 'cream', icon('phone', 80)),
+      pageHead(T('Pomoc a důležitá čísla'), T('Klepnutím na číslo rovnou zavoláte. Ve vážné situaci neváhejte – raději zavolejte.'), 'cream', icon('phone', 80)),
       h('section', { class: 'section', 'aria-labelledby': 'h-urg' },
-        h('h2', { id: 'h-urg', class: 'section__title' }, 'Tísňová volání'),
+        h('h2', { id: 'h-urg', class: 'section__title' }, T('Tísňová volání')),
         h('div', { class: 'phones' }, DP.PHONES.filter((p) => p.kind === 'urgent').map(phoneCard))),
       h('section', { class: 'section', 'aria-labelledby': 'h-sup' },
-        h('h2', { id: 'h-sup', class: 'section__title' }, 'Když potřebujete poradit nebo si promluvit'),
+        h('h2', { id: 'h-sup', class: 'section__title' }, T('Když potřebujete poradit nebo si promluvit')),
         h('div', { class: 'phones' }, DP.PHONES.filter((p) => p.kind === 'support').map(phoneCard))),
       h('section', { class: 'card card--sky' },
-        h('h2', null, ico('bank'), ' Ztratili jste kartu nebo vás někdo okradl?'),
+        h('h2', null, ico('bank'), T(' Ztratili jste kartu nebo vás někdo okradl?')),
         h('ol', { class: 'steps' },
-          h('li', null, h('span', null, 'Hned zavolejte do své banky a kartu zablokujte. Číslo najdete na webu banky nebo ve smlouvě.')),
-          h('li', null, h('span', null, 'Krádež nebo podvod oznamte Policii ČR na čísle 158.')))),
-      h('p', { class: 'src-line' }, 'Čísla připravena podle oficiálních zdrojů (IZS, Život 90, Elpida). Před zveřejněním aplikace je ověřte.')
+          h('li', null, h('span', null, T('Hned zavolejte do své banky a kartu zablokujte. Číslo najdete na webu banky nebo ve smlouvě.'))),
+          h('li', null, h('span', null, T('Krádež nebo podvod oznamte Policii ČR na čísle 158.'))))),
+      h('p', { class: 'src-line' }, T('Čísla připravena podle oficiálních zdrojů (IZS, Život 90, Elpida). Před zveřejněním aplikace je ověřte.'))
     ]);
   }
 
@@ -847,9 +860,9 @@
 
   function switchRow(id, label, desc, key) {
     const btn = h('button', { type: 'button', id, class: 'switch', role: 'switch', 'aria-checked': settings[key] ? 'true' : 'false', 'data-key': key,
-      onclick: () => { setSetting(key, !settings[key]); syncSettingsUI(); toast(label + ': ' + (settings[key] ? 'zapnuto' : 'vypnuto')); } },
+      onclick: () => { setSetting(key, !settings[key]); syncSettingsUI(); toast(T(label) + ': ' + (settings[key] ? T('zapnuto') : T('vypnuto'))); } },
       h('span', { class: 'switch__track', 'aria-hidden': 'true' }, h('span', { class: 'switch__thumb' })),
-      h('span', { class: 'switch__state' }, settings[key] ? 'Zapnuto' : 'Vypnuto'));
+      h('span', { class: 'switch__state' }, settings[key] ? T('Zapnuto') : T('Vypnuto')));
     return h('div', { class: 'setting' },
       h('div', null, h('label', { for: id, class: 'setting__label' }, label), h('p', { class: 'muted' }, desc)), btn);
   }
@@ -858,7 +871,7 @@
     document.querySelectorAll('.switch[data-key]').forEach((b) => {
       const on = !!settings[b.dataset.key];
       b.setAttribute('aria-checked', on ? 'true' : 'false');
-      b.querySelector('.switch__state').textContent = on ? 'Zapnuto' : 'Vypnuto';
+      b.querySelector('.switch__state').textContent = on ? T('Zapnuto') : T('Vypnuto');
     });
     document.querySelectorAll('.seg [data-size]').forEach((b) => b.setAttribute('aria-checked', String(+b.dataset.size === settings.size)));
     const ib = document.getElementById('install-btn');
@@ -868,61 +881,94 @@
   function viewSettings() {
     const seg = h('div', { class: 'seg', role: 'radiogroup', 'aria-labelledby': 'lbl-size' },
       SIZES.map((s) => h('button', { type: 'button', role: 'radio', 'data-size': String(s.v), class: 'seg__btn seg__btn--' + s.v, 'aria-checked': String(settings.size === s.v),
-        onclick: () => { setSetting('size', s.v); syncSettingsUI(); toast('Velikost písma: ' + s.label); } },
-        h('span', { class: 'seg__glyph', 'aria-hidden': 'true' }, s.short), h('span', null, s.label))));
+        onclick: () => { setSetting('size', s.v); syncSettingsUI(); toast(T('Velikost písma: {v}', { v: T(s.label) })); } },
+        h('span', { class: 'seg__glyph', 'aria-hidden': 'true' }, s.short), h('span', null, T(s.label)))));
 
     const installed = matchMedia('(display-mode: standalone)').matches || navigator.standalone;
     append(main, [
-      pageHead('Nastavení', 'Upravte si parťáka tak, aby se vám dobře četl a používal.', 'lavender', icon('settings', 80)),
+      pageHead(T('Nastavení'), T('Upravte si parťáka tak, aby se vám dobře četl a používal.'), 'lavender', icon('settings', 80)),
+      h('section', { class: 'card card--white', 'aria-labelledby': 'h-lang' },
+        h('h2', { id: 'h-lang' }, ico('globe'), ' ', T('Jazyk'), ' · Language'),
+        languageList()),
       h('section', { class: 'card card--white settings' },
         h('div', { class: 'setting setting--col' },
-          h('p', { id: 'lbl-size', class: 'setting__label' }, 'Velikost písma'), seg,
-          h('p', { class: 'preview-text' }, 'Ukázka: Takhle velké bude písmo v celé aplikaci.')),
-        switchRow('sw-contrast', 'Vysoký kontrast', 'Výraznější barvy a silnější okraje pro horší zrak.', 'contrast'),
-        synth ? switchRow('sw-read', 'Číst odpovědi nahlas', 'Parťák vám každou odpověď v chatu sám přečte.', 'autoRead') : null,
-        synth ? switchRow('sw-slow', 'Pomalejší čtení', 'Hlas bude mluvit pomaleji a zřetelněji.', 'slow') : null),
+          h('p', { id: 'lbl-size', class: 'setting__label' }, T('Velikost písma')), seg,
+          h('p', { class: 'preview-text' }, T('Ukázka: Takhle velké bude písmo v celé aplikaci.'))),
+        switchRow('sw-contrast', T('Vysoký kontrast'), T('Výraznější barvy a silnější okraje pro horší zrak.'), 'contrast'),
+        synth ? switchRow('sw-read', T('Číst odpovědi nahlas'), T('Parťák vám každou odpověď v chatu sám přečte.'), 'autoRead') : null,
+        synth ? switchRow('sw-slow', T('Pomalejší čtení'), T('Hlas bude mluvit pomaleji a zřetelněji.'), 'slow') : null),
 
       h('section', { class: 'card card--lime' },
-        h('h2', null, 'Parťák na ploše telefonu'),
-        installed ? h('p', null, ico('checkCircle'), ' Aplikace je nainstalovaná. Výborně!')
+        h('h2', null, T('Parťák na ploše telefonu')),
+        installed ? h('p', null, ico('checkCircle'), T(' Aplikace je nainstalovaná. Výborně!'))
           : h('div', null,
-            h('p', null, 'Přidejte si DIGI parťáka na plochu. Otevřete ho pak jedním klepnutím, jako každou jinou aplikaci.'),
+            h('p', null, T('Přidejte si DIGI parťáka na plochu. Otevřete ho pak jedním klepnutím, jako každou jinou aplikaci.')),
             h('div', { class: 'btn-row' },
               h('button', { type: 'button', id: 'install-btn', class: 'btn btn--dark', hidden: !installEvt, onclick: async () => {
                 if (!installEvt) return; installEvt.prompt(); const r = await installEvt.userChoice; installEvt = null; syncSettingsUI();
-                if (r.outcome === 'accepted') toast('Hotovo! Parťák je na ploše.');
-              } }, ico('download'), h('span', null, 'Přidat na plochu')),
-              h('a', { class: 'btn btn--outline', href: '#/navody/plocha' }, h('span', null, 'Návod krok za krokem'))))),
+                if (r.outcome === 'accepted') toast(T('Hotovo! Parťák je na ploše.'));
+              } }, ico('download'), h('span', null, T('Přidat na plochu'))),
+              h('a', { class: 'btn btn--outline', href: '#/navody/plocha' }, h('span', null, T('Návod krok za krokem')))))),
 
       h('section', { class: 'card card--sky' },
-        h('h2', null, 'Soukromí a bezpečí'),
+        h('h2', null, T('Soukromí a bezpečí')),
         h('ul', { class: 'checklist' },
-          h('li', null, ico('check'), 'Aplikace nemá žádný účet ani registraci.'),
-          h('li', null, ico('check'), 'Kontrola vloženého textu v sekci „Je to podvod?“ probíhá jen ve vašem zařízení. Rozhovory se neukládají a po zavření zmizí.'),
-          h('li', null, ico('check'), 'V zařízení si pamatujeme jen vaše nastavení (velikost písma, kontrast).'),
-          h('li', null, ico('info'), 'Když otázka není v knihovně ověřených rad, odešle se (bez čísel karet, PINů a hesel) k zodpovězení umělé inteligenci Claude od firmy Anthropic. Taková odpověď je vždy označená „Informace mimo aplikaci“. Stejně tak se k rozboru odešle fotka zprávy, kterou nahrajete v sekci „Je to podvod?“. Nic z toho neukládáme.'),
-          h('li', null, ico('info'), 'Funkci „Mluvit“ zajišťuje váš prohlížeč (např. Google nebo Apple), který může hlas zpracovat na svém serveru.')),
+          h('li', null, ico('check'), T('Aplikace nemá žádný účet ani registraci.')),
+          h('li', null, ico('check'), T('Kontrola vloženého textu v sekci „Je to podvod?“ probíhá jen ve vašem zařízení. Rozhovory se neukládají a po zavření zmizí.')),
+          h('li', null, ico('check'), T('V zařízení si pamatujeme jen vaše nastavení (velikost písma, kontrast).')),
+          h('li', null, ico('info'), T('Když otázka není v knihovně ověřených rad, odešle se (bez čísel karet, PINů a hesel) k zodpovězení umělé inteligenci Claude od firmy Anthropic. Taková odpověď je vždy označená „Informace mimo aplikaci“. Stejně tak se k rozboru odešle fotka zprávy, kterou nahrajete v sekci „Je to podvod?“. Nic z toho neukládáme.')),
+          h('li', null, ico('info'), T('Funkci „Mluvit“ zajišťuje váš prohlížeč (např. Google nebo Apple), který může hlas zpracovat na svém serveru.'))),
         h('button', { type: 'button', class: 'btn btn--outline', onclick: () => {
-          if (!confirm('Opravdu smazat nastavení a rozhovor? Aplikace se vrátí do výchozího stavu.')) return;
-          store.clear(); chat.log = []; Object.assign(settings, { size: 0, contrast: false, autoRead: false, slow: true }); applySettings(); render(); toast('Vše jsem smazal.');
-        } }, ico('trash'), h('span', null, 'Smazat vše z tohoto zařízení'))),
+          if (!confirm(T('Opravdu smazat nastavení a rozhovor? Aplikace se vrátí do výchozího stavu.'))) return;
+          store.clear(); chat.log = []; Object.assign(settings, { size: 0, contrast: false, autoRead: false, slow: true }); applySettings(); render(); toast(T('Vše jsem smazal.'));
+        } }, ico('trash'), h('span', null, T('Smazat vše z tohoto zařízení')))),
 
       h('section', { class: 'card card--cream' },
-        h('h2', null, 'O aplikaci'),
-        h('p', null, 'DIGI parťák je trpělivý digitální průvodce pro seniory. Chatbot nejdřív hledá v knihovně předem připravených a zkontrolovaných rad s uvedenými zdroji. Teprve když tam odpověď není, odpoví pomocí umělé inteligence – takovou odpověď vždy výrazně označí jako neověřenou.'),
-        h('p', null, 'Parťák nenahrazuje lékaře, banku, policii ani právníka. Ve vážné situaci volejte 112.'),
-        h('p', { class: 'muted' }, 'Stav knihovny rad: ' + DP.KB_REVIEWED + '. Počet ověřených témat: ' + DP.KB.length + '.'))
+        h('h2', null, T('O aplikaci')),
+        h('p', null, T('DIGI parťák je trpělivý digitální průvodce pro seniory. Chatbot nejdřív hledá v knihovně předem připravených a zkontrolovaných rad s uvedenými zdroji. Teprve když tam odpověď není, odpoví pomocí umělé inteligence – takovou odpověď vždy výrazně označí jako neověřenou.')),
+        h('p', null, T('Parťák nenahrazuje lékaře, banku, policii ani právníka. Ve vážné situaci volejte 112.')),
+        h('p', { class: 'muted' }, T('Stav knihovny rad: {s}. Počet ověřených témat: {n}.', { s: T(DP.KB_REVIEWED), n: DP.KB.length })))
+    ]);
+  }
+
+  /* ================= JAZYK ================= */
+  function langButton(cls) {
+    const info = DP.i18n.info();
+    return h('a', { class: 'lang-btn ' + (cls || ''), href: '#/jazyk', 'aria-label': T('Jazyk') + ': ' + info.name + '. ' + T('Změnit jazyk') },
+      ico('globe', 20), h('span', null, info.name));
+  }
+
+  function languageList() {
+    const cur = L();
+    return h('div', { class: 'lang-list', role: 'radiogroup', 'aria-label': T('Jazyk') },
+      DP.i18n.LANGS.map((l) => h('button', { type: 'button', role: 'radio', lang: l.code, class: 'lang-item', 'aria-checked': String(l.code === cur),
+        onclick: async () => {
+          if (l.code === L()) return;
+          const got = await DP.i18n.setLang(l.code, true);
+          if (got !== l.code) { toast(T('Jazyk se nepodařilo načíst. Zkontrolujte internet.')); return; }
+          render();
+          toast(T('Jazyk změněn: {name}', { name: l.name }));
+        } },
+        h('span', { class: 'lang-item__name' }, l.name),
+        l.code === cur ? ico('check') : null)));
+  }
+
+  function viewLanguage() {
+    append(main, [
+      pageHead(T('Jazyk'), T('Vyberte jazyk aplikace. Ověřené rady jsou ve všech jazycích stejné.'), 'sky', icon('globe', 80)),
+      h('section', { class: 'card card--white' }, languageList()),
+      h('p', { class: 'src-line' }, T('Rady se týkají života v Česku – telefonní čísla a instituce jsou české.'))
     ]);
   }
 
   /* ================= Start ================= */
   document.querySelectorAll('[data-icon]').forEach((el) => { el.innerHTML = icon(el.dataset.icon); el.classList.add('ico-wrap'); });
   document.querySelectorAll('[data-mascot]').forEach((el) => { el.innerHTML = DP.mascot(el.dataset.mascot); });
-  render();
+  DP.i18n.init().then(render, render);
 
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
     window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
   }
-  window.addEventListener('online', () => toast('Jste znovu připojeni k internetu.'));
-  window.addEventListener('offline', () => toast('Jste offline. Parťák ale funguje dál.'));
+  window.addEventListener('online', () => toast(T('Jste znovu připojeni k internetu.')));
+  window.addEventListener('offline', () => toast(T('Jste offline. Parťák ale funguje dál.')));
 })();
